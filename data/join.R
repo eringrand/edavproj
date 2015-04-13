@@ -1,4 +1,4 @@
-setwd("/home/ra/edavproj/data/")
+setwd("~/edavproj/data/")
 
 
 hs = read.csv("DOE_High_School_Directory_2014-2015.csv", header=T, stringsAsFactors = F)
