@@ -1,0 +1,244 @@
+DBN,dbn
+School Name,locationname
+School Type,N/A
+Total Parent Response Rate,rr_p
+ 1a. My child's school keeps me informed about my child's academic progress.,p_q1a_1
+ 1a. My child's school keeps me informed about my child's academic progress.,p_q1a_2
+ 1a. My child's school keeps me informed about my child's academic progress.,p_q1a_3
+ 1a. My child's school keeps me informed about my child's academic progress.,p_q1a_4
+ 1b. My child's school keeps me informed about what my child is learning.,p_q1b_1
+ 1b. My child's school keeps me informed about what my child is learning.,p_q1b_2
+ 1b. My child's school keeps me informed about what my child is learning.,p_q1b_3
+ 1b. My child's school keeps me informed about what my child is learning.,p_q1b_4
+" 1c. My child's school keeps me informed about services for me or my child, such as tutoring, after-school programs, or workshops at school.",p_q1c_1
+" 1c. My child's school keeps me informed about services for me or my child, such as tutoring, after-school programs, or workshops at school.",p_q1c_2
+" 1c. My child's school keeps me informed about services for me or my child, such as tutoring, after-school programs, or workshops at school.",p_q1c_3
+" 1c. My child's school keeps me informed about services for me or my child, such as tutoring, after-school programs, or workshops at school.",p_q1c_4
+ 1d. My child's school makes me feel welcome.,p_q1d_1
+ 1d. My child's school makes me feel welcome.,p_q1d_2
+ 1d. My child's school makes me feel welcome.,p_q1d_3
+ 1d. My child's school makes me feel welcome.,p_q1d_4
+ 1e. My child's school communicates with me in a language that I can understand.,p_q1e_1
+ 1e. My child's school communicates with me in a language that I can understand.,p_q1e_2
+ 1e. My child's school communicates with me in a language that I can understand.,p_q1e_3
+ 1e. My child's school communicates with me in a language that I can understand.,p_q1e_4
+" 1f. My child's school makes it easy for parents to attend meetings by holding them at different times of day, providing an interpreter, or in other ways.",p_q1f_1
+" 1f. My child's school makes it easy for parents to attend meetings by holding them at different times of day, providing an interpreter, or in other ways.",p_q1f_2
+" 1f. My child's school makes it easy for parents to attend meetings by holding them at different times of day, providing an interpreter, or in other ways.",p_q1f_3
+" 1f. My child's school makes it easy for parents to attend meetings by holding them at different times of day, providing an interpreter, or in other ways.",p_q1f_4
+ 1g. My child's school is responsive to parent feedback.,p_q1g_1
+ 1g. My child's school is responsive to parent feedback.,p_q1g_2
+ 1g. My child's school is responsive to parent feedback.,p_q1g_3
+ 1g. My child's school is responsive to parent feedback.,p_q1g_4
+ 1h. My child's school has teachers who are interested and attentive when they discuss my child.,p_q1h_1
+ 1h. My child's school has teachers who are interested and attentive when they discuss my child.,p_q1h_2
+ 1h. My child's school has teachers who are interested and attentive when they discuss my child.,p_q1h_3
+ 1h. My child's school has teachers who are interested and attentive when they discuss my child.,p_q1h_4
+" 1i. My child's school offers a wide enough variety of courses, extracurricular activities and services to keep my child interested in school.",p_q1i_1
+" 1i. My child's school offers a wide enough variety of courses, extracurricular activities and services to keep my child interested in school.",p_q1i_2
+" 1i. My child's school offers a wide enough variety of courses, extracurricular activities and services to keep my child interested in school.",p_q1i_3
+" 1i. My child's school offers a wide enough variety of courses, extracurricular activities and services to keep my child interested in school.",p_q1i_4
+ 1j. My child's school has high expectations for my child.,p_q1j_1
+ 1j. My child's school has high expectations for my child.,p_q1j_2
+ 1j. My child's school has high expectations for my child.,p_q1j_3
+ 1j. My child's school has high expectations for my child.,p_q1j_4
+ 1k. My child's school gives my child meaningful assignments that help him or her learn.,p_q1k_1
+ 1k. My child's school gives my child meaningful assignments that help him or her learn.,p_q1k_2
+ 1k. My child's school gives my child meaningful assignments that help him or her learn.,p_q1k_3
+ 1k. My child's school gives my child meaningful assignments that help him or her learn.,p_q1k_4
+ 1l. My child's school encourages my child not to give up on challenging work.,p_q1l_1
+ 1l. My child's school encourages my child not to give up on challenging work.,p_q1l_2
+ 1l. My child's school encourages my child not to give up on challenging work.,p_q1l_3
+ 1l. My child's school encourages my child not to give up on challenging work.,p_q1l_4
+ 1m. My child's school provides my child with extra help when he or she needs it.,p_q1m_1
+ 1m. My child's school provides my child with extra help when he or she needs it.,p_q1m_2
+ 1m. My child's school provides my child with extra help when he or she needs it.,p_q1m_3
+ 1m. My child's school provides my child with extra help when he or she needs it.,p_q1m_4
+ 1n. My child's school gives my child regular and helpful feedback on his or her work.,p_q1n_1
+ 1n. My child's school gives my child regular and helpful feedback on his or her work.,p_q1n_2
+ 1n. My child's school gives my child regular and helpful feedback on his or her work.,p_q1n_3
+ 1n. My child's school gives my child regular and helpful feedback on his or her work.,p_q1n_4
+ 1o. My child's school is preparing my child well to be promoted to the next grade level or graduate.,p_q1o_1
+ 1o. My child's school is preparing my child well to be promoted to the next grade level or graduate.,p_q1o_2
+ 1o. My child's school is preparing my child well to be promoted to the next grade level or graduate.,p_q1o_3
+ 1o. My child's school is preparing my child well to be promoted to the next grade level or graduate.,p_q1o_4
+" 1p. My child's school helps keep my child on track for college, career and success in life after high school.",p_q1p_1
+" 1p. My child's school helps keep my child on track for college, career and success in life after high school.",p_q1p_2
+" 1p. My child's school helps keep my child on track for college, career and success in life after high school.",p_q1p_3
+" 1p. My child's school helps keep my child on track for college, career and success in life after high school.",p_q1p_4
+" 1q. My child's school communicates to me and my child what we need to do to prepare my child for college, career and success in life after high school.",p_q1q_1
+" 1q. My child's school communicates to me and my child what we need to do to prepare my child for college, career and success in life after high school.",p_q1q_2
+" 1q. My child's school communicates to me and my child what we need to do to prepare my child for college, career and success in life after high school.",p_q1q_3
+" 1q. My child's school communicates to me and my child what we need to do to prepare my child for college, career and success in life after high school.",p_q1q_4
+ 1r. My child's school is kept clean.,p_q1r_1
+ 1r. My child's school is kept clean.,p_q1r_2
+ 1r. My child's school is kept clean.,p_q1r_3
+ 1r. My child's school is kept clean.,p_q1r_4
+2a. At my child's school my child is safe.,p_q2a_1
+2a. At my child's school my child is safe.,p_q2a_2
+2a. At my child's school my child is safe.,p_q2a_3
+2a. At my child's school my child is safe.,p_q2a_4
+2a. At my child's school my child is safe.,p_q2a_5
+2b. At my child's school there is an adult whom my child trusts and can go to for help with a problem.,p_q2b_1
+2b. At my child's school there is an adult whom my child trusts and can go to for help with a problem.,p_q2b_2
+2b. At my child's school there is an adult whom my child trusts and can go to for help with a problem.,p_q2b_3
+2b. At my child's school there is an adult whom my child trusts and can go to for help with a problem.,p_q2b_4
+2b. At my child's school there is an adult whom my child trusts and can go to for help with a problem.,p_q2b_5
+"2c. At my child's school students with disabilities are included in all school activities (lunch, class trips, etc.).",p_q2c_1
+"2c. At my child's school students with disabilities are included in all school activities (lunch, class trips, etc.).",p_q2c_2
+"2c. At my child's school students with disabilities are included in all school activities (lunch, class trips, etc.).",p_q2c_3
+"2c. At my child's school students with disabilities are included in all school activities (lunch, class trips, etc.).",p_q2c_4
+"2c. At my child's school students with disabilities are included in all school activities (lunch, class trips, etc.).",p_q2c_5
+2d. At my child's school teachers and staff treat all students with respect.,p_q2d_1
+2d. At my child's school teachers and staff treat all students with respect.,p_q2d_2
+2d. At my child's school teachers and staff treat all students with respect.,p_q2d_3
+2d. At my child's school teachers and staff treat all students with respect.,p_q2d_4
+2d. At my child's school teachers and staff treat all students with respect.,p_q2d_5
+"2e. At my child's school teachers and staff treat students unfairly due to racial, cultural, or other biases.",p_q2e_1
+"2e. At my child's school teachers and staff treat students unfairly due to racial, cultural, or other biases.",p_q2e_2
+"2e. At my child's school teachers and staff treat students unfairly due to racial, cultural, or other biases.",p_q2e_3
+"2e. At my child's school teachers and staff treat students unfairly due to racial, cultural, or other biases.",p_q2e_4
+"2e. At my child's school teachers and staff treat students unfairly due to racial, cultural, or other biases.",p_q2e_5
+2f. At my child's school students get into physical fights.,p_q2f_1
+2f. At my child's school students get into physical fights.,p_q2f_2
+2f. At my child's school students get into physical fights.,p_q2f_3
+2f. At my child's school students get into physical fights.,p_q2f_4
+2f. At my child's school students get into physical fights.,p_q2f_5
+2g. At my child's school there is gang activity.,p_q2g_1
+2g. At my child's school there is gang activity.,p_q2g_2
+2g. At my child's school there is gang activity.,p_q2g_3
+2g. At my child's school there is gang activity.,p_q2g_4
+2g. At my child's school there is gang activity.,p_q2g_5
+2h. At my child's school students harass or bully other students.,p_q2h_1
+2h. At my child's school students harass or bully other students.,p_q2h_2
+2h. At my child's school students harass or bully other students.,p_q2h_3
+2h. At my child's school students harass or bully other students.,p_q2h_4
+2h. At my child's school students harass or bully other students.,p_q2h_5
+"2i. At my child's school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",p_q2i_1
+"2i. At my child's school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",p_q2i_2
+"2i. At my child's school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",p_q2i_3
+"2i. At my child's school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",p_q2i_4
+"2i. At my child's school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",p_q2i_5
+"2j. At my child's school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.",p_q2j_1
+"2j. At my child's school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.",p_q2j_2
+"2j. At my child's school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.",p_q2j_3
+"2j. At my child's school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.",p_q2j_4
+"2j. At my child's school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.",p_q2j_5
+"3a. How much do you agree with the following statement? 
+I would recommend this school to other parents.",p_q3a_1
+"3a. How much do you agree with the following statement? 
+I would recommend this school to other parents.",p_q3a_2
+"3a. How much do you agree with the following statement? 
+I would recommend this school to other parents.",p_q3a_3
+"3a. How much do you agree with the following statement? 
+I would recommend this school to other parents.",p_q3a_4
+"3b. How much do you agree with the following statement? 
+My child's school is headed in the right direction.",p_q3b_1
+"3b. How much do you agree with the following statement? 
+My child's school is headed in the right direction.",p_q3b_2
+"3b. How much do you agree with the following statement? 
+My child's school is headed in the right direction.",p_q3b_3
+"3b. How much do you agree with the following statement? 
+My child's school is headed in the right direction.",p_q3b_4
+4a. How often during this school year have you attended a parent-teacher conference?,p_q4a_1
+4a. How often during this school year have you attended a parent-teacher conference?,p_q4a_2
+4a. How often during this school year have you attended a parent-teacher conference?,p_q4a_3
+4a. How often during this school year have you attended a parent-teacher conference?,p_q4a_4
+4b. How often during this school year have you attended a Parent Association/Parent Teacher Association (PA/PTA) meeting?,p_q4b_1
+4b. How often during this school year have you attended a Parent Association/Parent Teacher Association (PA/PTA) meeting?,p_q4b_2
+4b. How often during this school year have you attended a Parent Association/Parent Teacher Association (PA/PTA) meeting?,p_q4b_3
+4b. How often during this school year have you attended a Parent Association/Parent Teacher Association (PA/PTA) meeting?,p_q4b_4
+"4c. How often during this school year have you been invited to an event at your child's school (workshop, program, performance, etc.)?",p_q4c_1
+"4c. How often during this school year have you been invited to an event at your child's school (workshop, program, performance, etc.)?",p_q4c_2
+"4c. How often during this school year have you been invited to an event at your child's school (workshop, program, performance, etc.)?",p_q4c_3
+"4c. How often during this school year have you been invited to an event at your child's school (workshop, program, performance, etc.)?",p_q4c_4
+4d. How often during this school year have you communicated with school staff about your child's academic progress?,p_q4d_1
+4d. How often during this school year have you communicated with school staff about your child's academic progress?,p_q4d_2
+4d. How often during this school year have you communicated with school staff about your child's academic progress?,p_q4d_3
+4d. How often during this school year have you communicated with school staff about your child's academic progress?,p_q4d_4
+"5a. How satisfied are you with the following? 
+The response I get when I contact my child's school.",p_q5a_1
+"5a. How satisfied are you with the following? 
+The response I get when I contact my child's school.",p_q5a_2
+"5a. How satisfied are you with the following? 
+The response I get when I contact my child's school.",p_q5a_3
+"5a. How satisfied are you with the following? 
+The response I get when I contact my child's school.",p_q5a_4
+"5b. How satisfied are you with the following? 
+The education my child has received this year.",p_q5b_1
+"5b. How satisfied are you with the following? 
+The education my child has received this year.",p_q5b_2
+"5b. How satisfied are you with the following? 
+The education my child has received this year.",p_q5b_3
+"5b. How satisfied are you with the following? 
+The education my child has received this year.",p_q5b_4
+"5c. How satisfied are you with the following? 
+The overall quality of my child's teachers this year.",p_q5c_1
+"5c. How satisfied are you with the following? 
+The overall quality of my child's teachers this year.",p_q5c_2
+"5c. How satisfied are you with the following? 
+The overall quality of my child's teachers this year.",p_q5c_3
+"5c. How satisfied are you with the following? 
+The overall quality of my child's teachers this year.",p_q5c_4
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7a_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7b_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7c_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7d_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7e_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7f_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7g_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7h_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7i_1
+"7. What are the BEST ways for your child's school or teachers to get information to you about your child's education?
+(Choose all that apply.)",p_q7j_1
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_1
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_2
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_3
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_4
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_5
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_6
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_7
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_8
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_9
+8. Which of the following improvements would you MOST like your school to make? (Choose ONE.),p_q8_10
+"Answer this question only if your child has an Individualized Education Plan (IEP).
+9. I am satisfied with the educational planning and IEP development process at my child's school.",p_q9_1
+"Answer this question only if your child has an Individualized Education Plan (IEP).
+9. I am satisfied with the educational planning and IEP development process at my child's school.",p_q9_2
+"Answer this question only if your child has an Individualized Education Plan (IEP).
+9. I am satisfied with the educational planning and IEP development process at my child's school.",p_q9_3
+"Answer this question only if your child has an Individualized Education Plan (IEP).
+9. I am satisfied with the educational planning and IEP development process at my child's school.",p_q9_4
+"
+Answer this question only if your child has an Individualized Education Plan (IEP).
+10a. My child's school works to achieve the goals on my child's IEP.",p_q10a_1
+"
+Answer this question only if your child has an Individualized Education Plan (IEP).
+10a. My child's school works to achieve the goals on my child's IEP.",p_q10a_2
+"
+Answer this question only if your child has an Individualized Education Plan (IEP).
+10a. My child's school works to achieve the goals on my child's IEP.",p_q10a_3
+"
+Answer this question only if your child has an Individualized Education Plan (IEP).
+10a. My child's school works to achieve the goals on my child's IEP.",p_q10a_4
+"
+Answer this question only if your child has an Individualized Education Plan (IEP).
+10b. My child's school offers a wide enough variety of activities and services (including related services and assistive and adaptive technologies where appropriate) to help improve life outcomes for my child.",p_q10b_1
+"
+Answer this question only if your child has an Individualized Education Plan (IEP).
+10b. My child's school offers a wide enough variety of activities and services (including related services and assistive and adaptive technologies where appropriate) to help improve life outcomes for my child.",p_q10b_2
+"
+Answer this question only if your child has an Individualized Education Plan (IEP).
+10b. My child's school offers a wide enough variety of activities and services (including related services and assistive and adaptive technologies where appropriate) to help improve life outcomes for my child.",p_q10b_3
+"
+Answer this question only if your child has an Individualized Education Plan (IEP).
+10b. My child's school offers a wide enough variety of activities and services (including related services and assistive and adaptive technologies where appropriate) to help improve life outcomes for my child.",p_q10b_4
