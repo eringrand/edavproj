@@ -1,0 +1,1306 @@
+dbn,school_name,boro,grade_span_min,grade_span_max,zip,total_students,school_type,advancedplacement_courses,online_ap_courses,start_time,end_time,se_services,ell_programs,school_accessibility_description,number_programs,Location 1
+01M292,Henry Street School for International Studies,Manhattan,6,12,10002,323,,Psychology,"Chinese Language and Culture, Spanish Literature and Culture",8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"220 Henry Street
+New York, NY 10002
+(40.71376394700047, -73.98526003999967)"
+01M448,University Neighborhood High School,Manhattan,9,12,10002,299,,"Calculus AB, Chinese Language and Culture, English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture, United States History, World History",,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,3,"200 Monroe Street
+New York, NY 10002
+(40.7123318510005, -73.98479662499966)"
+01M450,East Side Community School,Manhattan,6,12,10009,649,Consortium School,"Calculus AB, English Literature and Composition",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"420 East 12 Street
+New York, NY 10009
+(40.729782687000466, -73.98304144099967)"
+01M509,Marta Valle High School,Manhattan,9,12,10002,401,,"English Literature and Composition, Studio Art: Drawing",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"145 Stanton Street
+New York, NY 10002
+(40.720569079000484, -73.98567269099965)"
+01M539,"New Explorations into Science, Technology and Math High School",Manhattan,9,12,10002,1725,,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Comparative Government and Politics, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Human Geography, Microeconomics, Physics B, Psychology, Spanish Language and Culture, Statistics, United States History, World History",,8:15 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"111 Columbia Street
+New York, NY 10002
+(40.718725451000466, -73.97942638599966)"
+01M696,Bard High School Early College,Manhattan,9,12,10002,560,,,,9:00 AM,3:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"525 East Houston Street
+New York, NY 10002
+(40.718961617000446, -73.97606602099967)"
+02M047,47 The American Sign Language and English Secondary School,Manhattan,9,12,10010,184,,,,8:45 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"223 East 23 Street
+New York, NY 10010
+(40.738599087000466, -73.98251191099968)"
+02M135,The Urban Assembly School for Emergency Management,Manhattan,9,11,10019,116,CTE School,,,8:41 AM,3:31 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"439 West 49Th Street
+New York, NY 10019
+(40.763361732000476, -73.99050909099964)"
+02M139,Stephen T. Mather Building Arts & Craftsmanship High School,Manhattan,9,11,10038,85,CTE School,"Art History, Biology, Chemistry, Studio Art: 2-D Design, Studio Art: 3-D Design, United States History","Art History, Studio Art: 2-D Design, Studio Art: 3-D Design, United States History",9:10 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"411 Pearl Street
+New York, NY 10038
+(40.71067947100045, -74.00080702099967)"
+02M260,M.S. 260 Clinton School Writers & Artists,Manhattan,6,9,10001,266,New School,,,,,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"425 West 33Rd Street
+Manhattan, NY 10001
+(40.75321087800046, -73.99785851499968)"
+02M280,Manhattan Early College School for Advertising,Manhattan,9,10,10038,N/A,"NYC P-Tech 9-14, New School",,,8:30 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"411 Pearl Street
+New York, NY 10038
+(40.71067947100045, -74.00080702099967)"
+02M282,Urban Assembly Maker Academy,Manhattan,9,10,10038,N/A,"CTE, New School","N/A (Expected: Biology, Calculus BC, Computer  Science AB, Economics: Micro, English Language and Composition, Physics B)  ",Expected as the school grows,9:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"411 Peal Street
+New York, NY 10038
+(40.709336073000486, -74.00529934499963)"
+02M288,Food and Finance High School,Manhattan,9,12,10019,443,CTE School,"English Language and Composition, Environmental Science, United States Government and Politics, United States History",,7:40 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"525 West 50Th Street
+New York, NY 10019
+(40.76502670800045, -73.99251657799965)"
+02M294,Essex Street Academy,Manhattan,9,12,10002,349,Consortium School,Spanish Language and Culture,,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"350 Grand Street
+New York, NY 10002
+(40.71686722400045, -73.98953194299963)"
+02M296,High School of Hospitality Management,Manhattan,9,12,10019,431,,"English Literature and Composition, United States History",,9:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"525 West 50Th Street
+New York, NY 10019
+(40.76502670800045, -73.99251657799965)"
+02M298,Pace High School,Manhattan,9,12,10002,421,,"Calculus AB, Environmental Science, United States History","Biology, Chemistry, Chinese Language and Culture, English Language and Composition, United States History, World History",9:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"100 Hester Street
+New York, NY 10002
+(40.716412393000496, -73.99267584399968)"
+02M300,"Urban Assembly School of Design and Construction, The",Manhattan,9,12,10019,427,,"Calculus AB, English Language and Composition, English Literature and Composition, Spanish Language and Culture, United States Government and Politics, United States History, World History",,8:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"525 West 50Th Street
+New York, NY 10019
+(40.76502670800045, -73.99251657799965)"
+02M303,"Facing History School, The",Manhattan,9,12,10019,417,Consortium School,"English Literature and Composition, United States History",,8:35 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"525 West 50Th Street
+New York, NY 10019
+(40.76502670800045, -73.99251657799965)"
+02M305,"Urban Assembly Academy of Government and Law, The",Manhattan,9,12,10002,326,,"English Literature and Composition, Microeconomics, Spanish Language and Culture, United States History",,8:32 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"350 Grand Street
+New York, NY 10002
+(40.71686722400045, -73.98953194299963)"
+02M308,Lower Manhattan Arts Academy,Manhattan,9,12,10002,362,,"Calculus AB, Physics B","English Language and Composition, Spanish Language and Culture",8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"350 Grand Street
+New York, NY 10002
+(40.71686722400045, -73.98953194299963)"
+02M316,"Urban Assembly School of Business for Young Women, the",Manhattan,9,12,10004,412,All-Girls School,"Chemistry, Spanish Language and Culture, United States History",Chemistry,8:35 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"26 Broadway
+New York, NY 10004
+(40.70523493900049, -74.01331503999967)"
+02M374,Gramercy Arts High School,Manhattan,9,12,10003,548,,,,8:15 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"40 Irving Place
+New York, NY 10003
+(40.73551946300046, -73.98760424899967)"
+02M376,NYC iSchool,Manhattan,9,12,10013,433,,"Biology, Calculus AB, Calculus BC, Chemistry, Comparative Government and Politics, English Language and Composition, English Literature and Composition, United States Government and Politics, United States History",,9:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"131 Avenue Of The Americas
+New York, NY 10013
+(40.72435287400049, -74.00475929199968)"
+02M392,MANHATTAN BUSINESS ACADEMY,Manhattan,9,12,10011,426,,Statistics,,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"351 West 18 Street
+New York, NY 10011
+(40.74288810100046, -74.00212738099964)"
+02M393,BUSINESS OF SPORTS SCHOOL,Manhattan,9,12,10019,420,CTE School,"English Language and Composition, Environmental Science, United States Government and Politics",,8:50 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"439 West 49Th Street
+New York, NY 10019
+(40.763361732000476, -73.99050909099964)"
+02M399,THE HIGH SCHOOL FOR LANGUAGE AND DIPLOMACY,Manhattan,9,12,10003,358,,"Biology, Calculus BC, Chinese Language and Culture, English Literature and Composition, Environmental Science, United States History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"40 Irving Place
+New York, NY 10003
+(40.73551946300046, -73.98760424899967)"
+02M400,High School for Environmental Studies,Manhattan,9,12,10019,1312,,"Biology, Calculus AB, Calculus BC, English Language and Composition, English Literature and Composition, Environmental Science, Macroeconomics, Physics B, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History, World History","Human Geography, Microeconomics",8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"444 West 56 Street
+New York, NY 10019
+(40.76776243900048, -73.98751121399965)"
+02M407,Institute for Collaborative Education,Manhattan,6,12,10003,468,Consortium School,,,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"345 East 15Th Street
+New York, NY 10003
+(40.73248537800049, -73.98305338799963)"
+02M408,Professional Performing Arts High School,Manhattan,6,12,10036,512,,"Biology, English Literature and Composition",,8:15 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,4,"328 West 48 Street
+New York, NY 10036
+(40.761432699000466, -73.98802369799967)"
+02M411,Baruch College Campus High School,Manhattan,9,12,10010,439,,"Biology, Calculus AB, Comparative Government and Politics, English Literature and Composition, United States History",,8:20 AM,2:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"55 East 25 Street
+New York, NY 10010
+(40.74404724800047, -73.99147929899965)"
+02M412,N.Y.C. Lab School for Collaborative Studies,Manhattan,9,12,10011,599,,"Biology, Calculus AB, Calculus BC, English Language and Composition, English Literature and Composition, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, United States History",,8:00 AM,2:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"333 West 17 Street
+New York, NY 10011
+(40.74210071300047, -74.00207379699964)"
+02M413,School of the Future High School,Manhattan,6,12,10010,715,Consortium School,"English Language and Composition, Environmental Science, United States History",,8:35 AM,3:10 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"127 East 22 Street
+New York, NY 10010
+(40.73894888600046, -73.98540517199967)"
+02M414,N.Y.C. Museum School,Manhattan,9,12,10011,462,,"Biology, English Literature and Composition, United States History",,8:15 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"333 West 17 Street
+New York, NY 10011
+(40.74210071300047, -74.00207379699964)"
+02M416,Eleanor Roosevelt High School,Manhattan,9,12,10021,531,,"Art History, Biology, Calculus AB, Chemistry, Comparative Government and Politics, English Literature and Composition, European History, Macroeconomics, Music Theory, Spanish Literature and Culture, Statistics, Studio Art: 3-D Design, United States History, World History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"411 East 76 Street
+New York, NY 10021
+(40.77011647100045, -73.95337910099965)"
+02M418,Millennium High School,Manhattan,9,12,10004,619,,"Calculus AB, English Language and Composition, English Literature and Composition, United States History",,8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"75 Broad Street
+New York, NY 10004
+(40.704920366000465, -74.01151402299968)"
+02M419,Landmark High School,Manhattan,9,12,10011,396,Consortium School,,,8:45 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"351 West 18 Street
+New York, NY 10011
+(40.74288810100046, -74.00212738099964)"
+02M420,High School for Health Professions and Human Services,Manhattan,9,12,10003,1706,,"Biology, Calculus AB, Chemistry, Comparative Government and Politics, English Literature and Composition, Physics B, Spanish Language and Culture, United States History, World History",,9:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"345 East 15Th Street
+New York, NY 10003
+(40.73248537800049, -73.98305338799963)"
+02M422,Quest to Learn,Manhattan,6,12,10011,478,,"Biology, Calculus AB, English Literature and Composition",,9:00 AM,3:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"351 West 18 Street
+New York, NY 10011
+(40.74288810100046, -74.00212738099964)"
+02M425,Leadership and Public Service High School,Manhattan,9,12,10006,685,,"Art History, Calculus AB, Comparative Government and Politics, English Language and Composition, English Literature and Composition, Spanish Literature and Culture, United States History, World History","Biology, Chemistry, Environmental Science, European History, Macroeconomics, Microeconomics, Physics B",8:30 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"90 Trinity Place
+New York, NY 10006
+(40.70914653900047, -74.01207662699966)"
+02M427,MANHATTAN ACADEMY FOR ARTS & LANGUAGE,Manhattan,9,12,10016,312,,,,9:00 AM,3:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"111 East 33Rd Street
+New York, NY 10016
+(40.746106375000466, -73.98100966699963)"
+02M432,Murray Hill Academy,Manhattan,9,12,10016,305,,,"Biology, English Language and Composition, Environmental Science, United States History, World History",8:00 AM,2:58 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"111 East 33Rd Street
+New York, NY 10016
+(40.746106375000466, -73.98100966699963)"
+02M437,Hudson High School of Learning Technologies,Manhattan,9,12,10011,462,,,"Biology, Calculus AB, English Literature and Composition, United States History",8:45 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"351 West 18 Street
+New York, NY 10011
+(40.74288810100046, -74.00212738099964)"
+02M438,International High School at Union Square,Manhattan,9,12,10003,339,International School,,,8:45 AM,3:05 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"40 Irving Place
+New York, NY 10003
+(40.73551946300046, -73.98760424899967)"
+02M439,Manhattan Village Academy,Manhattan,9,12,10010,414,,"Biology, Calculus AB, English Literature and Composition, Psychology, United States History",,8:00 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"43 West 22 Street
+New York, NY 10010
+(40.7414946990005, -73.99144505299967)"
+02M449,Vanguard High School,Manhattan,9,12,10065,469,Consortium School,Calculus AB,,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"317 East 67 Street
+New York, NY 10065
+(40.765445402000466, -73.96021378599966)"
+02M459,Manhattan International High School,Manhattan,9,12,10065,331,"Consortium, International School","Calculus AB, United States History",,8:45 AM,3:05 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"317 East 67 Street
+New York, NY 10065
+(40.765445402000466, -73.96021378599966)"
+02M475,Stuyvesant High School,Manhattan,9,12,10282,3292,Specialized School,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Comparative Government and Politics, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Human Geography, Italian Language and Culture, Japanese Language and Culture, Macroeconomics, Microeconomics, Music Theory, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Psychology, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States Government and Politics, United States History, World History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"345 Chambers Street
+New York, NY 10282
+(40.71774641500048, -74.01404904299966)"
+02M489,High School of Economics and Finance,Manhattan,9,12,10006,767,,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Environmental Science, Spanish Language and Culture, United States History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"100 Trinity Place
+New York, NY 10006
+(40.70921962500046, -74.01202591499964)"
+02M500,Unity Center for Urban Technologies,Manhattan,9,12,10016,255,,,,8:15 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"111 East 33Rd Street
+New York, NY 10016
+(40.746106375000466, -73.98100966699963)"
+02M507,Urban Assembly Gateway School for Technology,Manhattan,9,12,10019,367,CTE School,"Art History, Calculus AB, English Language and Composition, Physics B, Spanish Language and Culture, Studio Art: 3-D Design, United States History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"439 West 49Th Street
+New York, NY 10019
+(40.763361732000476, -73.99050909099964)"
+02M519,Talent Unlimited High School,Manhattan,9,12,10065,530,,"Biology, Chemistry, English Literature and Composition, United States History",Biology,8:10 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,5,"317 East 67 Street
+New York, NY 10065
+(40.765445402000466, -73.96021378599966)"
+02M520,Murry Bergtraum High School for Business Careers,Manhattan,9,12,10038,1466,,"Art History, Biology, Calculus AB, English Language and Composition, English Literature and Composition, Spanish Language and Culture, United States History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Chinese, Spanish",Functionally Accessible,2,"411 Pearl Street
+New York, NY 10038
+(40.71067947100045, -74.00080702099967)"
+02M529,Jacqueline Kennedy Onassis High School,Manhattan,9,12,10036,709,,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Spanish Literature and Culture, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"120 West 46 Street
+New York, NY 10036
+(40.75775738600049, -73.98318779299967)"
+02M531,Repertory Company High School for Theatre Arts,Manhattan,9,12,10036,236,,"Biology, Calculus AB, English Literature and Composition, Music Theory, World History",Spanish Language and Culture,8:15 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"123 West 43 Street
+New York, NY 10036
+(40.7559425820005, -73.98456770199965)"
+02M533,Union Square Academy for Health Sciences,Manhattan,9,12,10003,223,CTE School,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Physics B, United States History",,8:00 AM,3:49 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"40 Irving Place
+New York, NY 10003
+(40.73551946300046, -73.98760424899967)"
+02M534,Harvest Collegiate High School,Manhattan,9,12,10011,232,,"Art History, Biology, Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Environmental Science, Spanish Language and Culture, Statistics",,8:20 AM,3:17 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"34 West 14 Street
+New York, NY 10011
+(40.73676482600047, -73.99551113299964)"
+02M542,Manhattan Bridges High School,Manhattan,9,12,10019,552,,"Calculus AB, English Language and Composition, Macroeconomics, Spanish Language and Culture, Spanish Literature and Culture, Statistics",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Dual Language: Spanish; Transitional Bilingual Program: Spanish,Functionally Accessible,4,"525 West 50Th Street
+New York, NY 10019
+(40.76502670800045, -73.99251657799965)"
+02M543,New Design High School,Manhattan,9,12,10002,439,,"English Literature and Composition, United States History",,8:40 AM,2:56 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"350 Grand Street
+New York, NY 10002
+(40.71686722400045, -73.98953194299963)"
+02M545,High School for Dual Language and Asian Studies,Manhattan,9,12,10002,410,,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, English Language and Composition, Human Geography, Statistics, United States History",,8:00 AM,3:35 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Dual Language: Chinese; Transitional Bilingual Program: Chinese,Not Functionally Accessible,1,"350 Grand Street
+New York, NY 10002
+(40.71686722400045, -73.98953194299963)"
+02M546,Academy for Software Engineering,Manhattan,9,12,10003,241,CTE School,"Biology, Calculus AB, Chemistry, Computer Science AB, United States Government and Politics",,8:45 AM,3:36 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"40 Irving Place
+New York, NY 10003
+(40.73551946300046, -73.98760424899967)"
+02M551,Urban Assembly New York Harbor School,Manhattan,9,12,10004,439,CTE School,"Calculus AB, English Literature and Composition, Environmental Science",,8:15 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"550 Wheeler Avenue
+Manhattan, NY 10004
+(40.690787629000454, -74.01975732599965)"
+02M580,Richard R. Green High School of Teaching,Manhattan,9,12,10004,593,,"English Language and Composition, English Literature and Composition, United States Government and Politics, United States History",,8:30 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"26 Broadway
+New York, NY 10004
+(40.70523493900049, -74.01331503999967)"
+02M600,The High School of Fashion Industries,Manhattan,9,12,10011,1732,CTE School,"Biology, Calculus AB, English Literature and Composition, Spanish Language and Culture, United States History",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"225 West 24 Street
+New York, NY 10011
+(40.74511157100045, -73.99590641999964)"
+02M605,Humanities Preparatory Academy,Manhattan,9,12,10011,210,Consortium School,,,9:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"351 West 18 Street
+New York, NY 10011
+(40.74288810100046, -74.00212738099964)"
+02M615,Chelsea Career and Technical Education High School,Manhattan,9,12,10013,443,CTE School,"Calculus AB, English Literature and Composition, Physics C: Mechanics, Spanish Language and Culture, United States Government and Politics, United States History",,8:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"131 Avenue Of The Americas
+New York, NY 10013
+(40.72435287400049, -74.00475929199968)"
+02M630,Art and Design High School,Manhattan,9,12,10019,1438,CTE School,"Art History, Biology, Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Spanish Language and Culture, Studio Art: 2-D Design, Studio Art: Drawing, United States History, World History",,8:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"231-249 East 56 Street
+New York, NY 10019
+(40.76540154100047, -73.98176824599966)"
+02M655,Life Sciences Secondary School,Manhattan,6,12,10128,771,,"Biology, Calculus AB, English Language and Composition, Environmental Science, Spanish Language and Culture, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"320 East 96 Street
+New York, NY 10128
+(40.78364426000047, -73.94574177699963)"
+03M299,"High School for Arts, Imagination and Inquiry",Manhattan,9,12,10023,435,,United States History,,8:45 AM,3:26 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"122 Amsterdam Avenue
+New York, NY 10023
+(40.77429641100048, -73.98482270099964)"
+03M307,"Urban Assembly School for Media Studies, The",Manhattan,9,12,10023,387,,"Calculus AB, Chemistry, English Literature and Composition, United States History, World History",,9:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"122 Amsterdam Avenue
+New York, NY 10023
+(40.77429641100048, -73.98482270099964)"
+03M402,The Urban Assembly School for Green Careers,Manhattan,9,12,10024,395,CTE School,English Literature and Composition,,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"145 West 84 Street
+New York, NY 10024
+(40.78574315700047, -73.97441522799966)"
+03M403,The Global Learning Collaborative,Manhattan,9,12,10024,480,,"Biology, Calculus AB, English Literature and Composition, Spanish Literature and Culture",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"145 West 84 Street
+New York, NY 10024
+(40.78574315700047, -73.97441522799966)"
+03M415,Wadleigh Secondary School for the Performing & Visual Arts,Manhattan,6,12,10026,531,,"Calculus AB, English Literature and Composition, Environmental Science, Spanish Literature and Culture, Statistics, United States History, World History",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,6,"215 West 114 Street
+New York, NY 10026
+(40.802174581000486, -73.95400882799964)"
+03M417,FRANK McCOURT HIGH SCHOOL,Manhattan,9,12,10024,373,,,,8:40 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"145 West 84 Street
+New York, NY 10024
+(40.78574315700047, -73.97441522799966)"
+03M479,Beacon High School,Manhattan,9,12,10023,1276,Consortium School,"Biology, Calculus AB, Chemistry, Physics B, Spanish Language and Culture",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"227-243 West 61St Street
+New York, NY 10023
+(40.772158119000494, -73.98779653499963)"
+03M485,Fiorello H. LaGuardia High School of Music & Art and Performing Arts,Manhattan,9,12,10023,2730,Specialized School,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, Comparative Government and Politics, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Italian Language and Culture, Japanese Language and Culture, Music Theory, Physics B, Psychology, Spanish Language and Culture, Statistics, Studio Art: 2-D Design, Studio Art: 3-D Design, Studio Art: Drawing, United States Government and Politics, United States History, World History",,8:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,6,"100 Amsterdam Avenue
+New York, NY 10023
+(40.773670507000475, -73.98526855799963)"
+03M492,"High School for Law, Advocacy and Community Justice",Manhattan,9,12,10023,531,,"English Literature and Composition, Environmental Science, Psychology, Spanish Language and Culture, United States History, World History",,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"122 Amsterdam Avenue
+New York, NY 10023
+(40.77429641100048, -73.98482270099964)"
+03M494,High School of Arts and Technology,Manhattan,9,12,10023,588,,"Art History, Biology, Psychology, Studio Art: Drawing, United States History",,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"122 Amsterdam Avenue
+New York, NY 10023
+(40.77429641100048, -73.98482270099964)"
+03M541,Manhattan / Hunter Science High School,Manhattan,9,12,10023,460,,,,8:00 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"122 Amsterdam Avenue
+New York, NY 10023
+(40.77429641100048, -73.98482270099964)"
+03M859,Special Music School,Manhattan,K,11,10023,191,,Music Theory,,8:00 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"122 Amsterdam Avenue
+New York, NY 10023
+(40.77429641100048, -73.98482270099964)"
+03M860,Frederick Douglass Academy II Secondary School,Manhattan,6,12,10026,429,,"Calculus AB, English Literature and Composition, Environmental Science, United States History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"215 West 114 Street
+New York, NY 10026
+(40.802174581000486, -73.95400882799964)"
+04M372,ESPERANZA PREPARATORY ACADEMY,Manhattan,6,12,10029,424,,,,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Dual Language: Spanish,Functionally Accessible,1,"240 East 109 Street
+New York, NY 10029
+(40.793072777000475, -73.94235655799963)"
+04M409,Coalition School for Social Change,Manhattan,9,12,10035,311,,"Biology, English Literature and Composition, United States History",,8:45 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2351 1St Avenue
+New York, NY 10035
+(40.7988651820005, -73.93336559699964)"
+04M435,Manhattan Center for Science and Mathematics,Manhattan,9,12,10029,1588,,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Language and Composition, English Literature and Composition, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States History, World History",,8:15 AM,2:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,2,"260 Pleasant Avenue
+New York, NY 10029
+(40.793741706000446, -73.93408414199968)"
+04M495,Park East High School,Manhattan,9,12,10029,409,,"Calculus AB, English Language and Composition, Environmental Science, Spanish Language and Culture, United States History, World History",,8:45 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"230 East 105 Street
+New York, NY 10029
+(40.7905626000005, -73.94445440799967)"
+04M555,Central Park East High School,Manhattan,9,12,10029,479,,"Calculus AB, English Language and Composition, English Literature and Composition, Environmental Science, Microeconomics, Statistics, United States History",,8:30 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1573 Madison Avenue
+New York, NY 10029
+(40.79367888200045, -73.94941649499964)"
+04M610,Young Women's Leadership School,Manhattan,6,12,10029,464,All-Girls School,"English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History",,8:45 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"105 East 106 Street
+New York, NY 10029
+(40.79270695600047, -73.94729966199964)"
+04M680,"Heritage School, The",Manhattan,9,12,10029,351,,"Calculus AB, Spanish Literature and Culture, United States Government and Politics",,8:30 AM,3:39 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1680 Lexington Avenue
+New York, NY 10029
+(40.79187961800045, -73.94658639999966)"
+05M157,The Urban Assembly School for Global Commerce,Manhattan,9,11,10035,82,CTE School,,,8:10 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"2005 Madison Avenue
+New York, NY 10035
+(40.80734208700045, -73.93943418699968)"
+05M304,Mott Hall High School,Manhattan,9,12,10030,425,,"English Literature and Composition, Spanish Language and Culture, United States History, World History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"6 Edgecombe Avenue
+New York, NY 10030
+(40.817361046000485, -73.94770842099967)"
+05M362,Columbia Secondary School,Manhattan,6,12,10027,664,,"Biology, English Literature and Composition, Spanish Literature and Culture, United States History",,8:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"425 West 123 Street
+New York, NY 10027
+(40.81091785300049, -73.95692738699967)"
+05M367,Academy for Social Action: A College Board School,Manhattan,9,12,10027,309,,"Art History, Calculus AB, English Language and Composition, English Literature and Composition, United States History",,8:35 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"509 West 129 Street
+New York, NY 10027
+(40.815230365000446, -73.95520120599963)"
+05M369,Urban Assembly School for the Performing Arts,Manhattan,9,12,10027,354,,,,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"509 West 129 Street
+New York, NY 10027
+(40.815230365000446, -73.95520120599963)"
+05M499,Frederick Douglass Academy,Manhattan,6,12,10039,1489,,"Biology, Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, European History, French Language and Culture, Latin: Vergil, Physics B, Spanish Language and Culture, Statistics, United States Government and Politics, United States History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"2581 7Th Avenue
+New York, NY 10039
+(40.82430838500045, -73.93697961299966)"
+05M670,Thurgood Marshall Academy for Learning and Social Change,Manhattan,6,12,10030,572,,Biology,,8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"200-214 West 135Th Street
+New York, NY 10030
+(40.81536482900049, -73.94389670999965)"
+05M692,"High School for Mathematics, Science and Engineering at City College",Manhattan,9,12,10031,456,Specialized School,"Calculus AB, Calculus BC, Chemistry, Computer Science A, English Literature and Composition, German Language and Culture, Statistics, World History",,8:00 AM,3:35 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"240 Convent Ave
+New York, NY 10031
+(40.821123112000464, -73.94884524399964)"
+06M211,Inwood Early College for Health and Information Technologies,Manhattan,9,10,10002,N/A,"NYC P-Tech 9-14, New School",,,8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"650 Academy Street
+New York, NY 10002
+(40.86604554900049, -73.92485664199967)"
+06M293,City College Academy of the Arts,Manhattan,6,12,10040,593,,,,8:15 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"4600 Broadway
+New York, NY 10040
+(40.86111331900048, -73.93045214899968)"
+06M346,Community Health Academy of the Heights,Manhattan,6,12,10032,600,,"English Language and Composition, Spanish Literature and Culture, Studio Art: 2-D Design, United States History",,8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"504 West 158Th Street
+New York, NY 10032
+(40.83355521900046, -73.94180421199962)"
+06M348,Washington Heights Expeditionary Learning School,Manhattan,6,12,10033,650,,"English Language and Composition, Spanish Language and Culture, Spanish Literature and Culture, Statistics",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"511 West 182Nd Street
+New York, NY 10033
+(40.84887878800049, -73.93080651699967)"
+06M423,High School for Excellence and Innovation,Manhattan,9,12,10034,223,,English Literature and Composition,,8:45 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"650 Academy Street
+New York, NY 10034
+(40.86604554900049, -73.92485664199967)"
+06M462,The College Academy,Manhattan,9,12,10040,546,,"Biology, English Language and Composition, Spanish Language and Culture, United States History",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"549 Audubon Avenue
+New York, NY 10040
+(40.855938307000486, -73.92702963399967)"
+06M463,High School for Media and Communications,Manhattan,9,12,10040,523,,"Calculus AB, Comparative Government and Politics, English Language and Composition, English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"549 Audubon Avenue
+New York, NY 10040
+(40.855938307000486, -73.92702963399967)"
+06M467,High School for Law and Public Service,Manhattan,9,12,10040,679,,"Calculus AB, Chemistry, Comparative Government and Politics, English Language and Composition, Environmental Science, Psychology, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History, World History",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"549 Audubon Avenue
+New York, NY 10040
+(40.855938307000486, -73.92702963399967)"
+06M468,High School for Health Careers and Sciences,Manhattan,9,12,10040,624,,"Calculus AB, English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"549 Audubon Avenue
+New York, NY 10040
+(40.855938307000486, -73.92702963399967)"
+06M540,A. Philip Randolph Campus High School,Manhattan,9,12,10031,1360,,"Biology, Calculus AB, Computer Science A, English Language and Composition, English Literature and Composition, Macroeconomics, Physics B, Psychology, Spanish Language and Culture, Spanish Literature and Culture, United States History, World History",,8:00 AM,2:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,4,"443 West 135 Street
+New York, NY 10031
+(40.81832126900048, -73.95061382799963)"
+06M552,Gregorio Luperon High School for Science and Mathematics,Manhattan,9,12,10032,491,,"Biology, Calculus AB, Chemistry, Computer Science A, Music Theory, Physics B, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics",United States Government and Politics,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"501 West 165Th
+New York, NY 10032
+(40.83803232200046, -73.93837101799966)"
+07X221,South Bronx Preparatory: A College Board School,Bronx,6,12,10454,644,,"Biology, English Language and Composition, Psychology, Spanish Language and Culture, Studio Art: 2-D Design, United States History",Spanish Language and Culture,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"360 East 145 Street
+Bronx, NY 10454
+(40.81401081600046, -73.92083651699966)"
+07X223,M.S. 223 The Laboratory School of Finance and Technology,Bronx,6,11,10454,451,,,,7:50 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Dual Language: Spanish,Not Functionally Accessible,2,"360 East 145 Street
+Bronx, NY 10454
+(40.81401081600046, -73.92083651699966)"
+07X259,"H.E.R.O. High (Health, Education, and Research Occupations High School)",Bronx,9,11,10455,126,NYC P-Tech 9-14 School,,,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"455 Southern Blvd
+Bronx, NY 10455
+(40.810405415000446, -73.90680011599966)"
+07X334,International Community High School,Bronx,9,12,10454,437,International School,,,9:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"345 Brook Avenue
+Bronx, NY 10454
+(40.810036192000496, -73.91781248199965)"
+07X427,Community School for Social Justice,Bronx,9,12,10451,335,Consortium School,,,8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"350 Gerard Avenue
+Bronx, NY 10451
+(40.81608448100047, -73.93032383899964)"
+07X473,Mott Haven Village Preparatory High School,Bronx,9,12,10455,344,,"English Literature and Composition, United States History",,8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"701 St. Anns Avenue
+Bronx, NY 10455
+(40.81817353600047, -73.91109266299964)"
+07X495,University Heights Secondary School,Bronx,9,12,10455,466,Consortium School,"Biology, English Language and Composition, United States History","Biology, English Language and Composition, United States History",8:45 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"701 St. Anns Avenue
+Bronx, NY 10455
+(40.81817353600047, -73.91109266299964)"
+07X500,Hostos-Lincoln Academy of Science,Bronx,6,12,10455,537,,"Calculus AB, English Language and Composition, English Literature and Composition, Spanish Language and Culture, Statistics",,8:00 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"600 Saint Ann'S Avenue
+Bronx, NY 10455
+(40.814955342000474, -73.91251954199964)"
+07X520,Foreign Language Academy of Global Studies,Bronx,9,12,10455,189,,English Literature and Composition,,7:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"470 Jackson Avenue
+Bronx, NY 10455
+(40.81113885600047, -73.90978712699967)"
+07X522,Bronx Design and Construction Academy,Bronx,9,12,10451,429,CTE School,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, United States History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"333 East 151 Street
+Bronx, NY 10451
+(40.81824688900048, -73.91973567799965)"
+07X527,Bronx Leadership Academy II High School,Bronx,9,12,10451,515,,"Biology, English Literature and Composition, United States History",,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"730 Concourse Village West
+Bronx, NY 10451
+(40.82277649000048, -73.92352279399967)"
+07X547,New Explorers High School,Bronx,9,12,10451,463,,"English Language and Composition, Spanish Language and Culture",Biology,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,4,"730 Concourse Village West
+Bronx, NY 10451
+(40.82277649000048, -73.92352279399967)"
+07X548,Urban Assembly School for Careers in Sports,Bronx,9,12,10451,575,,"Calculus AB, Calculus BC, United States Government and Politics, United States History",,8:25 AM,3:18 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"730 Concourse Village West
+Bronx, NY 10451
+(40.82277649000048, -73.92352279399967)"
+07X551,The Urban Assembly Bronx Academy of Letters,Bronx,6,12,10451,584,,"English Language and Composition, English Literature and Composition, Environmental Science, Spanish Language and Culture, United States Government and Politics, United States History",,8:00 AM,3:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"339 Morris Avenue
+Bronx, NY 10451
+(40.81335930300048, -73.92553651499964)"
+07X600,Alfred E. Smith Career and Technical Education High School,Bronx,9,12,10451,390,CTE School,"English Language and Composition, United States History",,8:50 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Not Functionally Accessible,3,"333 East 151 Street
+Bronx, NY 10451
+(40.81824688900048, -73.91973567799965)"
+07X670,Health Opportunities High School,Bronx,9,12,10451,577,,"Biology, European History, Spanish Language and Culture, United States History",,8:15 AM,3:35 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"350 Gerard Avenue
+Bronx, NY 10451
+(40.81608448100047, -73.93032383899964)"
+08X269,Bronx Studio School for Writers and Artists,Bronx,6,12,10459,540,,"English Literature and Composition, Environmental Science, United States Government and Politics",,8:20 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"928 Simpson Street
+Bronx, NY 10459
+(40.820623637000494, -73.89307351899964)"
+08X282,Women's Academy of Excellence,Bronx,9,12,10473,395,All-Girls School,English Literature and Composition,,8:30 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"456 White Plains Road
+Bronx, NY 10473
+(40.814918340000474, -73.85656553499967)"
+08X293,Renaissance High School for Musical Theater & Technology,Bronx,9,12,10461,454,,"English Literature and Composition, Psychology, Spanish Language and Culture, United States Government and Politics, World History",,8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"3000 East Tremont Avenue
+Bronx, NY 10461
+(40.840513977000455, -73.83812095999963)"
+08X305,Pablo Neruda Academy,Bronx,9,12,10473,335,,"Art History, English Language and Composition, English Literature and Composition, United States Government and Politics",,8:00 AM,3:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1980 Lafayette Avenue
+Bronx, NY 10473
+(40.82230376500047, -73.85596138999966)"
+08X312,Millennium Art Academy,Bronx,9,12,10473,496,,"Calculus AB, English Language and Composition, English Literature and Composition",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1980 Lafayette Avenue
+Bronx, NY 10473
+(40.82230376500047, -73.85596138999966)"
+08X320,Pelham Lab High School,Bronx,9,11,10461,95,,,,8:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"3000 East Tremont Avenue
+Bronx, NY 10461
+(40.840513977000455, -73.83812095999963)"
+08X332,Holcombe L. Rucker School of Community Research,Bronx,9,12,10459,261,,"English Literature and Composition, Spanish Literature and Culture",,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"965 Longwood Avenue
+Bronx, NY 10459
+(40.81743944600049, -73.89804920599965)"
+08X348,Schuylerville Preparatory High School,Bronx,9,11,10461,95,,,,8:00 AM,3:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"3000 East Tremont Avenue
+Bronx, NY 10461
+(40.840513977000455, -73.83812095999963)"
+08X349,Bronx River High School,Bronx,9,11,10461,101,,,,8:14 AM,3:36 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"3000 East Tremont Avenue
+Bronx, NY 10461
+(40.840513977000455, -73.83812095999963)"
+08X367,"Archimedes Academy for Math, Science and Technology Applications",Bronx,6,12,10473,637,,,,8:25 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"456 White Plains Road
+Bronx, NY 10473
+(40.814918340000474, -73.85656553499967)"
+08X376,Antonia Pantoja Preparatory Academy: A College Board School,Bronx,6,12,10473,466,,,,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1980 Lafayette Avenue
+Bronx, NY 10473
+(40.82230376500047, -73.85596138999966)"
+08X405,Herbert H. Lehman High School.,Bronx,9,12,10461,2059,,"Biology, Calculus AB, Calculus BC, English Language and Composition, English Literature and Composition, Environmental Science, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History, World History",,8:15 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"3000 East Tremont Avenue
+Bronx, NY 10461
+(40.840513977000455, -73.83812095999963)"
+08X432,BRONX BRIDGES HIGH SCHOOL,Bronx,9,12,10473,313,,"Biology, Calculus AB, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History, World History","French Language and Culture, French Literature",8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1980 Lafayette Avenue
+Bronx, NY 10473
+(40.82230376500047, -73.85596138999966)"
+08X452,Bronx Guild,Bronx,9,12,10473,315,,,,8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1980 Lafayette Avenue
+Bronx, NY 10473
+(40.82230376500047, -73.85596138999966)"
+08X519,"Felisa Rincon de Gautier Institute for Law and Public Policy, The",Bronx,9,12,10473,341,,"Comparative Government and Politics, English Language and Composition, English Literature and Composition, United States History",,8:00 AM,2:19 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"1440 Story Avenue
+Bronx, NY 10473
+(40.82117077000049, -73.88113634599966)"
+08X530,Banana Kelly High School,Bronx,9,12,10459,364,,"English Language and Composition, Human Geography, United States History",,8:45 AM,3:05 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Not Functionally Accessible,1,"965 Longwood Avenue
+Bronx, NY 10459
+(40.81743944600049, -73.89804920599965)"
+08X558,Westchester Square Academy,Bronx,9,12,10461,251,,"European History, Spanish Language and Culture",,8:15 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"3000 East Tremont Avenue
+Bronx, NY 10461
+(40.840513977000455, -73.83812095999963)"
+08X559,School for Tourism and Hospitality,Bronx,9,12,10456,161,CTE School,,,8:30 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"900 Tinton Avenue
+Bronx, NY 10456
+(40.82188734100049, -73.90343805499964)"
+08X561,Bronx Compass High School,Bronx,9,12,10473,195,,,,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1980 Lafayette Avenue
+Bronx, NY 10473
+(40.82230376500047, -73.85596138999966)"
+09X227,Bronx Collegiate Academy,Bronx,9,12,10457,356,,"English Language and Composition, English Literature and Composition, Spanish Language and Culture, United States Government and Politics, United States History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"240 East 172 Street
+Bronx, NY 10457
+(40.84037339800045, -73.91083800799964)"
+09X231,Eagle Academy for Young Men,Bronx,6,12,10457,645,All-Boys School,"Calculus AB, Chemistry, Computer Science AB, English Language and Composition, English Literature and Composition, United States History, World History",,8:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"4143 Third Avenue
+Bronx, NY 10457
+(40.84518532700048, -73.89698066799963)"
+09X241,"Urban Assembly School for Applied Math and Science, The",Bronx,6,12,10457,605,,"Biology, Calculus AB",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1595 Bathgate Avenue
+Bronx, NY 10457
+(40.839327126000455, -73.90130978999963)"
+09X250,Eximius College Preparatory Academy: A College Board School,Bronx,9,12,10456,423,,"English Language and Composition, English Literature and Composition, Environmental Science, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, World History",,8:00 AM,3:22 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1363 Fulton Avenue
+Bronx, NY 10456
+(40.833738559000494, -73.90244824499968)"
+09X252,Mott Hall Bronx High School,Bronx,9,12,10457,379,,,,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1595 Bathgate Avenue
+Bronx, NY 10457
+(40.839327126000455, -73.90130978999963)"
+09X260,Bronx Center for Science and Mathematics,Bronx,9,12,10456,461,,"Biology, Calculus AB, English Language and Composition, United States History, World History",,7:30 AM,3:25 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1363 Fulton Avenue
+Bronx, NY 10456
+(40.833738559000494, -73.90244824499968)"
+09X263,Validus Preparatory Academy: An Expeditionary Learning School,Bronx,9,12,10457,374,,,,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1595 Bathgate Avenue
+Bronx, NY 10457
+(40.839327126000455, -73.90130978999963)"
+09X276,Leadership Institute,Bronx,9,12,10457,227,,,,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1701 Fulton Avenue
+Bronx, NY 10457
+(40.8412708780005, -73.89797867699963)"
+09X297,Morris Academy for Collaborative Studies,Bronx,9,12,10456,464,,"English Language and Composition, Spanish Language and Culture",,8:15 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1110 Boston Road
+Bronx, NY 10456
+(40.8276026690005, -73.90447525699966)"
+09X324,Bronx Early College Academy for Teaching & Learning,Bronx,6,12,10456,508,,,,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"250 East 164 Street
+Bronx, NY 10456
+(40.828714180000475, -73.91775570199962)"
+09X327,Comprehensive Model School Project M.S. 327,Bronx,6,12,10452,543,,"Biology, Chemistry, United States History",,8:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1501 Jerome Avenue
+Bronx, NY 10452
+(40.842414068000494, -73.91616158599965)"
+09X329,DreamYard Preparatory School,Bronx,9,12,10457,345,,"Biology, English Language and Composition, English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture, United States History",,8:40 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"240 East 172 Street
+Bronx, NY 10457
+(40.84037339800045, -73.91083800799964)"
+09X350,New Directions Secondary School,Bronx,6,9,10457,107,New School,,,,,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"240 East 172 Street
+Bronx, NY 10457
+(40.84037339800045, -73.91083800799964)"
+09X365,Academy for Language and Technology,Bronx,9,12,10453,301,,Spanish Language and Culture,"Art History, Biology, Chemistry, Psychology, Spanish Language and Culture, Spanish Literature and Culture, World History",8:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Not Functionally Accessible,3,"1700 Macombs Road
+Bronx, NY 10453
+(40.84910216800046, -73.91608844099966)"
+09X403,Bronx International High School,Bronx,9,12,10456,414,International School,,,9:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1110 Boston Road
+Bronx, NY 10456
+(40.8276026690005, -73.90447525699966)"
+09X404,School for Excellence,Bronx,9,12,10456,396,,,,8:15 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1110 Boston Road
+Bronx, NY 10456
+(40.8276026690005, -73.90447525699966)"
+09X412,Bronx High School of Business,Bronx,9,12,10457,359,,"English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture",,7:45 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"240 East 172 Street
+Bronx, NY 10457
+(40.84037339800045, -73.91083800799964)"
+09X413,Bronx High School for Medical Science,Bronx,6,12,10457,465,,Spanish Language and Culture,,7:45 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"240 East 172 Street
+Bronx, NY 10457
+(40.84037339800045, -73.91083800799964)"
+09X505,"Bronx School for Law, Government and Justice",Bronx,6,12,10451,773,,"Biology, English Literature and Composition, Spanish Language and Culture, United States Government and Politics",,8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"244 East 163 Street
+Bronx, NY 10451
+(40.827589367000485, -73.91866815999964)"
+09X517,Frederick Douglass Academy III Secondary School,Bronx,9,12,10456,410,,"Art History, Biology, Calculus AB, English Language and Composition, Environmental Science, Psychology, Spanish Language and Culture, United States History",,8:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"3630 Third Avenue
+Bronx, NY 10456
+(40.83416725000046, -73.90403294799967)"
+09X525,Bronx Leadership Academy High School,Bronx,9,12,10457,711,,"Biology, English Language and Composition, United States History, World History",,8:00 AM,3:44 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1710 Webster Avenue
+Bronx, NY 10457
+(40.84358119500047, -73.90322003799963)"
+09X543,High School for Violin and Dance,Bronx,9,12,10456,378,,,,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1110 Boston Road
+Bronx, NY 10456
+(40.8276026690005, -73.90447525699966)"
+09X564,Claremont International HS,Bronx,9,12,10457,171,International School,,,8:40 AM,3:17 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"240 East 172 Street
+Bronx, NY 10457
+(40.84037339800045, -73.91083800799964)"
+10X141,Riverdale / Kingsbridge Academy (Middle School / High School 141),Bronx,6,12,10463,1355,,"Biology, Calculus AB, English Literature and Composition, Psychology, Spanish Language and Culture, Spanish Literature and Culture, Statistics, Studio Art: 3-D Design, United States Government and Politics, United States History, World History",,8:20 AM,2:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"660 West 237 Street
+Bronx, NY 10463
+(40.88837284900046, -73.91409320399964)"
+10X213,Bronx Engineering and Technology Academy,Bronx,9,12,10463,420,,"Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Physics B, Spanish Language and Culture, Spanish Literature and Culture, United States History, World History",,8:15 AM,4:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"99 Terrace View Avenue
+Bronx, NY 10463
+(40.87704944300049, -73.91233659899967)"
+10X225,Theatre Arts Production Company School,Bronx,6,12,10457,581,,"Calculus AB, English Literature and Composition","Calculus AB, English Language and Composition, Environmental Science, Music Theory, United States History, World History",8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"2225 Webster Avenue
+Bronx, NY 10457
+(40.85464659900049, -73.89664555299964)"
+10X237,"The Marie Curie School for Medicine, Nursing, and Health Professions",Bronx,9,12,10463,573,,"Biology, English Literature and Composition, United States History",,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"120 West 231 Street
+Bronx, NY 10463
+(40.875975449000464, -73.90123489199965)"
+10X243,West Bronx Academy for the Future,Bronx,6,12,10458,611,,"Art History, Chemistry, English Language and Composition, Spanish Language and Culture, United States History, World History",,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"500 East Fordham Road
+Bronx, NY 10458
+(40.86001222100049, -73.88822960399966)"
+10X264,Bronx Academy for Software Engineering (BASE),Bronx,9,11,10458,112,CTE School,,,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"2474 Crotona Avenue
+Bronx, NY 10458
+(40.85592271000047, -73.88257897999966)"
+10X268,Kingsbridge International High School,Bronx,9,12,10468,443,International School,English Language and Composition,,7:45 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2780 Reservoir Avenue
+Bronx, NY 10468
+(40.87037746700048, -73.89816295199967)"
+10X284,Bronx School of Law and Finance,Bronx,9,12,10463,435,,"Calculus AB, English Language and Composition, Spanish Language and Culture, Spanish Literature and Culture",,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"99 Terrace View Avenue
+Bronx, NY 10463
+(40.87704944300049, -73.91233659899967)"
+10X342,International School for Liberal Arts,Bronx,6,12,10468,543,,,,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"2780 Reservoir Avenue
+Bronx, NY 10468
+(40.87037746700048, -73.89816295199967)"
+10X351,Bronx Collaborative High School,Bronx,9,11,10468,90,,,,9:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"100 West Mosholu Parkway South
+Bronx, NY 10468
+(40.88008184000046, -73.88590153299964)"
+10X353,World View High School,Bronx,9,11,10468,71,,,,9:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"100 West Mosholu Parkway South
+Bronx, NY 10468
+(40.88008184000046, -73.88590153299964)"
+10X368,In-Tech Academy (M.S. / High School 368),Bronx,6,12,10463,1036,,"Calculus AB, English Language and Composition, English Literature and Composition, Environmental Science, Spanish Language and Culture, United States History, World History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2975 Tibbett Avenue
+Bronx, NY 10463
+(40.88005009300048, -73.90920904799964)"
+10X374,Knowledge and Power Preparatory Academy International High School (Kappa),Bronx,9,12,10458,467,,,,7:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"500 East Fordham Road
+Bronx, NY 10458
+(40.86001222100049, -73.88822960399966)"
+10X433,High School for Teaching and the Professions,Bronx,9,12,10468,499,,"English Literature and Composition, Spanish Language and Culture, United States History",,8:45 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2780 Reservoir Avenue
+Bronx, NY 10468
+(40.87037746700048, -73.89816295199967)"
+10X434,Belmont Preparatory High School,Bronx,9,12,10458,410,,"Art History, Calculus AB, Chemistry, English Literature and Composition, Environmental Science, Spanish Language and Culture, Spanish Literature and Culture",,8:15 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"500 East Fordham Road
+Bronx, NY 10458
+(40.86001222100049, -73.88822960399966)"
+10X437,Fordham High School for the Arts,Bronx,9,12,10458,407,,"Biology, Computer Science A, English Language and Composition, English Literature and Composition, Music Theory, United States Government and Politics, United States History","Biology, Computer Science A, English Language and Composition, English Literature and Composition, Music Theory, United States Government and Politics, United States History",8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"500 East Fordham Road
+Bronx, NY 10458
+(40.86001222100049, -73.88822960399966)"
+10X438,Fordham Leadership Academy for Business and Technology,Bronx,9,12,10458,460,,"Biology, English Literature and Composition, Spanish Language and Culture",,8:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"500 East Fordham Road
+Bronx, NY 10458
+(40.86001222100049, -73.88822960399966)"
+10X439,Bronx High School for Law and Community Service,Bronx,9,12,10458,403,,"Calculus AB, English Language and Composition, English Literature and Composition, Spanish Language and Culture, United States History, World History",,8:15 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"500 East Fordham Road
+Bronx, NY 10458
+(40.86001222100049, -73.88822960399966)"
+10X440,DeWitt Clinton High School,Bronx,9,12,10468,2746,,"Biology, Calculus AB, Calculus BC, Chemistry, English Language and Composition, English Literature and Composition, Environmental Science, European History, Macroeconomics, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States Government and Politics, United States History, World History",,8:00 AM,2:46 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,5,"100 West Mosholu Parkway South
+Bronx, NY 10468
+(40.88008184000046, -73.88590153299964)"
+10X442,"Celia Cruz Bronx High School of Music, The",Bronx,9,12,10468,436,,"Biology, Chemistry, English Language and Composition, English Literature and Composition, Physics B, Spanish Language and Culture, Spanish Literature and Culture, United States History",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"2780 Reservoir Avenue
+Bronx, NY 10468
+(40.87037746700048, -73.89816295199967)"
+10X445,Bronx High School of Science,Bronx,9,12,10468,3037,Specialized School,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Comparative Government and Politics, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Human Geography, Italian Language and Culture, Japanese Language and Culture, Macroeconomics, Microeconomics, Music Theory, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Psychology, Spanish Language and Culture, Spanish Literature and Culture, Statistics, Studio Art: 2-D Design, Studio Art: Drawing, United States Government and Politics, United States History, World History",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"75 West 205 Street
+Bronx, NY 10468
+(40.87705636800047, -73.88978035099967)"
+10X477,Marble Hill High School for International Studies,Bronx,9,12,10463,447,,"Biology, Calculus AB, English Literature and Composition, European History, Physics B, Spanish Language and Culture, Spanish Literature and Culture, United States History, World History",,8:30 AM,4:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"99 Terrace View Avenue
+Bronx, NY 10463
+(40.87704944300049, -73.91233659899967)"
+10X524,Crotona International High School,Bronx,9,12,10458,252,"CTE, International School",,,8:30 AM,4:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"2474 Crotona Avenue
+Bronx, NY 10458
+(40.85592271000047, -73.88257897999966)"
+10X546,Bronx Theatre High School,Bronx,9,12,10463,435,,"Biology, Calculus AB, English Literature and Composition, Spanish Literature and Culture, United States History",,8:40 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"99 Terrace View Avenue
+Bronx, NY 10463
+(40.87704944300049, -73.91233659899967)"
+10X549,Discovery High School,Bronx,9,12,10468,542,,"Biology, English Language and Composition, Environmental Science, United States History",,8:45 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2780 Reservoir Avenue
+Bronx, NY 10468
+(40.87037746700048, -73.89816295199967)"
+10X565,High School for Energy and Technology,Bronx,9,12,10458,211,CTE School,"English Literature and Composition, United States Government and Politics","Chemistry, English Language and Composition, Statistics",8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"2474 Crotona Avenue
+Bronx, NY 10458
+(40.85592271000047, -73.88257897999966)"
+10X696,High School of American Studies at Lehman College,Bronx,9,12,10468,387,Specialized School,"Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Spanish Language and Culture, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2925 Goulden Avenue
+Bronx, NY 10468
+(40.8712553740005, -73.89751620399966)"
+11X249,Bronx Health Sciences High School,Bronx,9,12,10475,345,,,,7:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"750 Baychester Avenue
+Bronx, NY 10475
+(40.87413179800046, -73.83380451299968)"
+11X253,Bronx High School for Writing and Communication Arts,Bronx,9,12,10467,413,,"English Literature and Composition, Environmental Science, Spanish Language and Culture",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"800 East Gun Hill Road
+Bronx, NY 10467
+(40.87575421100047, -73.86138783399963)"
+11X265,Bronx Lab School,Bronx,9,12,10467,476,,Biology,,8:45 AM,5:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"800 East Gun Hill Road
+Bronx, NY 10467
+(40.87575421100047, -73.86138783399963)"
+11X270,Academy for Scholarship and Entrepreneurship: A College Board School,Bronx,9,12,10466,437,,"Biology, English Language and Composition, United States History",,8:00 AM,2:56 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"921 East 228Th Street
+Bronx, NY 10466
+(40.887919214000476, -73.85287161399964)"
+11X275,High School of Computers and Technology,Bronx,9,12,10467,556,CTE School,"English Language and Composition, English Literature and Composition, United States History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"800 East Gun Hill Road
+Bronx, NY 10467
+(40.87575421100047, -73.86138783399963)"
+11X288,Collegiate Institute for Math and Science,Bronx,9,12,10469,656,,"Calculus AB, Chemistry, English Literature and Composition, Physics B, Spanish Language and Culture, Spanish Literature and Culture, Studio Art: Drawing",,8:15 AM,4:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"925 Astor Avenue
+Bronx, NY 10469
+(40.85969831600045, -73.86074140399967)"
+11X290,Bronx Academy of Health Careers,Bronx,9,12,10467,461,,English Language and Composition,,8:25 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"800 East Gun Hill Road
+Bronx, NY 10467
+(40.87575421100047, -73.86138783399963)"
+11X299,Astor Collegiate Academy,Bronx,9,12,10469,474,,"Biology, Chemistry, English Language and Composition, English Literature and Composition, Spanish Language and Culture, Statistics, United States History",,7:35 AM,3:55 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"925 Astor Avenue
+Bronx, NY 10469
+(40.85969831600045, -73.86074140399967)"
+11X418,Bronx High School for the Visual Arts,Bronx,9,12,10462,509,,"English Literature and Composition, Environmental Science, United States History",,8:15 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"2040 Antin Pl
+Bronx, NY 10462
+(40.851433485000484, -73.86501795899966)"
+11X455,Harry S Truman High School,Bronx,9,12,10475,1911,,"Biology, Calculus AB, Calculus BC, English Literature and Composition, Spanish Language and Culture, Statistics, Studio Art: 2-D Design, Studio Art: Drawing, United States History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,7,"750 Baychester Avenue
+Bronx, NY 10475
+(40.87413179800046, -73.83380451299968)"
+11X508,Bronxdale High School,Bronx,9,12,10469,332,,"Biology, English Language and Composition, Macroeconomics, Microeconomics, United States History",,8:25 AM,3:55 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"925 Astor Avenue
+Bronx, NY 10469
+(40.85969831600045, -73.86074140399967)"
+11X509,High School of Language and Innovation,Bronx,9,12,10469,255,,Calculus AB,,8:25 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"925 Astor Avenue
+Bronx, NY 10469
+(40.85969831600045, -73.86074140399967)"
+11X513,New World High School,Bronx,9,12,10466,401,,"Calculus AB, French Language and Culture, Spanish Language and Culture","French Language and Culture, Spanish Language and Culture",8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"921 East 228Th Street
+Bronx, NY 10466
+(40.887919214000476, -73.85287161399964)"
+11X514,The Bronxwood Preparatory Academy,Bronx,9,12,10466,414,,"English Literature and Composition, United States History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"921 East 228Th Street
+Bronx, NY 10466
+(40.887919214000476, -73.85287161399964)"
+11X542,Pelham Preparatory Academy,Bronx,9,12,10469,480,,"Biology, Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Environmental Science, Physics B, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History",Environmental Science,8:15 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"925 Astor Avenue
+Bronx, NY 10469
+(40.85969831600045, -73.86074140399967)"
+11X544,High School for Contemporary Arts,Bronx,9,12,10467,518,,,,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"800 East Gun Hill Road
+Bronx, NY 10467
+(40.87575421100047, -73.86138783399963)"
+11X545,Bronx Aerospace High School,Bronx,9,12,10467,404,,"Calculus AB, United States History",,9:00 AM,5:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"800 East Gun Hill Road
+Bronx, NY 10467
+(40.87575421100047, -73.86138783399963)"
+12X242,Mott Hall V,Bronx,6,12,10472,651,,"English Literature and Composition, United States History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1551 East 172Nd Street
+Bronx, NY 10472
+(40.831364532000464, -73.87834467499965)"
+12X248,"Metropolitan High School, The",Bronx,9,12,10459,313,,"English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture",,8:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1180 Rev. J.A. Polite Ave.
+Bronx, NY 10459
+(40.82522606000049, -73.89394988899966)"
+12X251,Explorations Academy,Bronx,9,12,10460,357,,"Biology, English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1619 Boston Road
+Bronx, NY 10460
+(40.835937328000455, -73.89046769299966)"
+12X267,Bronx Latin,Bronx,6,12,10456,523,,"Biology, Spanish Language and Culture, Statistics, United States History",,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"800 Home Street
+Bronx, NY 10456
+(40.82776397900045, -73.90038681299967)"
+12X271,East Bronx Academy for the Future,Bronx,6,12,10460,609,,"English Language and Composition, Spanish Literature and Culture, United States Government and Politics, United States History",,8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1716 Southern Boulevard
+Bronx, NY 10460
+(40.83695342600049, -73.88796175799968)"
+12X278,Peace and Diversity Academy,Bronx,9,12,10459,189,,English Language and Composition,,8:45 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1180 Rev. J.A. Polite Ave.
+Bronx, NY 10459
+(40.82522606000049, -73.89394988899966)"
+12X372,Urban Assembly School for Wildlife Conservation,Bronx,6,12,10460,552,,"Calculus AB, English Literature and Composition, Environmental Science, Studio Art: Drawing",,8:40 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"2024 Mohegan Avenue
+Bronx, NY 10460
+(40.84403995800045, -73.88468697299965)"
+12X388,Pan American International High School at Monroe,Bronx,9,12,10472,401,International School,"Spanish Language and Culture, Spanish Literature and Culture",,8:30 AM,5:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1300 Boynton Avenue
+Bronx, NY 10472
+(40.83136649000045, -73.87882327699964)"
+12X478,THE CINEMA SCHOOL,Bronx,9,12,10472,318,,"Biology, Calculus AB, English Language and Composition, Macroeconomics, United States Government and Politics, United States History",,8:30 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1551 East 172Nd Street
+Bronx, NY 10472
+(40.831364532000464, -73.87834467499965)"
+12X479,Bronx Career and College Preparatory High School,Bronx,9,12,10456,323,,,,8:00 AM,2:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"800 Home Street
+Bronx, NY 10456
+(40.82776397900045, -73.90038681299967)"
+12X511,Bronx Envision Academy,Bronx,9,12,10460,239,,,,8:25 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1619 Boston Road
+Bronx, NY 10460
+(40.835937328000455, -73.89046769299966)"
+12X521,The Metropolitan Soundview High School,Bronx,9,12,10472,316,,"Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Environmental Science, Italian Language and Culture, Spanish Language and Culture, United States Government and Politics",,8:30 AM,3:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1300 Boynton Avenue
+Bronx, NY 10472
+(40.83136649000045, -73.87882327699964)"
+12X550,High School of World Cultures,Bronx,9,12,10472,388,,"Biology, Calculus AB, Spanish Language and Culture, World History",,8:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Dual Language: Spanish,Functionally Accessible,1,"1300 Boynton Avenue
+Bronx, NY 10472
+(40.83136649000045, -73.87882327699964)"
+12X682,Fannie Lou Hamer Freedom High School,Bronx,9,12,10460,493,Consortium School,"English Language and Composition, Spanish Language and Culture, United States History",,8:45 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1021 Jennings Street
+Bronx, NY 10460
+(40.83080715400047, -73.88602131599964)"
+12X684,Wings Academy,Bronx,9,12,10460,534,,"Biology, Calculus AB, English Language and Composition, United States History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"1122 East 180 Street
+Bronx, NY 10460
+(40.84180522100047, -73.87541771299965)"
+12X692,Monroe Academy for Visual Arts & Design,Bronx,9,12,10472,460,,English Literature and Composition,,8:30 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"1300 Boynton Avenue
+Bronx, NY 10472
+(40.83136649000045, -73.87882327699964)"
+13K265,Dr. Susan S. McKinney Secondary School of the Arts,Brooklyn,6,12,11205,503,,"Art History, English Literature and Composition, Environmental Science, Spanish Language and Culture, Studio Art: Drawing",,8:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,5,"101 Park Avenue
+Brooklyn, NY 11205
+(40.69634377300048, -73.97577110199967)"
+13K350,Urban Assembly High School of Music and Art,Brooklyn,9,12,11201,394,,English Language and Composition,,8:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"49 Flatbush Avenue Extension
+Brooklyn, NY 11201
+(40.69717472700046, -73.98495968899965)"
+13K412,"Brooklyn Community High School of Communication, Arts and Media",Brooklyn,9,12,11205,401,,"English Literature and Composition, Statistics, United States History",,8:30 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"300 Willoughby Avenue
+Brooklyn, NY 11205
+(40.69258225600049, -73.95887311699965)"
+13K419,"Science Skills Center High School for Science, Technology and the Creative Arts",Brooklyn,9,12,11201,537,,"Biology, Calculus AB, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, Music Theory, Psychology, United States History","Biology, Environmental Science",8:07 AM,3:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"49 Flatbush Avenue Extension
+Brooklyn, NY 11201
+(40.69717472700046, -73.98495968899965)"
+13K430,Brooklyn Technical High School,Brooklyn,9,12,11217,5458,Specialized School,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Comparative Government and Politics, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Human Geography, Italian Language and Culture, Macroeconomics, Microeconomics, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Psychology, Spanish Language and Culture, Statistics, Studio Art: 2-D Design, Studio Art: 3-D Design, United States Government and Politics, United States History, World History","Microeconomics, Physics B",8:45 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"29 Ft Greene Place
+Brooklyn, NY 11217
+(40.688107423000474, -73.97674507199963)"
+13K439,Brooklyn International High School,Brooklyn,9,12,11201,343,"Consortium, International School",,,9:15 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"49 Flatbush Avenue Extension
+Brooklyn, NY 11201
+(40.69717472700046, -73.98495968899965)"
+13K483,The Urban Assembly School for Law and Justice,Brooklyn,9,12,11201,449,,"English Language and Composition, Environmental Science, Microeconomics",,8:40 AM,3:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"283 Adams Street
+Brooklyn, NY 11201
+(40.69462011900049, -73.98862394499963)"
+13K499,ACORN Community High School,Brooklyn,9,12,11238,623,,"Biology, Calculus AB, English Language and Composition, Psychology, United States History",,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"561 Grand Avenue
+Brooklyn, NY 11238
+(40.678508914000474, -73.96206730599965)"
+13K527,Urban Assembly Institute of Math and Science for Young Women,Brooklyn,6,12,11201,508,All-Girls School,"Calculus AB, English Literature and Composition, French Language and Culture, Statistics",,8:30 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"283 Adams Street
+Brooklyn, NY 11201
+(40.69462011900049, -73.98862394499963)"
+13K595,Bedford Academy High School,Brooklyn,9,12,11216,361,,"Biology, Calculus AB, Chemistry, English Language and Composition, Music Theory, Spanish Language and Culture, Statistics, United States History, World History",,8:00 AM,4:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"1119 Bedford Avenue
+Brooklyn, NY 11216
+(40.68538126900046, -73.95426759999964)"
+13K605,George Westinghouse Career and Technical Education High School,Brooklyn,9,12,11201,702,CTE School,"English Literature and Composition, United States History, World History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,4,"105 Johnson Street
+Brooklyn, NY 11201
+(40.69494440700049, -73.98603532399966)"
+13K670,Benjamin Banneker Academy,Brooklyn,9,12,11205,907,,"Biology, Calculus AB, Calculus BC, Chemistry, English Language and Composition, English Literature and Composition, Psychology, Statistics, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,4,"71-77 Clinton Avenue
+Brooklyn, NY 11205
+(40.69566241300049, -73.96928607699965)"
+13K674,"City Polytechnic High School of Engineering, Architecture, and Technology",Brooklyn,9,12,11201,451,CTE School,,,8:40 AM,4:07 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"105 Johnson Street
+Brooklyn, NY 11201
+(40.69494440700049, -73.98603532399966)"
+14K071,Juan Morel Campos Secondary School,Brooklyn,6,12,11206,778,,"Chemistry, English Language and Composition, English Literature and Composition, Physics B, Spanish Language and Culture, Studio Art: 3-D Design, Studio Art: Drawing, United States Government and Politics",,8:00 AM,2:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,4,"215 Heyward Street
+Brooklyn, NY 11206
+(40.7035773610005, -73.95323731199966)"
+14K322,Foundations Academy,Brooklyn,9,12,11206,110,,"Biology, Calculus AB, English Literature and Composition, United States History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"70 Tompkins Avenue
+Brooklyn, NY 11206
+(40.69706108300045, -73.94667520499968)"
+14K449,"Brooklyn Latin School, The",Brooklyn,9,12,11206,592,Specialized School,,,8:00 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"223 Graham Avenue
+Brooklyn, NY 11206
+(40.709899960000484, -73.94365993499963)"
+14K454,Green School: An Academy for Environmental Careers,Brooklyn,9,12,11206,328,,English Literature and Composition,,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Not Functionally Accessible,2,"223 Graham Avenue
+Brooklyn, NY 11206
+(40.709899960000484, -73.94365993499963)"
+14K474,PROGRESS High School for Professional Careers,Brooklyn,9,12,11211,1083,,"Biology, Calculus AB, English Language and Composition, Human Geography, Music Theory, Spanish Literature and Culture, Studio Art: 2-D Design, Studio Art: 3-D Design, Studio Art: Drawing, United States Government and Politics, United States History","Art History, Biology, English Language and Composition, Spanish Language and Culture, United States History",8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,4,"850 Grand Street
+Brooklyn, NY 11211
+(40.71196311300048, -73.94043436699963)"
+14K477,School for Legal Studies,Brooklyn,9,12,11211,641,,"Calculus AB, Chemistry, English Language and Composition, Music Theory, United States History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"850 Grand Street
+Brooklyn, NY 11211
+(40.71196311300048, -73.94043436699963)"
+14K478,"The High School for Enterprise, Business and Technology",Brooklyn,9,12,11211,1016,,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Environmental Science, Music Theory, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States History, World History",,7:45 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,4,"850 Grand Street
+Brooklyn, NY 11211
+(40.71196311300048, -73.94043436699963)"
+14K488,Brooklyn Preparatory High School,Brooklyn,9,12,11211,489,,"Calculus AB, Chemistry, English Language and Composition, European History, Spanish Language and Culture, United States History",,8:20 AM,3:10 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"257 North 6 Street
+Brooklyn, NY 11211
+(40.71503755100048, -73.95464995899965)"
+14K558,Williamsburg High School for Architecture and Design,Brooklyn,9,12,11211,579,,"Calculus AB, English Language and Composition, Human Geography, Spanish Language and Culture, United States History",,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"257 North 6 Street
+Brooklyn, NY 11211
+(40.71503755100048, -73.95464995899965)"
+14K561,Williamsburg Preparatory School,Brooklyn,9,12,11211,671,,"Calculus AB, English Language and Composition, English Literature and Composition, Human Geography, Spanish Language and Culture, Statistics, United States History",,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"257 North 6 Street
+Brooklyn, NY 11211
+(40.71503755100048, -73.95464995899965)"
+14K586,Lyons Community School,Brooklyn,6,12,11206,546,,,,8:40 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"223 Graham Avenue
+Brooklyn, NY 11206
+(40.709899960000484, -73.94365993499963)"
+14K610,Automotive High School,Brooklyn,9,12,11222,420,CTE School,"English Literature and Composition, Environmental Science, Studio Art: Drawing, World History","Biology, Calculus AB, Physics B",8:45 AM,3:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,4,"50 Bedford Avenue
+Brooklyn, NY 11222
+(40.72264264000046, -73.95258304499964)"
+14K614,Young Women's Leadership School of Brooklyn,Brooklyn,6,12,11206,351,All-Girls School,,,7:30 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"325 Bushwick Avenue
+Brooklyn, NY 11206
+(40.70560054300046, -73.93947806699964)"
+14K632,Frances Perkins Academy,Brooklyn,9,12,11222,157,,"English Language and Composition, United States History","English Language and Composition, United States History",8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"50 Bedford Avenue
+Brooklyn, NY 11222
+(40.72264264000046, -73.95258304499964)"
+14K685,El Puente Academy for Peace and Justice,Brooklyn,9,12,11211,225,Consortium School,,,9:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"250 Hooper Street
+Brooklyn, NY 11211
+(40.705765931000485, -73.95572857199966)"
+15K423,Brooklyn Frontiers High School,Brooklyn,9,12,11201,169,,,,8:20 AM,3:09 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"112 Schermerhorn Street
+Brooklyn, NY 11201
+(40.69020457500045, -73.98927037499965)"
+15K429,Brooklyn School for Global Studies,Brooklyn,6,12,11201,275,Consortium School,"Art History, Calculus AB, English Language and Composition, United States History","Art History, Calculus AB",8:45 AM,3:10 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"284 Baltic Street
+Brooklyn, NY 11201
+(40.68545180600046, -73.99349146499964)"
+15K448,Brooklyn Secondary School for Collaborative Studies,Brooklyn,6,12,11231,670,Consortium School,,,8:30 AM,2:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"610 Henry Street
+Brooklyn, NY 11231
+(40.679863998000485, -74.00148225799967)"
+15K462,Secondary School for Law,Brooklyn,9,12,11215,389,,"Calculus AB, English Language and Composition, English Literature and Composition, Spanish Language and Culture, United States History",,8:25 AM,3:12 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"237 7 Avenue
+Brooklyn, NY 11215
+(40.66959817500049, -73.97925552199968)"
+15K463,Secondary School for Journalism,Brooklyn,9,12,11215,271,,"Comparative Government and Politics, English Literature and Composition",,8:25 AM,3:12 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"237 7 Avenue
+Brooklyn, NY 11215
+(40.66959817500049, -73.97925552199968)"
+15K464,Park Slope Collegiate,Brooklyn,6,12,11215,379,,,,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"237 7 Avenue
+Brooklyn, NY 11215
+(40.66959817500049, -73.97925552199968)"
+15K497,School for International Studies,Brooklyn,6,12,11201,479,,"English Language and Composition, Environmental Science, Statistics, United States History, World History",,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"284 Baltic Street
+Brooklyn, NY 11201
+(40.68545180600046, -73.99349146499964)"
+15K519,Cobble Hill School of American Studies,Brooklyn,9,12,11201,571,,"Biology, English Language and Composition, English Literature and Composition, United States History, World History","Biology, Calculus AB",8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"347 Baltic Street
+Brooklyn, NY 11201
+(40.68457913700047, -73.99109316299968)"
+15K592,Khalil Gibran International Academy,Brooklyn,9,12,11217,97,,"Biology, Chemistry, English Literature and Composition, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"362 Schermerhorn Street
+Brooklyn, NY 11217
+(40.686741862000474, -73.98022906499966)"
+15K656,Brooklyn High School of the Arts,Brooklyn,9,12,11217,815,,"Calculus AB, Chemistry, English Literature and Composition, Music Theory, United States History, World History","Calculus AB, Chemistry",8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,5,"345 Dean Street
+Brooklyn, NY 11217
+(40.683653990000494, -73.98047275099964)"
+15K667,Sunset Park High School,Brooklyn,9,12,11232,1309,,Spanish Language and Culture,,8:45 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"153 35Th Street
+Brooklyn, NY 11232
+(40.65595284400047, -74.00549732499962)"
+15K684,Millennium Brooklyn HS,Brooklyn,9,12,11215,387,,"Chemistry, English Literature and Composition, United States History",,8:00 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"237 7 Avenue
+Brooklyn, NY 11215
+(40.66959817500049, -73.97925552199968)"
+16K393,Frederick Douglass Academy IV Secondary School,Brooklyn,9,12,11221,155,,"English Language and Composition, United States History",French Language and Culture,8:00 AM,2:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1014 Lafayette Avenue
+Brooklyn, NY 11221
+(40.69213370400047, -73.93150317199962)"
+16K455,Boys and Girls High School,Brooklyn,9,12,11213,940,,"English Literature and Composition, United States Government and Politics, United States History, World History",,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"1700 Fulton Street
+Brooklyn, NY 11213
+(40.67943304500045, -73.93243176999965)"
+16K498,Brooklyn High School for Law and Technology,Brooklyn,9,12,11221,518,,"Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Physics B, United States History, World History","Biology, Calculus AB, Chemistry, English Literature and Composition, Physics B, Spanish Language and Culture, United States Government and Politics",8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"1396 Broadway
+Brooklyn, NY 11221
+(40.68892554200045, -73.92108409899964)"
+16K594,Gotham Professional Arts Academy,Brooklyn,9,12,11233,242,Consortium School,,,8:45 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"265 Ralph Avenue
+Brooklyn, NY 11233
+(40.68045547300045, -73.92219609199964)"
+16K688,The Brooklyn Academy of Global Finance,Brooklyn,9,12,11221,148,,"English Literature and Composition, Environmental Science",,8:15 AM,3:12 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"125 Stuyvesant Avenue
+Brooklyn, NY 11221
+(40.691537765000476, -73.93372578199967)"
+16K765,Nelson Mandela School for Social Justice,Brooklyn,9,10,11213,N/A,New School,"N/A (Expected: Biology, Calculus BC, English  Language and Composition, Psychology, Statistics)","N/A (Expected: Art History, Biology,  Statistics) ",8:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1700 Fulton Street
+Brooklyn, NY 11213
+(40.67943304500045, -73.93243176999965)"
+17K122,Pathways in Technology Early College High School (P-Tech),Brooklyn,9,12,11213,330,NYC P-Tech 9-14 School,,,8:15 AM,4:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"150 Albany Avenue
+Brooklyn, NY 11213
+(40.67540230700047, -73.93888117599965)"
+17K382,Academy for College Preparation and Career Exploration: A College Board School,Brooklyn,6,12,11226,532,,,,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"911 Flatbush Avenue
+Brooklyn, NY 11226
+(40.64943967500045, -73.95843119799963)"
+17K408,Academy of Hospitality and Tourism,Brooklyn,9,12,11226,303,,,,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"911 Flatbush Avenue
+Brooklyn, NY 11226
+(40.64943967500045, -73.95843119799963)"
+17K524,International High School at Prospect Heights,Brooklyn,9,12,11225,421,International School,,,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"883 Classon Avenue
+Brooklyn, NY 11225
+(40.67029890700047, -73.96164787599963)"
+17K528,The High School for Global Citizenship,Brooklyn,9,12,11225,256,,,"Art History, Biology, Calculus AB, Chemistry, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Macroeconomics, Microeconomics, Physics B, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"883 Classon Avenue
+Brooklyn, NY 11225
+(40.67029890700047, -73.96164787599963)"
+17K531,"School for Human Rights, The",Brooklyn,6,12,11203,416,,Calculus AB,Biology,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"600 Kingston Avenue
+Brooklyn, NY 11203
+(40.6595170060005, -73.94254649899966)"
+17K533,School for Democracy and Leadership,Brooklyn,6,12,11203,330,,,,8:00 AM,2:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"600 Kingston Avenue
+Brooklyn, NY 11203
+(40.6595170060005, -73.94254649899966)"
+17K537,High School for Youth and Community Development at Erasmus,Brooklyn,9,12,11226,347,,"English Literature and Composition, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"911 Flatbush Avenue
+Brooklyn, NY 11226
+(40.64943967500045, -73.95843119799963)"
+17K539,High School for Service & Learning at Erasmus,Brooklyn,9,12,11226,434,,"English Literature and Composition, United States History",Spanish Language and Culture,8:00 AM,3:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"911 Flatbush Avenue
+Brooklyn, NY 11226
+(40.64943967500045, -73.95843119799963)"
+17K543,"Science, Technology and Research Early College High School at Erasmus",Brooklyn,6,12,11226,532,,"English Language and Composition, English Literature and Composition",,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"911 Flatbush Avenue
+Brooklyn, NY 11226
+(40.64943967500045, -73.95843119799963)"
+17K546,High School for Public Service: Heroes of Tomorrow,Brooklyn,9,12,11203,439,,"Biology, Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Statistics, United States History, World History",,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,3,"600 Kingston Avenue
+Brooklyn, NY 11203
+(40.6595170060005, -73.94254649899966)"
+17K547,Brooklyn Academy of Science and the Environment,Brooklyn,9,12,11225,477,,"Biology, Calculus AB, English Language and Composition, English Literature and Composition",,8:30 AM,4:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"883 Classon Avenue
+Brooklyn, NY 11225
+(40.67029890700047, -73.96164787599963)"
+17K548,Brooklyn School for Music & Theatre,Brooklyn,9,12,11225,399,,"English Language and Composition, United States History",,8:10 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"883 Classon Avenue
+Brooklyn, NY 11225
+(40.67029890700047, -73.96164787599963)"
+17K590,Medgar Evers College Preparatory School,Brooklyn,6,12,11225,1248,,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, French Language and Culture, Human Geography, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,7:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"1186 Carroll Street
+Brooklyn, NY 11225
+(40.66716208200046, -73.95085795499966)"
+17K600,Clara Barton High School,Brooklyn,9,12,11225,1525,CTE School,"Biology, Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, European History, French Language and Culture, United States History, World History",,8:15 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Dual Language: Haitian Creole, Russian; Transitional Bilingual Program: Haitian Creole",Functionally Accessible,4,"901 Classon Avenue
+Brooklyn, NY 11225
+(40.67027055700049, -73.96165482399965)"
+17K745,Brooklyn Institute for Liberal Arts,Brooklyn,9,12,11203,170,,"English Language and Composition, English Literature and Composition, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"600 Kingston Avenue
+Brooklyn, NY 11203
+(40.6595170060005, -73.94254649899966)"
+17K751,Academy for Health Careers,Brooklyn,9,12,11213,314,CTE School,"English Language and Composition, United States History",,8:30 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"150 Albany Avenue
+Brooklyn, NY 11213
+(40.67540230700047, -73.93888117599965)"
+18K563,It Takes a Village Academy,Brooklyn,9,12,11203,513,,"Calculus AB, Chemistry, English Language and Composition, French Language and Culture, Physics B, Physics C: Electricity and Magnetism, Spanish Language and Culture, United States Government and Politics, United States History, World History","Computer Science A, Physics B",8:15 AM,4:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"5800 Tilden Avenue
+Brooklyn, NY 11203
+(40.64866366300049, -73.92189876199967)"
+18K566,Brooklyn Generation School,Brooklyn,9,12,11236,297,,,,8:30 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"6565 Flatlands Avenue
+Brooklyn, NY 11236
+(40.63262743000047, -73.91779798899967)"
+18K567,Brooklyn Theatre Arts High School,Brooklyn,9,12,11236,401,,"Biology, English Literature and Composition",,8:30 AM,3:23 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"6565 Flatlands Avenue
+Brooklyn, NY 11236
+(40.63262743000047, -73.91779798899967)"
+18K569,Kurt Hahn Expeditionary Learning School,Brooklyn,9,12,11203,288,,,,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"5800 Tilden Avenue
+Brooklyn, NY 11203
+(40.64866366300049, -73.92189876199967)"
+18K576,Victory Collegiate High School,Brooklyn,9,12,11236,332,,"English Language and Composition, World History","English Literature and Composition, Macroeconomics, World History",8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"6565 Flatlands Avenue
+Brooklyn, NY 11236
+(40.63262743000047, -73.91779798899967)"
+18K589,Arts & Media Preparatory Academy,Brooklyn,9,12,11203,298,,,"English Language and Composition, English Literature and Composition",8:50 AM,3:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"905 Winthrop Street
+Brooklyn, NY 11203
+(40.65845703000048, -73.92903317399964)"
+18K617,High School for Innovation in Advertising and Media,Brooklyn,9,12,11236,313,CTE School,"Environmental Science, Psychology",,8:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1600 Rockaway Parkway
+Brooklyn, NY 11236
+(40.641844268000455, -73.89868729099965)"
+18K629,Cultural Academy for the Arts and Sciences,Brooklyn,9,12,11203,309,,"Calculus AB, Chemistry, Psychology",Chemistry,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"5800 Tilden Avenue
+Brooklyn, NY 11203
+(40.64866366300049, -73.92189876199967)"
+18K633,High School for Medical Professions,Brooklyn,9,12,11236,441,,"Biology, Calculus AB, Psychology",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1600 Rockaway Parkway
+Brooklyn, NY 11236
+(40.641844268000455, -73.89868729099965)"
+18K637,Academy for Conservation and the Environment,Brooklyn,9,12,11236,280,,"Calculus AB, English Literature and Composition","Biology, Chemistry, English Literature and Composition, Environmental Science, Human Geography, Macroeconomics, Microeconomics, Psychology, United States History, World History",8:33 AM,3:19 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"6565 Flatlands Avenue
+Brooklyn, NY 11236
+(40.63262743000047, -73.91779798899967)"
+18K642,Urban Action Academy,Brooklyn,9,12,11236,312,,English Literature and Composition,,8:10 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1600 Rockaway Parkway
+Brooklyn, NY 11236
+(40.641844268000455, -73.89868729099965)"
+19K404,Academy for Young Writers,Brooklyn,6,12,11208,502,,"English Language and Composition, English Literature and Composition",,9:05 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1065 Elton Street
+Brooklyn, NY 11208
+(40.65752260200048, -73.87477702499967)"
+19K409,East New York Family Academy,Brooklyn,6,12,11207,468,,"Comparative Government and Politics, English Literature and Composition",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"2057 Linden Boulevard
+Brooklyn, NY 11207
+(40.66063702400049, -73.88634164999962)"
+19K422,Spring Creek Community School,Brooklyn,6,9,11208,169,New School,,,,,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1065 Elton Street
+Brooklyn, NY 11208
+(40.65752260200048, -73.87477702499967)"
+19K502,FDNY High School for Fire and Life Safety,Brooklyn,9,12,11207,296,,English Literature and Composition,"Biology, United States Government and Politics, World History",8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"400 Pennsylvania Avenue
+Brooklyn, NY 11207
+(40.66755311100047, -73.89480053699964)"
+19K504,High School for Civil Rights,Brooklyn,9,12,11207,349,,,,8:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"400 Pennsylvania Avenue
+Brooklyn, NY 11207
+(40.66755311100047, -73.89480053699964)"
+19K507,Performing Arts and Technology High School,Brooklyn,9,12,11207,428,,"Biology, Calculus AB, Chemistry, English Literature and Composition","English Literature and Composition, United States Government and Politics",8:05 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,3,"400 Pennsylvania Avenue
+Brooklyn, NY 11207
+(40.66755311100047, -73.89480053699964)"
+19K510,World Academy for Total Community Health High School,Brooklyn,9,12,11207,309,,"Biology, Psychology",,8:05 AM,2:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"400 Pennsylvania Avenue
+Brooklyn, NY 11207
+(40.66755311100047, -73.89480053699964)"
+19K583,Multicultural High School,Brooklyn,9,12,11208,322,,,,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,1,"999 Jamaica Avenue
+Brooklyn, NY 11208
+(40.69114396200047, -73.86842605699962)"
+19K615,Transit Tech Career and Technical Education High School,Brooklyn,9,12,11208,1167,CTE School,"Calculus AB, Computer Science A, English Language and Composition, United States History, World History",,8:30 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,6,"1 Wells Street
+Brooklyn, NY 11208
+(40.6782307310005, -73.87597301199963)"
+19K618,Academy of Innovative Technology,Brooklyn,9,12,11208,440,CTE School,"English Literature and Composition, United States History",,7:45 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"999 Jamaica Avenue
+Brooklyn, NY 11208
+(40.69114396200047, -73.86842605699962)"
+19K639,Brooklyn Lab School,Brooklyn,9,12,11208,364,,"Biology, English Literature and Composition, Spanish Literature and Culture, Statistics, United States History","Biology, Calculus AB, English Literature and Composition, United States History",8:22 AM,3:11 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"999 Jamaica Avenue
+Brooklyn, NY 11208
+(40.69114396200047, -73.86842605699962)"
+19K659,Cypress Hills Collegiate Preparatory School,Brooklyn,9,12,11208,370,,"English Literature and Composition, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, World History","Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Macroeconomics, Microeconomics, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, United States History",8:10 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"999 Jamaica Avenue
+Brooklyn, NY 11208
+(40.69114396200047, -73.86842605699962)"
+19K660,W. H. Maxwell Career and Technical Education High School,Brooklyn,9,12,11207,463,CTE School,"English Literature and Composition, United States History",,8:00 AM,3:07 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"145 Pennsylvania Avenue
+Brooklyn, NY 11207
+(40.674224214000446, -73.89645352099967)"
+19K683,"The School for Classics: An Academy of Thinkers, Writers and Peformers",Brooklyn,9,12,11208,309,,"English Literature and Composition, Macroeconomics, Psychology, United States Government and Politics, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"370 Fountain Avenue
+Brooklyn, NY 11208
+(40.67068325000048, -73.87421747999963)"
+19K764,The Urban Assembly School for Collaborative Healthcare,Brooklyn,9,10,11208,N/A,CTE - New School,"N/A (Expected: Biology, Calculus BC, Chemistry,  Economics: Micro, English Language and Composition, Environment Science,  European History, Government and Politics: United States, Human Geography,  Psychology, and Statistics)  ",Please contact the school for more information,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"999 Jamaica Avenue
+Brooklyn, NY 11208
+(40.69114396200047, -73.86842605699962)"
+20K445,New Utrecht High School,Brooklyn,9,12,11214,3362,,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, English Language and Composition, Human Geography, Macroeconomics, Microeconomics, Physics B, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Dual Language: Chinese; Transitional Bilingual Program: Chinese,Functionally Accessible,8,"1601 80 Street
+Brooklyn, NY 11214
+(40.61342449400047, -74.00365376599967)"
+20K485,High School of Telecommunication Arts and Technology,Brooklyn,9,12,11220,1313,,"Biology, Calculus AB, Chemistry, English Language and Composition, Physics B, Spanish Language and Culture, Statistics, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"350 67 Street
+Brooklyn, NY 11220
+(40.63724571600045, -74.02381647299967)"
+20K490,Fort Hamilton High School,Brooklyn,9,12,11209,4317,,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, English Language and Composition, English Literature and Composition, Environmental Science, Physics B, Psychology, Spanish Language and Culture, Studio Art: 2-D Design, Studio Art: Drawing, United States Government and Politics, United States History, World History",,9:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Arabic, Chinese, Spanish",Functionally Accessible,5,"8301 Shore Road
+Brooklyn, NY 11209
+(40.62791337300047, -74.03995233799964)"
+20K505,Franklin Delano Roosevelt High School,Brooklyn,9,12,11204,3130,,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, English Language and Composition, English Literature and Composition, European History, Physics B, Spanish Language and Culture, Statistics, United States History",,9:30 AM,4:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Chinese, Spanish",Not Functionally Accessible,4,"5800 20 Avenue
+Brooklyn, NY 11204
+(40.620263373000455, -73.98201099999966)"
+20K609,Urban Assembly School for Criminal Justice,Brooklyn,6,12,11204,485,All-Girls School,"Calculus AB, Chemistry, English Literature and Composition, United States Government and Politics, United States History",,8:45 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"4200 16 Avenue
+Brooklyn, NY 11204
+(40.63490809500047, -73.98151907699963)"
+21K337,International High School at Lafayette,Brooklyn,9,12,11214,345,International School,,,9:15 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2630 Benson Avenue
+Brooklyn, NY 11214
+(40.59359381100046, -73.98472923199967)"
+21K344,Rachel Carson High School for Coastal Studies,Brooklyn,9,12,11224,517,,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Physics B, Psychology, United States Government and Politics",,8:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"521 West Avenue
+Brooklyn, NY 11224
+(40.582116150000445, -73.97289449199963)"
+21K348,High School of Sports Management,Brooklyn,9,12,11214,323,,"Calculus AB, English Language and Composition, World History",,7:45 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2630 Benson Avenue
+Brooklyn, NY 11214
+(40.59359381100046, -73.98472923199967)"
+21K410,Abraham Lincoln High School,Brooklyn,9,12,11235,2313,,"Calculus AB, English Language and Composition, English Literature and Composition, Environmental Science, Human Geography, Psychology, United States Government and Politics, World History",,7:28 AM,3:10 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,6,"2800 Ocean Parkway
+Brooklyn, NY 11235
+(40.58230836300049, -73.96746574699966)"
+21K468,Kingsborough Early College School,Brooklyn,6,12,11214,551,,,,8:00 AM,2:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2630 Benson Avenue
+Brooklyn, NY 11214
+(40.59359381100046, -73.98472923199967)"
+21K525,Edward R. Murrow High School,Brooklyn,9,12,11230,4021,,"Biology, Calculus AB, Calculus BC, Chemistry, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Human Geography, Macroeconomics, Music Theory, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States Government and Politics, United States History",,8:05 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Chinese, Spanish",Functionally Accessible,7,"1600 Avenue L
+Brooklyn, NY 11230
+(40.62050435800046, -73.95923393299967)"
+21K540,John Dewey High School,Brooklyn,9,12,11223,1937,,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Language and Composition, English Literature and Composition, European History, Macroeconomics, Microeconomics, Physics B, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,8:13 AM,3:05 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Chinese,Not Functionally Accessible,8,"50 Avenue X
+Brooklyn, NY 11223
+(40.589238098000465, -73.98174652399967)"
+21K559,Life Academy High School for Film and Music,Brooklyn,9,12,11214,260,,,"Biology, English Literature and Composition, European History, United States History, World History",8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2630 Benson Avenue
+Brooklyn, NY 11214
+(40.59359381100046, -73.98472923199967)"
+21K572,Expeditionary Learning School for Community Leaders,Brooklyn,9,12,11214,276,,"Art History, Biology, Calculus AB, Physics B",,8:25 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2630 Benson Avenue
+Brooklyn, NY 11214
+(40.59359381100046, -73.98472923199967)"
+21K620,William E. Grady Career and Technical Education High School,Brooklyn,9,12,11235,636,CTE School,"Biology, English Language and Composition, English Literature and Composition, United States History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,6,"25 Brighton 4Th Road
+Brooklyn, NY 11235
+(40.58254803800048, -73.96371622099963)"
+21K690,Brooklyn Studio Secondary School,Brooklyn,6,12,11214,902,,"English Literature and Composition, United States History",,8:00 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,3,"8310 21St Avenue
+Brooklyn, NY 11214
+(40.6048770000005, -73.99441715399968)"
+22K405,Midwood High School,Brooklyn,9,12,11210,3877,,"Biology, Calculus AB, Calculus BC, Chemistry, English Literature and Composition, Environmental Science, European History, French Language and Culture, Human Geography, Macroeconomics, Physics B, Physics C: Mechanics, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,8:45 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,4,"2839 Bedford Avenue
+Brooklyn, NY 11210
+(40.63333549400045, -73.95291606399962)"
+22K425,James Madison High School,Brooklyn,9,12,11229,3055,,"Biology, Calculus AB, Calculus BC, Chemistry, Computer Science A, English Language and Composition, English Literature and Composition, Macroeconomics, Microeconomics, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,8:10 AM,2:48 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"3787 Bedford Avenue
+Brooklyn, NY 11229
+(40.60975848100048, -73.94845183699965)"
+22K535,Leon M. Goldstein High School for the Sciences,Brooklyn,9,12,11235,1046,,"Biology, Calculus AB, Calculus BC, English Literature and Composition, Microeconomics, Spanish Language and Culture, Statistics, Studio Art: Drawing, United States History, World History",,8:15 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1830 Shore Boulevard
+Brooklyn, NY 11235
+(40.5808471360005, -73.93608856899965)"
+22K555,Brooklyn College Academy,Brooklyn,9,12,11218,618,,,,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"350 Coney Island Avenue
+Brooklyn, NY 11218
+(40.64920062700048, -73.97169462099964)"
+22K611,Origins High School,Brooklyn,9,11,11235,85,,,,8:45 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"3000 Avenue X
+Brooklyn, NY 11235
+(40.59419299700045, -73.93683809599963)"
+23K493,Brooklyn Collegiate: A College Board School,Brooklyn,9,12,11233,387,,"Biology, English Literature and Composition, Studio Art: Drawing",,8:30 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"2021 Bergen Street
+Brooklyn, NY 11233
+(40.67413738300047, -73.91349449099965)"
+23K514,Frederick Douglass Academy VII High School,Brooklyn,9,12,11212,328,,"Art History, English Literature and Composition, Physics C: Mechanics",,9:07 AM,3:27 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"226 Bristol Street
+Brooklyn, NY 11212
+(40.665810912000495, -73.91169964499966)"
+23K644,Eagle Academy for Young Men II,Brooklyn,6,12,11233,513,All-Boys School,"Biology, Calculus AB, Chemistry, English Literature and Composition, Psychology, United States History",,8:45 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"1137 Herkimer Street
+Brooklyn, NY 11233
+(40.677825501000484, -73.91582337999967)"
+23K697,Teachers Preparatory High School,Brooklyn,6,12,11212,458,,"Calculus AB, English Literature and Composition, United States History",,8:20 AM,2:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"226 Bristol Street
+Brooklyn, NY 11212
+(40.665810912000495, -73.91169964499966)"
+24Q236,International High School for Health Sciences,Queens,9,11,11373,50,International School,,,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"48-01 90 Street
+Elmhurst, NY 11373
+(40.74120520000048, -73.87472988399963)"
+24Q264,Academy of Finance and Enterprise,Queens,9,12,11101,467,,"Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,8:15 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"30-20 Thomson Avenue
+Long Island City, NY 11101
+(40.74509351900048, -73.93681389799963)"
+24Q267,High School of Applied Communication,Queens,9,12,11101,421,,"Biology, English Literature and Composition, European History, Human Geography, United States History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"30-20 Thomson Avenue
+Long Island City, NY 11101
+(40.74509351900048, -73.93681389799963)"
+24Q293,Civic Leadership Academy,Queens,9,12,11373,453,,"English Literature and Composition, United States Government and Politics, United States History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"45-10 94Th Street
+Elmhurst, NY 11373
+(40.74330287300046, -73.87057497699965)"
+24Q296,Pan American International High School,Queens,9,12,11373,367,International School,,,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"45-10 94Th Street
+Elmhurst, NY 11373
+(40.74330287300046, -73.87057497699965)"
+24Q299,Bard High School Early College Queens,Queens,9,12,11101,600,,,,9:00 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"30-20 Thomson Avenue
+Long Island City, NY 11101
+(40.74509351900048, -73.93681389799963)"
+24Q455,Newtown High School,Queens,9,12,11373,2074,,"Biology, Calculus AB, Calculus BC, Chinese Language and Culture, English Language and Composition, English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture, World History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Chinese, Spanish",Not Functionally Accessible,4,"48-01 90 Street
+Elmhurst, NY 11373
+(40.74120520000048, -73.87472988399963)"
+24Q485,Grover Cleveland High School,Queens,9,12,11385,1869,,"Biology, Calculus AB, Calculus BC, Chemistry, English Language and Composition, English Literature and Composition, European History, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States History",,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,6,"21-27 Himrod Street
+Ridgewood, NY 11385
+(40.71122219500046, -73.90865212999967)"
+24Q520,Middle College High School at LaGuardia Community College,Queens,9,12,11101,495,Consortium School,,,8:00 AM,1:55 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"45-35 Van Dam Street
+Long Island City, NY 11101
+(40.744149536000464, -73.93362674099967)"
+24Q530,International High School at LaGuardia Community College,Queens,9,12,11101,503,"Consortium, International School","Biology, Calculus AB, Chemistry, Chinese Language and Culture, Computer Science A, English Language and Composition, Psychology, Spanish Language and Culture, Spanish Literature and Culture, Studio Art: Drawing, United States History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"45-35 Van Dam Street
+Long Island City, NY 11101
+(40.744149536000464, -73.93362674099967)"
+24Q550,High School for Arts and Business,Queens,9,12,11368,887,,"Art History, English Language and Composition, English Literature and Composition, Psychology, Spanish Language and Culture, Spanish Literature and Culture, United States History, World History",,8:45 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Not Functionally Accessible,1,"105-25 Horace Harding Expy N
+Corona, NY 11368
+(40.73741817000047, -73.85330572999965)"
+24Q560,"Robert F. Wagner, Jr. Secondary School for Arts and Technology",Queens,7,12,11101,631,,"Biology, English Literature and Composition",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"47-07 30 Place
+Long Island City, NY 11101
+(40.742263515000445, -73.93687612099967)"
+24Q585,Maspeth High School,Queens,9,12,11373,751,,"Biology, Calculus AB, Calculus BC, Chemistry, English Language and Composition, English Literature and Composition, Latin: Vergil, Macroeconomics, Physics B, Studio Art: 2-D Design, United States Government and Politics, United States History, World History",,8:15 AM,3:05 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"54-40 74Th Street
+Elmhurst, NY 11373
+(40.729538482000464, -73.88739052299962)"
+24Q600,Queens Vocational and Technical High School,Queens,9,12,11101,1514,CTE School,"European History, Human Geography, Physics B, Psychology, Spanish Language and Culture",,8:00 AM,4:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,7,"37-02 47 Avenue
+Long Island City, NY 11101
+(40.74218869400045, -73.92824329199965)"
+24Q610,Aviation Career & Technical Education High School,Queens,9,12,11101,2231,CTE School,"Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Physics B, United States Government and Politics, United States History, World History",,8:00 AM,4:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"45-30 36 Street
+Long Island City, NY 11101
+(40.7435936440005, -73.92907786499967)"
+25Q240,Veritas Academy,Queens,9,11,11354,124,,,,7:50 AM,2:40 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"35-01 Union Street
+Flushing, NY 11354
+(40.765243471000474, -73.82785528199963)"
+25Q241,Queens High School for Language Studies,Queens,9,11,11354,70,,,,8:00 AM,3:37 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Chinese,Not Functionally Accessible,1,"35-01 Union Street
+Flushing, NY 11354
+(40.765243471000474, -73.82785528199963)"
+25Q252,"Queens School of Inquiry, The",Queens,6,12,11366,590,,"Biology, Chemistry, Psychology",,8:38 AM,2:57 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"158-40 76 Road
+Fresh Meadows, NY 11366
+(40.72452298400049, -73.80942798999968)"
+25Q263,Flushing International High School,Queens,9,12,11355,412,International School,,,8:40 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"144-80 Barclay Avenue
+Flushing, NY 11355
+(40.760414170000445, -73.81837627799968)"
+25Q281,East-West School of International Studies,Queens,6,12,11355,643,,"Calculus AB, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, Human Geography, Psychology",,7:50 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"46-21 Colden Street
+Flushing, NY 11355
+(40.74930280500047, -73.82180810599965)"
+25Q285,World Journalism Preparatory: A College Board School,Queens,6,12,11358,609,,"Chemistry, English Language and Composition, English Literature and Composition, Environmental Science, Macroeconomics, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"34-65 192 Street
+Flushing, NY 11358
+(40.76512327300048, -73.79005967599966)"
+25Q425,John Bowne High School,Queens,9,12,11367,3722,,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Literature and Composition, Macroeconomics, Microeconomics, Physics C: Electricity and Magnetism, Spanish Language and Culture, Statistics, United States Government and Politics, United States History",,9:08 AM,3:47 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Chinese, Spanish",Functionally Accessible,4,"63-25 Main Street
+Flushing, NY 11367
+(40.73869720300047, -73.82479482099967)"
+25Q460,Flushing High School,Queens,9,12,11354,2499,,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Macroeconomics, Physics B, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States Government and Politics, United States History, World History",,8:51 AM,3:37 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Chinese, Spanish",Not Functionally Accessible,4,"35-01 Union Street
+Flushing, NY 11354
+(40.765243471000474, -73.82785528199963)"
+25Q525,Townsend Harris High School,Queens,9,12,11367,1151,,"Calculus AB, Calculus BC, English Literature and Composition, Environmental Science, European History, French Language and Culture, Human Geography, Japanese Language and Culture, Macroeconomics, Music Theory, Physics B, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,8:20 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"149-11 Melbourne Avenue
+Flushing, NY 11367
+(40.73440841000047, -73.82141748299966)"
+25Q670,Robert F. Kennedy Community High School,Queens,9,12,11366,685,,"Biology, Calculus AB, Calculus BC, English Literature and Composition, Human Geography, Spanish Language and Culture, United States Government and Politics",,8:00 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"75-40 Parsons Boulevard
+Fresh Meadows, NY 11366
+(40.72560316100049, -73.81072114699964)"
+26Q315,Business Technology Early College High School,Queens,9,10,11427,N/A,"NYC P-Tech 9-14, New School",,,8:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"230-17 Hillside Avenue
+Queens Village, NY 11427
+(40.73281710900045, -73.73965041299965)"
+26Q415,Benjamin N. Cardozo High School,Queens,9,12,11364,3628,,"Biology, Calculus AB, Calculus BC, Chemistry, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, Macroeconomics, Microeconomics, Physics B, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,9:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,5,"57-00 223Rd Street
+Oakland Gardens, NY 11364
+(40.75239242400045, -73.75608335799967)"
+26Q430,Francis Lewis High School,Queens,9,12,11365,4058,,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Language and Composition, English Literature and Composition, French Language and Culture, Human Geography, Japanese Language and Culture, Macroeconomics, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Psychology, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States Government and Politics, United States History, World History",,8:30 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Chinese,Functionally Accessible,5,"58-20 Utopia Parkway
+Fresh Meadows, NY 11365
+(40.74055571400049, -73.79284814599964)"
+26Q435,Martin Van Buren High School,Queens,9,12,11427,2096,,"Art History, Biology, Calculus AB, English Literature and Composition, United States History, World History",,7:45 AM,3:14 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,5,"230-17 Hillside Avenue
+Queens Village, NY 11427
+(40.73281710900045, -73.73965041299965)"
+26Q495,Bayside High School,Queens,9,12,11361,3241,,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Macroeconomics, Microeconomics, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Psychology, Spanish Language and Culture, Statistics, Studio Art: Drawing, United States History, World History","Comparative Government and Politics, Human Geography, Psychology, United States Government and Politics",8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,7,"32-24 Corporal Kennedy Street
+Bayside, NY 11361
+(40.771867242000496, -73.78038695199967)"
+26Q566,"Queens High School of Teaching, Liberal Arts and the Sciences",Queens,9,12,11426,1164,,"English Language and Composition, Statistics, United States History",,8:30 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"74-20 Commonwealth Blvd
+Bellerose, NY 11426
+(40.744904361000465, -73.72690964199967)"
+27Q260,Frederick Douglass Academy VI High School,Queens,9,12,11691,412,,"Calculus AB, English Language and Composition, English Literature and Composition, United States History","Biology, Physics B",7:45 AM,2:05 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"8-21 Bay 25 Street
+Far Rockaway, NY 11691
+(40.601989336000486, -73.76283432299965)"
+27Q262,Channel View School for Research,Queens,6,12,11694,642,,"Biology, English Language and Composition, Environmental Science, United States History","Art History, Calculus BC, English Language and Composition, English Literature and Composition, United States History, World History",8:15 AM,3:04 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"100-00 Beach Channel Drive
+Rockaway Park, NY 11694
+(40.58600718700046, -73.82308944399966)"
+27Q302,"Queens High School for Information, Research, and Technology",Queens,9,12,11691,322,,"Biology, English Literature and Composition, World History",,7:45 AM,4:10 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Dual Language: Spanish; Transitional Bilingual Program: Spanish,Not Functionally Accessible,2,"8-21 Bay 25 Street
+Far Rockaway, NY 11691
+(40.601989336000486, -73.76283432299965)"
+27Q308,Robert H. Goddard High School of Communication Arts and Technology,Queens,9,12,11417,598,,"Chemistry, English Literature and Composition, Environmental Science, Psychology, Spanish Language and Culture, United States History, World History","English Literature and Composition, Environmental Science, Psychology, World History",7:25 AM,2:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"138-30 Lafayette Street
+Ozone Park, NY 11417
+(40.6717694780005, -73.84497773899966)"
+27Q309,Academy of Medical Technology: A College Board School,Queens,6,12,11691,631,,,,8:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"8-21 Bay 25 Street
+Far Rockaway, NY 11691
+(40.601989336000486, -73.76283432299965)"
+27Q314,Epic High School – South,Queens,9,10,11420,N/A,New School,Based on student interest.  ,Based on student interest.  ,9:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"121-10 Rockaway Boulevard
+Queens, NY 11420
+(40.675735922000456, -73.81696833599966)"
+27Q323,Scholars' Academy,Queens,6,12,11694,1253,,"Art History, Biology, Calculus AB, Chemistry, English Language and Composition, English Literature and Composition, Spanish Language and Culture, Statistics, United States History, World History","Spanish Language and Culture, Statistics",8:45 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"320 Beach 104Th Street
+Rockaway Park, NY 11694
+(40.58413137400049, -73.82568121199967)"
+27Q324,Rockaway Park High School for Environmental Sustainability,Queens,9,12,11694,354,,"English Language and Composition, English Literature and Composition, Environmental Science, Psychology, United States History",,8:45 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"100-00 Beach Channel Drive
+Rockaway Park, NY 11694
+(40.58600718700046, -73.82308944399966)"
+27Q334,Epic High School – North,Queens,9,10,11419,N/A,New School,Based on student interest.,Based on student interest.,9:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"94-25 117th Street
+South Richmond Hill, NY 11419
+(40.69287706600045, -73.82930558099963)"
+27Q351,Rockaway Collegiate High School,Queens,9,12,11694,312,,"English Literature and Composition, Environmental Science","Art History, Biology, Calculus AB, English Language and Composition, Physics B, Psychology, Spanish Language and Culture, United States History, World History",8:30 AM,4:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"100-00 Beach Channel Drive
+Rockaway Park, NY 11694
+(40.58600718700046, -73.82308944399966)"
+27Q400,August Martin High School,Queens,9,12,11434,853,,"English Literature and Composition, Environmental Science, Statistics",English Language and Composition,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,4,"156-10 Baisley Boulevard
+Jamaica, NY 11434
+(40.67552680900047, -73.78343251299964)"
+27Q475,Richmond Hill High School,Queens,9,12,11418,2225,,"Biology, Calculus AB, English Literature and Composition, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History, World History",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Not Functionally Accessible,3,"89-30 114 Street
+Richmond Hill, NY 11418
+(40.6956492220005, -73.83358480499965)"
+27Q480,John Adams High School,Queens,9,12,11417,2838,,"Biology, Calculus AB, Calculus BC, Chemistry, English Literature and Composition, Environmental Science, Spanish Language and Culture, United States History, World History","Biology, Calculus AB, Calculus BC, Chemistry, English Literature and Composition, Environmental Science, Spanish Language and Culture, United States History, World History",8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Bengali, Spanish",Not Functionally Accessible,8,"101-01 Rockaway Boulevard
+Ozone Park, NY 11417
+(40.679831401000456, -73.83832266399963)"
+27Q650,"High School for Construction Trades, Engineering and Architecture",Queens,9,12,11416,946,CTE School,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Statistics, United States History, World History",,8:10 AM,2:34 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,3,"94-06 104Th Street
+Ozone Park, NY 11416
+(40.68939682600046, -73.84064100099965)"
+28Q167,Metropolitan Expeditionary Learning School,Queens,6,12,11375,605,,"Biology, Calculus AB, English Literature and Composition, United States Government and Politics",,8:30 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"91-30 Metropolitan Avenue
+Forest Hills, NY 11375
+(40.710435548000476, -73.85063015499964)"
+28Q284,York Early College Academy,Queens,6,12,11433,592,,,,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"108-35 167 Street
+Jamaica, NY 11433
+(40.69693735800047, -73.78698154099965)"
+28Q310,Queens Collegiate: A College Board School,Queens,6,12,11432,647,,"Biology, Calculus AB, Comparative Government and Politics, English Language and Composition, English Literature and Composition, Environmental Science, European History, Music Theory, Psychology, Spanish Language and Culture, United States History","Art History, Biology, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, French Language and Culture, German Language and Culture, Macroeconomics, Physics B, Statistics, Studio Art: Drawing, United States Government and Politics, World History",8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"167-01 Gothic Drive
+Jamaica, NY 11432
+(40.713577459000476, -73.79651782499963)"
+28Q325,Hillside Arts & Letters Academy,Queens,9,12,11432,420,,"Art History, Biology, English Literature and Composition",,8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"167-01 Gothic Drive
+Jamaica, NY 11432
+(40.713577459000476, -73.79651782499963)"
+28Q328,High School for Community Leadership,Queens,9,12,11432,357,,"Biology, Chemistry, English Language and Composition, English Literature and Composition","French Language and Culture, Spanish Language and Culture",9:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"167-01 Gothic Drive
+Jamaica, NY 11432
+(40.713577459000476, -73.79651782499963)"
+28Q350,Jamaica Gateway to the Sciences,Queens,9,12,11432,396,,"Environmental Science, Psychology",,8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"167-01 Gothic Drive
+Jamaica, NY 11432
+(40.713577459000476, -73.79651782499963)"
+28Q440,Forest Hills High School,Queens,9,12,11375,3800,,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Literature and Composition, Environmental Science, French Language and Culture, Macroeconomics, Psychology, Spanish Language and Culture, Spanish Literature and Culture, Statistics, United States Government and Politics, United States History, World History",,,,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,5,"67-01 110 Street
+Forest Hills, NY 11375
+(40.729431572000465, -73.84562907299966)"
+28Q505,Hillcrest High School,Queens,9,12,11432,3231,,"Art History, Biology, Calculus AB, Calculus BC, Computer Science A, Environmental Science, French Language and Culture, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,8,"160-05 Highland Avenue
+Jamaica, NY 11432
+(40.70875755500049, -73.80212748599968)"
+28Q620,Thomas A. Edison Career and Technical Education High School,Queens,9,12,11432,2168,CTE School,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Physics B, Psychology, United States Government and Politics, United States History, World History",,8:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,7,"165-65 84 Avenue
+Jamaica, NY 11432
+(40.71587626100046, -73.79882238899967)"
+28Q680,Queens Gateway to Health Sciences Secondary School,Queens,6,12,11432,811,,"Calculus AB, English Literature and Composition, United States History, World History",,8:00 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"160-20 Goethals Avenue
+Jamaica, NY 11432
+(40.718810094000446, -73.80650045499965)"
+28Q686,QUEENS METROPOLITAN HIGH SCHOOL,Queens,9,12,11375,1139,,"Biology, Calculus AB, Calculus BC, English Language and Composition, English Literature and Composition, Spanish Language and Culture, United States Government and Politics, United States History",,8:00 AM,2:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"91-30 Metropolitan Avenue
+Forest Hills, NY 11375
+(40.710435548000476, -73.85063015499964)"
+28Q687,Queens High School for the Sciences at York College,Queens,9,12,11433,419,Specialized School,"Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, English Language and Composition, Environmental Science, Macroeconomics, Physics B, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,8:00 AM,3:18 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"94-50 159 Street
+Jamaica, NY 11433
+(40.7009987670005, -73.79815352399964)"
+28Q690,High School for Law Enforcement and Public Safety,Queens,9,12,11434,565,,United States History,,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"116-25 Guy R Brewer Boulevard
+Jamaica, NY 11434
+(40.68617808300047, -73.78408297499965)"
+28Q896,"Young Women's Leadership School, Queens",Queens,6,12,11432,555,All-Girls School,"Biology, Calculus AB, English Literature and Composition, Spanish Literature and Culture",,8:00 AM,2:57 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"150-91 87 Road
+Jamaica, NY 11432
+(40.70820782600049, -73.80407794599967)"
+29Q243,Institute for Health Professions at Cambria Heights,Queens,9,11,11411,82,CTE School,,,8:35 AM,3:32 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"207- 01 116Th Avenue
+Cambria Heights, NY 11411
+(40.69553633600049, -73.73491834199967)"
+29Q248,Queens Preparatory Academy,Queens,9,12,11413,465,,"Biology, Calculus AB, Calculus BC, English Language and Composition, English Literature and Composition",,8:10 AM,2:57 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"143-10 Springfield Boulevard
+Springfield Gardens, NY 11413
+(40.66823228800047, -73.75683989399965)"
+29Q259,Pathways College Preparatory School: A College Board School,Queens,6,12,11412,563,,"English Literature and Composition, Environmental Science, Macroeconomics, Microeconomics, Spanish Language and Culture",,8:00 AM,3:07 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"109-89 204 Street
+Saint Albans, NY 11412
+(40.706387658000494, -73.75353002199967)"
+29Q265,Excelsior Preparatory High School,Queens,9,12,11413,480,,"Calculus AB, English Literature and Composition, World History",,8:10 AM,3:07 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"143-10 Springfield Boulevard
+Springfield Gardens, NY 11413
+(40.66823228800047, -73.75683989399965)"
+29Q272,George Washington Carver High School for the Sciences,Queens,9,12,11413,498,,"Calculus AB, English Language and Composition, English Literature and Composition, Macroeconomics, Microeconomics, United States History",,8:00 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"143-10 Springfield Boulevard
+Springfield Gardens, NY 11413
+(40.66823228800047, -73.75683989399965)"
+29Q283,Preparatory Academy for Writers: A College Board School,Queens,6,12,11413,522,,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Environmental Science, European History, United States History",,8:00 AM,3:05 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"143-10 Springfield Boulevard
+Springfield Gardens, NY 11413
+(40.66823228800047, -73.75683989399965)"
+29Q313,Benjamin Franklin High School for Finance & Information Technology,Queens,9,10,11411,N/A,CTE - New School,"N/A (Expected: Computer Science AB, Economics:  Macro, Economics: Micro, English Language and Composition, Government and  Politics: United States)  ","N/A (Expected: Art History, Biology,  Chemistry, French Language, Government and Politics: Comparative, Government  and Politics: United States, Psychology) ",8:30 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"207-01 116th Avenue
+Cambria Heights, NY 11411
+(40.6978073300005, -73.74585775499963)"
+29Q326,Cambria Heights Academy,Queens,9,12,11423,336,,"English Literature and Composition, Environmental Science, United States History, World History",Calculus AB,9:00 AM,4:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"188-04 91St Avenue
+Hollis, NY 11423
+(40.71181822000045, -73.77119187599965)"
+29Q327,Eagle Academy for Young Men III,Queens,6,11,11434,345,All-Boys School,,,8:45 AM,4:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"171-10 Linden Boulevard
+Jamaica, NY 11434
+(40.69167018900049, -73.77902860599966)"
+29Q492,"Mathematics, Science Research and Technology Magnet High School",Queens,9,12,11411,416,,Biology,"Biology, United States History, World History",8:00 AM,2:25 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"207- 01 116Th Avenue
+Cambria Heights, NY 11411
+(40.69553633600049, -73.73491834199967)"
+29Q498,Humanities & Arts Magnet High School,Queens,9,12,11411,513,,"Art History, English Language and Composition, European History, Studio Art: Drawing, United States Government and Politics",,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"207- 01 116Th Avenue
+Cambria Heights, NY 11411
+(40.69553633600049, -73.73491834199967)"
+30Q258,Energy Tech High School,Queens,9,11,11106,119,NYC P-Tech 9-14 School,,,8:45 AM,3:35 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"36-41 28 Street
+Astoria, NY 11106
+(40.7570971560005, -73.93261840099967)"
+30Q286,"Young Women's Leadership School, Astoria",Queens,6,12,11102,576,All-Girls School,,,8:00 AM,3:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"23-15 Newtown Avenue
+Astoria, NY 11102
+(40.77125089600048, -73.92460167099966)"
+30Q301,Academy for Careers in Television and Film,Queens,9,12,11101,470,CTE School,"Calculus AB, English Literature and Composition, Psychology, United States History",,9:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1-50 51St Avenue
+Long Island City, NY 11101
+(40.74113732800049, -73.94968859899967)"
+30Q445,William Cullen Bryant High School,Queens,9,12,11103,2627,,"Biology, Calculus AB, Calculus BC, Chemistry, English Literature and Composition, European History, Physics B, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History, World History",,8:45 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Not Functionally Accessible,3,"48-10 31 Avenue
+Astoria, NY 11103
+(40.75812467500049, -73.91033330899967)"
+30Q450,Long Island City High School,Queens,9,12,11106,2522,,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Computer Science A, English Language and Composition, English Literature and Composition, Environmental Science, European History, French Language and Culture, Italian Language and Culture, Music Theory, Psychology, Spanish Language and Culture, Spanish Literature and Culture, Statistics, Studio Art: 2-D Design, Studio Art: 3-D Design, Studio Art: Drawing, United States Government and Politics, United States History, World History",,8:29 AM,3:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,7,"14-30 Broadway
+Astoria, NY 11106
+(40.765763938000475, -73.93272598499965)"
+30Q501,Frank Sinatra School of the Arts High School,Queens,9,12,11106,756,,"Calculus AB, Calculus BC, English Language and Composition, Physics B, United States History, World History",,7:45 AM,3:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,6,"35-12 35Th Avenue
+Astoria, NY 11106
+(40.75652807400047, -73.92514064399967)"
+30Q502,Information Technology High School,Queens,9,12,11101,920,,"Calculus AB, English Language and Composition",,7:15 AM,2:05 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"21-16 44Th Road
+Long Island City, NY 11101
+(40.74792352300045, -73.94656565899965)"
+30Q555,Newcomers High School,Queens,9,12,11101,929,International School,"Calculus AB, Calculus BC, Chemistry, Chinese Language and Culture, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,"ESL; Transitional Bilingual Program: Chinese, Spanish",Not Functionally Accessible,1,"28-01 41 Avenue
+Long Island City, NY 11101
+(40.751380834000486, -73.93744971899963)"
+30Q575,Academy of American Studies,Queens,9,12,11101,810,,"Art History, Biology, Calculus AB, English Language and Composition, English Literature and Composition, Environmental Science, European History, Human Geography, Macroeconomics, Spanish Language and Culture, Spanish Literature and Culture, United States Government and Politics, United States History",,9:50 AM,4:15 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,2,"28-04 41 Avenue
+Long Island City, NY 11101
+(40.751300578000496, -73.93742387699967)"
+30Q580,Baccalaureate School for Global Education,Queens,7,12,11106,500,,,,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"34-12 36 Avenue
+Astoria, NY 11106
+(40.75517483300047, -73.92682361399966)"
+31R047,CSI High School for International Studies,Staten Island,9,12,10314,527,,"Biology, Calculus AB, Comparative Government and Politics, English Literature and Composition, Studio Art: 2-D Design, United States History",,7:30 AM,3:50 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"100 Essex Drive
+Staten Island, NY 10314
+(40.58202202600046, -74.15784841899966)"
+31R064,Gaynor McCown Expeditionary Learning School,Staten Island,9,12,10314,467,,"Biology, Calculus AB, English Literature and Composition, United States History, World History",,8:00 AM,2:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"100 Essex Drive
+Staten Island, NY 10314
+(40.58202202600046, -74.15784841899966)"
+31R080,The Michael J. Petrides School,Staten Island,K,12,10301,1272,,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, Human Geography, Psychology, Statistics, United States Government and Politics, United States History, World History",,8:00 AM,2:20 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,2,"715 Ocean Terrace
+Staten Island, NY 10301
+(40.60745302400045, -74.10148222999965)"
+31R440,New Dorp High School,Staten Island,9,12,10306,2734,,"Biology, Calculus AB, Computer Science A, English Literature and Composition, United States History, World History","Art History, Calculus BC, Macroeconomics, Microeconomics",8:05 AM,3:10 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,9,"465 New Dorp Lane
+Staten Island, NY 10306
+(40.5691824270005, -74.10730080799965)"
+31R445,Port Richmond High School,Staten Island,9,12,10302,1794,,"Art History, Biology, Calculus AB, Comparative Government and Politics, English Language and Composition, English Literature and Composition, Italian Language and Culture, Physics B, Psychology, Spanish Language and Culture, Statistics, United States Government and Politics, World History",,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,8,"85 St Josephs Avenue
+Staten Island, NY 10302
+(40.63384298700049, -74.14210688899965)"
+31R450,Curtis High School,Staten Island,9,12,10301,2396,,"Art History, Biology, Calculus AB, Calculus BC, Chemistry, English Language and Composition, English Literature and Composition, European History, French Language and Culture, Italian Language and Culture, Music Theory, Physics B, Spanish Language and Culture, Statistics, Studio Art: Drawing, United States History",,9:00 AM,3:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL; Transitional Bilingual Program: Spanish,Functionally Accessible,10,"105 Hamilton Avenue
+Staten Island, NY 10301
+(40.64474490100048, -74.08134127399967)"
+31R455,Tottenville High School,Staten Island,9,12,10312,3957,,"Biology, Calculus BC, Chemistry, English Literature and Composition, Physics B, Psychology, United States Government and Politics, United States History",,8:00 AM,2:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,4,"100 Luten Avenue
+Staten Island, NY 10312
+(40.528228767000485, -74.19215369799963)"
+31R460,Susan E. Wagner High School,Staten Island,9,12,10314,3461,,"Biology, Calculus AB, English Language and Composition, English Literature and Composition, French Language and Culture, Human Geography, Spanish Language and Culture, Statistics, United States Government and Politics, United States History, World History",,8:16 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,8,"1200 Manor Road
+Staten Island, NY 10314
+(40.59865238600048, -74.12310475899966)"
+31R600,Ralph R. McKee Career and Technical Education High School,Staten Island,9,12,10301,632,CTE School,"Biology, English Language and Composition, English Literature and Composition",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,6,"290 St Marks Place
+Staten Island, NY 10301
+(40.642741044000445, -74.07871106299967)"
+31R605,Staten Island Technical High School,Staten Island,9,12,10306,1235,Specialized School,"Biology, Calculus AB, Calculus BC, Chemistry, Computer Science A, English Language and Composition, English Literature and Composition, Macroeconomics, Physics B, Physics C: Electricity and Magnetism, Physics C: Mechanics, Psychology, Statistics, Studio Art: 2-D Design, Studio Art: 3-D Design, United States Government and Politics, United States History, World History",,7:45 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"485 Clawson Street
+Staten Island, NY 10306
+(40.567913003000456, -74.11536224299965)"
+32K168,The Brooklyn School for Math and Research,Brooklyn,9,12,11237,203,,,,8:15 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"400 Irving Avenue
+Brooklyn, NY 11237
+(40.696961848000456, -73.91081593899963)"
+32K403,Academy for Environmental Leadership,Brooklyn,9,12,11237,352,,"Calculus AB, English Literature and Composition, Environmental Science, Microeconomics, Studio Art: Drawing",,8:00 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"400 Irving Avenue
+Brooklyn, NY 11237
+(40.696961848000456, -73.91081593899963)"
+32K545,EBC High School for Public Service - Bushwick,Brooklyn,9,12,11221,513,,"Calculus AB, English Language and Composition, English Literature and Composition, Physics B, Spanish Language and Culture, Spanish Literature and Culture, United States History",,8:00 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"1155 Dekalb Avenue
+Brooklyn, NY 11221
+(40.694481845000496, -73.92915352799963)"
+32K549,Bushwick School for Social Justice,Brooklyn,9,12,11237,416,,"English Language and Composition, United States History",,8:15 AM,3:00 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"400 Irving Avenue
+Brooklyn, NY 11237
+(40.696961848000456, -73.91081593899963)"
+32K552,Academy of Urban Planning,Brooklyn,9,12,11237,313,,"Calculus AB, English Language and Composition, Microeconomics, Spanish Language and Culture, Studio Art: Drawing",,8:15 AM,3:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Functionally Accessible,1,"400 Irving Avenue
+Brooklyn, NY 11237
+(40.696961848000456, -73.91081593899963)"
+32K554,All City Leadership Secondary School,Brooklyn,6,12,11237,333,,"Calculus AB, English Literature and Composition, Physics B, Spanish Language and Culture, Statistics, United States History",,7:45 AM,2:30 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"321 Palmetto Street
+Brooklyn, NY 11237
+(40.69740779600045, -73.91315346199963)"
+32K556,Bushwick Leaders High School for Academic Excellence,Brooklyn,9,12,11221,362,,"English Language and Composition, Spanish Language and Culture, Spanish Literature and Culture",,8:15 AM,4:45 PM,This school will provide students with disabilities the supports and services indicated on their IEPs.,ESL,Not Functionally Accessible,1,"797 Bushwick Avenue
+Brooklyn, NY 11221
+(40.69499576300046, -73.92798626699965)"
