@@ -13,7 +13,7 @@ sat <- select(sat, -school.name)
 #========= get safety report ================
 safety <- read.csv("School_Safety_Report.csv", header=T, stringsAsFactors = F)
 names(safety) <- tolower(names(safety))
-safety <- select(safety, -address, -location.name, -location.code, -geographical.district.code, -borough, -building.name, -schools.in.building, -building.code, -id, -register, -rangea)
+safety <- select(safety, -address, -location.name, -location.code, -borough, -building.name, -schools.in.building, -building.code, -id, -register, -rangea)
 # according to http://schools.nyc.gov/OurSchools/SchoolSafetyReport.htm: N/A means 0 crime
 safety[safety == 'N/A'] <- 0
 
@@ -51,10 +51,11 @@ gender[is.na(gender)] <- 0
 gender$p_male = gender$male / (gender$male + gender$female)
 
 #=========== get income data =============
-income <- read.csv("NYC_Income.csv", header=T, stringsAsFactors = F)
+income <- read.csv("zipcode_income.csv", header=T, stringsAsFactors = F)
 
 
 
+#=========== join tables ============
 
 hsSAT <- left_join(sat, hs, by="dbn")
 join <- left_join(sat, safety, by=c("dbn"))
