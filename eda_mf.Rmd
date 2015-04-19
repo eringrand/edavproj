@@ -11,8 +11,7 @@ Satgender[,3]<-as.numeric(Satgender[,3])
 Satgender[,4]<-as.numeric(Satgender[,4])
 Satgender[,5]<-as.numeric(Satgender[,5])
 pairs(Satgender[,3:6])
-require(ggplot2)
-qplot(x=Satgender_Large[,3],y=Satgender_Large[,4],color=Satgender_Large[,7])
+
 names(Satgender)
 names(Satgender)<-c("dbn","x","readings","maths","writings","p_male")
 
@@ -30,12 +29,8 @@ qplot(x=Satgender[,3],y=Satgender[,4],color=Satgender[,7])
 Satgender_Large<-Satgender[which(Satgender[,2]>50),]
 summary(Satgender_Large)
 
-lm(readings~., data= Satgender[,c(3:5,7)])
-lm(maths~., data= Satgender[,3:6])
-lm(writings~., data= Satgender[,3:6])
-lm(readings~p_male, data= Satgender[,3:6])
-lm(maths~p_male, data= Satgender[,3:6])
-lm(writings~gendercat, data= Satgender[,3:7])
 lm(maths~gendercat, data= Satgender_Large[,3:7])
+require(ggplot2)
+qplot(x=Satgender_Large[,3],y=Satgender_Large[,4],color=Satgender_Large[,7])
 
 ```
