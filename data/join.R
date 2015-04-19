@@ -10,7 +10,9 @@ sat <- select(sat, -High.School)
 
 safety <- read.csv("School_Safety_Report.csv", header=T, stringsAsFactors = F)
 names(safety) <- tolower(names(safety))
-safety <- select(safety, -address, -borough, -building.name, -schools.in.building, -building.code, -id)
+safety <- select(safety, -address, -location.name, -location.code, -geographical.district.code, -borough, -building.name, -schools.in.building, -building.code, -id, -register, -rangea)
+# according to http://schools.nyc.gov/OurSchools/SchoolSafetyReport.htm: N/A means 0 crime
+safety[safety == 'N/A'] <- 0
 
 #========= get class size clean data =============
 class_size <- read.csv("2010-2011_Class_Size_School-level_detail.csv", header=T, stringsAsFactors = F)
@@ -44,6 +46,10 @@ names(male) = c('dbn', 'male')
 gender <- merge(female, male, by = "dbn", all = TRUE)
 gender[is.na(gender)] <- 0
 gender$p_male = gender$male / (gender$male + gender$female)
+
+#=========== get income data =============
+income <- read.csv("NYC_Income.csv", header=T, stringsAsFactors = F)
+
 
 
 
