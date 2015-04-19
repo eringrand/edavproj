@@ -2,8 +2,9 @@ setwd("~/Documents/Repository/edavproj/data/")
 require(dplyr)
 
 #==========get directory of high schools and SAT results =============
-hs <- read.csv("DOE_High_School_Directory_2014-2015.csv", header=T, stringsAsFactors = F)
+hs <- read.csv("DOE_High_School_Directory.csv", header=T, stringsAsFactors = F)
 hs <- select(hs, -boro, -se_services, -ell_programs,  -school_accessibility_description, -number_programs)
+hs$lonlat <- tail(strsplit(hs$Location, '\n')[[1]], n=1)
 
 sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
 names(sat) <- tolower(names(sat))
