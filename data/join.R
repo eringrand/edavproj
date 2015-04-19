@@ -1,13 +1,15 @@
 setwd("~/Documents/Repository/edavproj/data/")
 require(dplyr)
 
-
+#==========get directory of high schools and SAT results =============
 hs <- read.csv("DOE_High_School_Directory_2014-2015.csv", header=T, stringsAsFactors = F)
 hs <- select(hs, -boro, -se_services, -ell_programs,  -school_accessibility_description, -number_programs)
 
-sat <- read.csv("2014_SAT_Website.csv", header=T, stringsAsFactors = F)
-sat <- select(sat, -High.School)
+sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
+names(sat) <- tolower(names(sat))
+sat <- select(sat, -school.name)
 
+#========= get safety report ================
 safety <- read.csv("School_Safety_Report.csv", header=T, stringsAsFactors = F)
 names(safety) <- tolower(names(safety))
 safety <- select(safety, -address, -location.name, -location.code, -geographical.district.code, -borough, -building.name, -schools.in.building, -building.code, -id, -register, -rangea)
