@@ -1,0 +1,41 @@
+Gender/sat
+So basically the all-boy/all girl schools are not strong performers and its good to be a little uneven (in either direction)
+Maybe schools with these ratios (20-40 or 60-80% ) are smaller or more specialized
+I'm not seeing anything interesting here
+```{r}
+Satgender<-sqldf("select a.*, b.p_male from sat a, gender b where a.dbn=b.dbn")
+summary(Satgender)
+
+Satgender[,2]<-as.numeric(Satgender[,2])
+Satgender[,3]<-as.numeric(Satgender[,3])
+Satgender[,4]<-as.numeric(Satgender[,4])
+Satgender[,5]<-as.numeric(Satgender[,5])
+pairs(Satgender[,3:6])
+require(ggplot2)
+qplot(x=Satgender_Large[,3],y=Satgender_Large[,4],color=Satgender_Large[,7])
+names(Satgender)
+names(Satgender)<-c("dbn","x","readings","maths","writings","p_male")
+
+lm(readings~., data= Satgender[,3:6])
+lm(maths~., data= Satgender[,3:6])
+lm(writings~., data= Satgender[,3:6])
+lm(readings~p_male, data= Satgender[,3:6])
+lm(maths~p_male, data= Satgender[,3:6])
+lm(writings~p_male, data= Satgender[,3:6])
+#there something going on here, why is a higher percent male correlated with lower overall scores?
+
+Satgender$gendercat<-cut(Satgender$p_male,5)
+qplot(x=Satgender[,3],y=Satgender[,4],color=Satgender[,7])
+
+Satgender_Large<-Satgender[which(Satgender[,2]>50),]
+summary(Satgender_Large)
+
+lm(readings~., data= Satgender[,c(3:5,7)])
+lm(maths~., data= Satgender[,3:6])
+lm(writings~., data= Satgender[,3:6])
+lm(readings~p_male, data= Satgender[,3:6])
+lm(maths~p_male, data= Satgender[,3:6])
+lm(writings~gendercat, data= Satgender[,3:7])
+lm(maths~gendercat, data= Satgender_Large[,3:7])
+
+```
