@@ -1,21 +1,16 @@
 setwd("~/Documents/Repository/edavproj/data/")
 require(dplyr)
 
-#==========get directory of high schools and SAT results =============
-hs <- read.csv("DOE_High_School_Directory.csv", header=T, stringsAsFactors = F)
+
+hs <- read.csv("DOE_High_School_Directory_2014-2015.csv", header=T, stringsAsFactors = F)
 hs <- select(hs, -boro, -se_services, -ell_programs,  -school_accessibility_description, -number_programs)
-hs$lonlat <- tail(strsplit(hs$Location, '\n')[[1]], n=1)
 
-sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
-names(sat) <- tolower(names(sat))
-sat <- select(sat, -school.name)
+sat <- read.csv("2014_SAT_Website.csv", header=T, stringsAsFactors = F)
+sat <- select(sat, -High.School)
 
-#========= get safety report ================
 safety <- read.csv("School_Safety_Report.csv", header=T, stringsAsFactors = F)
 names(safety) <- tolower(names(safety))
-safety <- select(safety, -address, -location.name, -location.code, -borough, -building.name, -schools.in.building, -building.code, -id, -register, -rangea)
-# according to http://schools.nyc.gov/OurSchools/SchoolSafetyReport.htm: N/A means 0 crime
-safety[safety == 'N/A'] <- 0
+safety <- select(safety, -address, -borough, -building.name, -schools.in.building, -building.code, -id)
 
 #========= get class size clean data =============
 class_size <- read.csv("2010-2011_Class_Size_School-level_detail.csv", header=T, stringsAsFactors = F)
@@ -50,14 +45,19 @@ gender <- merge(female, male, by = "dbn", all = TRUE)
 gender[is.na(gender)] <- 0
 gender$p_male = gender$male / (gender$male + gender$female)
 
-#=========== get income data =============
-income <- read.csv("zipcode_income.csv", header=T, stringsAsFactors = F)
 
-
-
-#=========== join tables ============
 hsSAT <- left_join(sat, hs, by="dbn")
-joinincome = sqldf(" ")
-# join <- left_join(sat, safety, by=c("dbn"))
+join <- left_join(sat, safety, by=c("dbn"))
+
+countClasses <- function(x) {
+    xs <- strsplit(x, ";", fixed=TRUE)
+    l = length(xs[[1]])
+    return(l)
+}
+
+apclass <- sapply(join$advancedplacement_courses, countClasses)
+apclassOnline <- sapply(join$online_ap_courses, countClasses)
+
+join$numAPclasses<- data.frame(apclass + apclassOnline, stringsAsFactors = F)
 
 
