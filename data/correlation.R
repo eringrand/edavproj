@@ -6,9 +6,24 @@ hs <- read.csv("DOE_High_School_Directory.csv", header=T, stringsAsFactors = F)
 hs <- select(hs, -boro, -se_services, -ell_programs,  -school_accessibility_description, -number_programs)
 hs$lonlat <- tail(strsplit(hs$Location, '\n')[[1]], n=1)
 
+countClasses <- function(x) {
+  xs <- strsplit(x, ";", fixed=TRUE)
+  l = length(xs[[1]])
+  return(l)
+}
+
+hs$advancedplacement_courses <- sapply(hs$advancedplacement_courses, countClasses)
+hs$online_ap_courses <- sapply(hs$online_ap_courses, countClasses)
+
 sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
 names(sat) <- tolower(names(sat))
 sat <- select(sat, -school.name)
+colnames(sat) <- c('dbn', 'num_taker', 'critical_avg', 'math_avg', 'writing_avg')
+sat$num_taker = as.numeric(sat$num_taker)
+sat$critical_avg = as.numeric(sat$critical_avg)
+sat$math_avg = as.numeric(sat$math_avg)
+sat$writing_avg = as.numeric(sat$writing_avg)
+sat <- na.omit(sat)
 
 #========= get safety report ================
 safety <- read.csv("School_Safety_Report.csv", header=T, stringsAsFactors = F)
@@ -52,12 +67,18 @@ gender$p_male = gender$male / (gender$male + gender$female)
 
 #=========== get income data =============
 income <- read.csv("zipcode_income.csv", header=T, stringsAsFactors = F)
-
-
+colnames(income) = c('zip', 'zip_lonlat', 'zip_pop', 'avg_household')
+income$avg_household = gsub('\\$','',income$avg_household)
+income$avg_household = gsub(',','',income$avg_household)
+income$avg_household = as.numeric(income$avg_household)
 
 #=========== join tables ============
-hsSAT <- left_join(sat, hs, by="dbn")
-joinincome = sqldf(" ")
-# join <- left_join(sat, safety, by=c("dbn"))
+hsSAT <- inner_join(sat, hs, by="dbn")
+all <- left_join(hsSAT, safety, by='dbn')
+all <- left_join(all, class, by='dbn')
+all <- left_join(all, gender, by='dbn')
+all <- left_join(all, income, by='zip')
 
 
+m = lm(all_joined$critical_avg ~ all_joined$avg_household + all_joined$p_male + all_joined$avg_size + all_joined$avgofmajor.n)
+summary(m)
