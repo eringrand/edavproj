@@ -28,9 +28,14 @@ sat <- na.omit(sat)
 #========= get safety report ================
 safety <- read.csv("School_Safety_Report.csv", header=T, stringsAsFactors = F)
 names(safety) <- tolower(names(safety))
-safety <- select(safety, -address, -location.name, -location.code, -borough, -building.name, -schools.in.building, -building.code, -id, -register, -rangea)
+safety <- select(safety, -address, -location.name, -location.code, -borough, -building.name, -engroupa, -schools.in.building, -building.code, -id, -register, -rangea)
 # according to http://schools.nyc.gov/OurSchools/SchoolSafetyReport.htm: N/A means 0 crime
 safety[safety == 'N/A'] <- 0
+safety_wodbn <- select(safety, -dbn)
+safety_wodbn <- sapply(safety_wodbn, as.numeric)
+safety_wodbn <- data.frame(safety_wodbn)
+safety <- cbind(safety$dbn, safety_wodbn)
+colnames(safety)[1] = 'dbn'
 
 #========= get class size clean data =============
 class_size <- read.csv("2010-2011_Class_Size_School-level_detail.csv", header=T, stringsAsFactors = F)
