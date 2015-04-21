@@ -53,7 +53,9 @@ gender$p_male = gender$male / (gender$male + gender$female)
 #=========== get income data =============
 income <- read.csv("zipcode_income.csv", header=T, stringsAsFactors = F)
 colnames(income) = c('zip', 'zip_lonlat', 'zip_pop', 'avg_household')
-
+income$avg_household = gsub('\\$','',income$avg_household)
+income$avg_household = gsub(',','',income$avg_household)
+income$avg_household = as.numeric(income$avg_household)
 
 #=========== join tables ============
 hsSAT <- inner_join(sat, hs, by="dbn")
