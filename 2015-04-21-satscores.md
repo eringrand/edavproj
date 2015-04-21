@@ -25,10 +25,10 @@ tags: slides
 
 <section>
 
-# Goals
+### Goals
 1. Visualizing Poverty and other SES metrics with Scholastic Performance Standards
 
-## Questions to Answer: 
+### Questions to Answer: 
 1. Is there a correlation between SAT scores and other school information?
 1. How do the school's performance map with poverty and income in New York City?
 1. Can we tell which schools are speciality schools in the map?
@@ -55,13 +55,6 @@ tags: slides
 ## Presentations
 
 _This is in italics_
-
-1. What do we need to know before we start?
-1. Demo the basics
-1. Show us the code
-1. Show us your summary on your fork or the wiki
-1. Field questions
-1. If you can work in a graph critique (even better, fix), please do!
 
 </section>
 
