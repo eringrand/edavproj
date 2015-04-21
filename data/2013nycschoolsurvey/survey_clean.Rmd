@@ -29,20 +29,53 @@ surveyScore<-surveyScore[,-c(40:42)]
 
 Other Stuff
 ```{r}
-Satparents<-sqldf("select a.*, b.* from sat a, pscore3 b where a.dbn=b.dbn")
-summary(Satparents)
-Satparents[,2]<-as.numeric(Satparents[,2])
-Satparents[,3]<-as.numeric(Satparents[,3])
-Satparents[,4]<-as.numeric(Satparents[,4])
-Satparents[,5]<-as.numeric(Satparents[,5])
+SatSurvey<-sqldf("select a.*, b.* from sat a, surveyScore b where a.dbn=b.dbn")
 
-summary(Satparents)
+satdataset<-SatSurvey[,-c(6:7)]
+satdataset[,2]<-as.numeric(satdataset[,2])
+satdataset[,3]<-as.numeric(satdataset[,3])
+satdataset[,4]<-as.numeric(satdataset[,4])
+satdataset[,5]<-as.numeric(satdataset[,5])
+
+cor_m<-cor(satdataset[,-c(1:2,6)],use="complete")
+#cor_m[upper.tri(cor_m,diag=TRUE)]<-NA
+
+require(reshape2)
+flat<-melt(cor_m)
+flat<-flat[-which(is.na(flat[, 3])),]
+head(flat)
+
+ggplot(flat, aes(Var2, Var1, fill = abs(value))) + 
+  geom_tile() + 
+  geom_text(aes(Var1, Var2, label = round(value*100)), color = "#073642", size = 2) 
+
+
+cor_s<-cor(satdataset[,c(3:5,7:10,43:46)],use="complete")
+cor_s[lower.tri(cor_s,diag=TRUE)]<-NA
+flat2<-melt(cor_s)
+flat2<-flat2[-which(is.na(flat2[, 3])),]
+ggplot(flat2, aes(Var1, Var2, fill = abs(value))) + 
+  geom_tile() + 
+  geom_text(aes(Var1, Var2, label = round(value*100)), color = "#073642", size = 4) 
+ +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1), 
+        panel.grid.major = element_blank(),
+      panel.border = element_blank(),
+      panel.background = element_blank(),
+      axis.ticks = element_blank(),
+      legend.justification = c(1, 0),
+      legend.position = c(0.9, 0.7),
+      legend.direction = "horizontal") +
+  guides(fill = guide_colorbar(barwidth = 7, barheight = 1, title.position = "top", 
+    title.hjust = 0.5))
+
 
 require(rpart)
-treemod<-rpart(Avg.SAT.Math.Scores.in.2014~., data=Satparents[,c(4,8:41)])
+treemod<-rpart(Avg.SAT.Math.Scores.in.2014~., data=satdataset[,c(4,6:75)])
+
 summary(treemod)
 plot(treemod)
-text(treemod, use.n = TRUE)
+text(treemod, use.n = FALSE)
 treemod$variab
 ?rpart
 ```
