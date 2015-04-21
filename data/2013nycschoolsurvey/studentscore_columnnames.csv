@@ -1,0 +1,115 @@
+DBN,dbn,
+School Name,locationname,
+School Type,N/A,
+Academic Expectations score based on student responses,aca_s_13,
+Communication score based on student responses,com_s_13,
+Engagement score based on student responses,eng_s_13,
+Safety and Respect score based on student responses,saf_s_13,
+1a. Most of the teaching staff at my school expect all students to work hard.,s_q1a,
+1b. Most of the teaching staff at my school encourage me to keep trying on challenging work.,s_q1b,
+1c. Most of the teaching staff at my school give me regular and helpful feedback on my work.,s_q1c,
+1d. Most of the teaching staff at my school give me extra help when I need it.,s_q1d,
+1e. Most of the teaching staff at my school are teaching me the organizational skills and work habits (like note-taking and keeping track of assignments) that I need to succeed in school.,s_q1e,
+1f. Most of the teaching staff at my school make me excited about learning.,s_q1f,
+1g. Most of the teaching staff at my school expect me to continue my education after high school.,s_q1g,
+2a.  Most adults at my school that I see every day know my name or who I am.,s_q2a,
+2b.  Most adults at my school care about me.,s_q2b,
+2c.  Most adults at my school help keep me on track to be promoted to the next grade and to graduate.,s_q2c,
+2d.  Most adults at my school help keep me on track for college or career.,s_q2d,
+"3. If you are a student in grades 9-12, ANSWER this question.  If you are a student in grades 6-8, SKIP this question.  
+There is an adult who is helping me plan for my next steps after graduation (career planning, college selection and application process, financial aid process, etc.)",s_q3,
+"4a. At my school…
+ I need to work hard to get good grades.",s_q4a,
+"4b. At my school…
+I keep trying when school work is challenging.",s_q4b,
+"4c. At my school…
+I can do well if I put my mind to it.",s_q4c,
+"4d. At my school…
+I can become a better student if I work hard.",s_q4d,
+"4e. At my school…
+I feel welcome.",s_q4e,
+"4f. At my school…
+I am safe in my classes.",s_q4f,
+"4g. At my school…
+I am safe in the hallways, bathrooms, locker rooms, and cafeteria.",s_q4g,
+"4h. At my school…
+I am safe on school property outside the school building.",s_q4h,
+"4i. At my school…
+there are clear consequences for breaking the rules.",s_q4i,
+"4j. At my school…
+there is an adult whom I trust and can go to for help with a problem.",s_q4j,
+"4k. At my school…
+there is a person or program that helps students resolve conflicts.",s_q4k,
+"5a.  At my school…
+students with disabilities are included in all school activities (lunch, class trips, etc.).",s_q5a,
+"5b.  At my school…
+most adults treat all students with respect.",s_q5b,
+"6a. Most students at my school…
+treat each other with respect.",s_q6a,
+"6b. Most students at my school…
+treat adults with respect.",s_q6b,
+"6c. Most students at my school…
+respect students who get good grades.",s_q6c,
+"7a.  My school…
+is kept clean.",s_q7a,
+"7b.  My school…
+offers a wide enough variety of programs, classes and activities to keep me interested in school.",s_q7b,
+"7c.  My school…
+offers opportunities for me to be physically active before, during and after school.",s_q7c,
+"8f. During this school year, how often have your teachers asked you to…
+use computers (laptops, tablets, desktops, etc.) during the school day to complete a task or assignment, such as typing up responses, online research or computer-based exercises?",s_q8f,
+"9a. This question is about activities that you do during class time. 
+(Please mark all that apply.)
+During this school year, I have taken one or more classes in…",s_q9a_1,Art
+,s_q9a_2,Dance
+,s_q9a_3,Music
+,s_q9a_4,Theater
+,s_q9a_5,Physical Education
+,s_q9a_6,"Health Education, including Sex Education"
+"9b. This question is about activities that you do during class time. 
+(Please mark all that apply.)
+During this school year, I was offered but did NOT take a class in...",s_q9b_1,Art
+,s_q9b_2,Dance
+,s_q9b_3,Music
+,s_q9b_4,Theater
+,s_q9b_5,Physical Education
+,s_q9b_6,"Health Education, including Sex Education"
+"9c. This question is about activities that you do during class time. 
+(Please mark all that apply.)
+During this school year, I was NOT offered a class in…",s_q9c_1,Art
+,s_q9c_2,Dance
+,s_q9c_3,Music
+,s_q9c_4,Theater
+,s_q9c_5,Physical Education
+,s_q9c_6,"Health Education, including Sex Education"
+"10a. This question is about activities that you do outside of class time. 
+(Please mark all that apply.)
+During this school year, I participated in the following activities before or after school or during free periods…",s_q10a_1,Art
+,s_q10a_2,Dance
+,s_q10a_3,Music
+,s_q10a_4,Theater
+,s_q10a_5,School sports teams or clubs
+"10b. This question is about activities that you do outside of class time. 
+(Please mark all that apply.)
+During this school year, the following activities were offered before or after school or during free periods but I did NOT participate…",s_q10b_1,Art
+,s_q10b_2,Dance
+,s_q10b_3,Music
+,s_q10b_4,Theater
+,s_q10b_5,School sports teams or clubs
+"10c. This question is about activities that you do outside of class time. 
+(Please mark all that apply.)
+During this school year, the following activities were NOT offered to me before or after school or during free periods…",s_q10c_1,Art
+,s_q10c_2,Dance
+,s_q10c_3,Music
+,s_q10c_4,Theater
+,s_q10c_5,School sports teams or clubs
+"11a. How often is the following true?
+At my school students drink alcohol, use illegal drugs, or abuse prescription drugs while at school.",s_q11a,
+"11b. How often is the following true?
+At my school students get into physical fights.",s_q11b,
+"11c. How often is the following true?
+At my school students harass or bully other students.",s_q11c,
+"11d. How often is the following true?
+At my school students harass or bully each other based on differences (such as race, color, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability or weight).",s_q11d,
+"11e. How often is the following true?
+At my school there is gang activity.",s_q11e,
