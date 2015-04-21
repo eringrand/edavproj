@@ -58,15 +58,12 @@ _This is in italics_
 
 1. SAT scores 
 1. avg household income
-1. school gender ratios, school class sizes, 
-1. 
+1. school gender ratios, school class sizes
 
 </section>
 
 <section>
 ## Data Mundging
-
-_In which you are a specialist on a team. Use the Piazza team-finder to group yourselves into teams of 4 or 5._ 
 
 1. Join all the tabels together
 1. Normalize
@@ -77,7 +74,7 @@ _In which you are a specialist on a team. Use the Piazza team-finder to group yo
 <section>
 ## Tools
 
-1. For the dat mundging: R
+1. For the data: R
 2. For the map: D3
 
 </section>
@@ -89,7 +86,6 @@ _In which you are a specialist on a team. Use the Piazza team-finder to group yo
 
 1. Link?
 1. Image? 
-
 
 </section>
 
