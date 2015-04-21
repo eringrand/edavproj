@@ -52,12 +52,15 @@ gender$p_male = gender$male / (gender$male + gender$female)
 
 #=========== get income data =============
 income <- read.csv("zipcode_income.csv", header=T, stringsAsFactors = F)
-
+colnames(income) = c('zip', 'zip_lonlat', 'zip_pop', 'avg_household')
 
 
 #=========== join tables ============
-hsSAT <- left_join(sat, hs, by="dbn")
-join <- left_join(sat, safety, by=c("dbn"))
+hsSAT <- inner_join(sat, hs, by="dbn")
+all_joined <- left_join(hsSAT, safety, by='dbn')
+all_joined <- left_join(all_joined, class, by='dbn')
+all_joined <- left_join(all_joined, gender, by='dbn')
+all_joined <- left_join(all_joined, income, by='zip')
 
 countClasses <- function(x) {
   xs <- strsplit(x, ";", fixed=TRUE)
