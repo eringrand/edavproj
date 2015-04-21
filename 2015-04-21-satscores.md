@@ -47,6 +47,7 @@ tags: slides
 1. [Income by Neighborhood](http://furmancenter.org/research/sonychan/2013-state-of-new-york-citys-housing-and-neighborhoods-report)
 1. Class Sizes 2010-2011
 1. School Safety Report
+1. Neighborhood Shape File
 
 </section>
 
@@ -71,11 +72,21 @@ _This is in italics_
 
 </section>
 
+
 <section>
 ## Tools
 
 1. For the data: R
 2. For the map: D3
+
+</section>
+
+<section>
+## Code Demonstration
+
+1. R code for joining tables
+1. R code for correllation 
+1. Image? 
 
 </section>
 
