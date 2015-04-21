@@ -1,0 +1,50 @@
+Read and clean survey scores
+```{r}
+
+setwd("~/GitHub/edavproj/data/2013nycschoolsurvey/")
+pscore<-read.csv("parentscore.csv", stringsAsFactors = F)
+sscore<-read.csv("studentscore.csv", stringsAsFactors = F)
+
+#Strip out Columns without scores
+pscore2<-pscore[,1:3]
+sscore2<-sscore[,1:3]
+pscore2[,3]<-as.factor(pscore2[,3])
+sscore2[,3]<-as.factor(sscore2[,3])
+for(i in 4:length(pscore[1,])){
+  pscore2[,i]<-as.numeric(gsub("Not Scored", "",pscore[,i]))
+}
+for(i in 4:length(sscore[1,])){
+  sscore2[,i]<-as.numeric(gsub("Not Scored", "",sscore[,i]))
+}
+names(pscore2)<-names(pscore)
+names(sscore2)<-names(sscore)
+
+pscore3<-pscore2[,-c(30:39,41,45:55)]
+sscore3<-sscore2[,-c(21:23, 38:72)]
+
+surveyScore<-sqldf("select a.*, b.* from sscore3 a, pscore3 b where a.dbn=b.dbn")
+surveyScore<-surveyScore[,-c(40:42)]
+
+```
+
+Other Stuff
+```{r}
+Satparents<-sqldf("select a.*, b.* from sat a, pscore3 b where a.dbn=b.dbn")
+summary(Satparents)
+Satparents[,2]<-as.numeric(Satparents[,2])
+Satparents[,3]<-as.numeric(Satparents[,3])
+Satparents[,4]<-as.numeric(Satparents[,4])
+Satparents[,5]<-as.numeric(Satparents[,5])
+
+summary(Satparents)
+
+require(rpart)
+treemod<-rpart(Avg.SAT.Math.Scores.in.2014~., data=Satparents[,c(4,8:41)])
+summary(treemod)
+plot(treemod)
+text(treemod, use.n = TRUE)
+treemod$variab
+?rpart
+```
+
+
