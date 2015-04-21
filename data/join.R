@@ -57,7 +57,18 @@ income <- read.csv("zipcode_income.csv", header=T, stringsAsFactors = F)
 
 #=========== join tables ============
 hsSAT <- left_join(sat, hs, by="dbn")
-joinincome = sqldf(" ")
-# join <- left_join(sat, safety, by=c("dbn"))
+join <- left_join(sat, safety, by=c("dbn"))
+
+countClasses <- function(x) {
+  xs <- strsplit(x, ";", fixed=TRUE)
+  l = length(xs[[1]])
+  return(l)
+}
+
+apclass <- sapply(join$advancedplacement_courses, countClasses)
+apclassOnline <- sapply(join$online_ap_courses, countClasses)
+
+join$numAPclasses<- data.frame(apclass + apclassOnline, stringsAsFactors = F)
+
 
 
