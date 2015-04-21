@@ -7,13 +7,14 @@ hs <- select(hs, -boro, -se_services, -ell_programs,  -school_accessibility_desc
 hs$lonlat <- tail(strsplit(hs$Location, '\n')[[1]], n=1)
 
 countClasses <- function(x) {
-  xs <- strsplit(x, ";", fixed=TRUE)
+  xs <- strsplit(x, ",", fixed=TRUE)
   l = length(xs[[1]])
   return(l)
 }
 
 hs$advancedplacement_courses <- sapply(hs$advancedplacement_courses, countClasses)
 hs$online_ap_courses <- sapply(hs$online_ap_courses, countClasses)
+hs$total_students = as.numeric(hs$total_students)
 
 sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
 names(sat) <- tolower(names(sat))

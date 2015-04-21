@@ -7,13 +7,14 @@ hs <- select(hs, -boro, -se_services, -ell_programs,  -school_accessibility_desc
 hs$lonlat <- tail(strsplit(hs$Location, '\n')[[1]], n=1)
 
 countClasses <- function(x) {
-  xs <- strsplit(x, ";", fixed=TRUE)
+  xs <- strsplit(x, ",", fixed=TRUE)
   l = length(xs[[1]])
   return(l)
 }
 
 hs$advancedplacement_courses <- sapply(hs$advancedplacement_courses, countClasses)
 hs$online_ap_courses <- sapply(hs$online_ap_courses, countClasses)
+hs$total_students = as.numeric(hs$total_students)
 
 sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
 names(sat) <- tolower(names(sat))
@@ -85,5 +86,22 @@ all <- left_join(all, gender, by='dbn')
 all <- left_join(all, income, by='zip')
 
 #=========== correlation models ============
-m = lm(all$critical_avg ~ all$avg_household + all$p_male + all$avg_size + all$avgofmajor.n)
-summary(m)
+normalize <- function(x) {
+  mean = mean(x[is.na(x)==FALSE])
+  sd = sd(x[is.na(x)==FALSE])
+  normalized_x = (x-mean)/sd
+  return(normalized_x)
+}
+all$critical_norm <- normalize(all$critical_avg)
+all$math_norm <- normalize(all$math_avg)
+all$writing_norm <- normalize(all$writing_avg)
+all$avg_household_norm <- normalize(all$avg_household)
+all$p_male_norm <- normalize(all$p_male)
+all$avg_size_norm <- normalize(all$avg_size)
+all$avgofmajor.n_norm <- normalize(all$avgofmajor.n)
+all$avgofvio.n_norm <- normalize(all$avgofvio.n)
+
+fit = lm(all$critical_norm ~ all$avg_household_norm + all$p_male_norm + all$avg_size_norm + all$avgofmajor.n_norm)
+fit <- lm(all$critical_norm~ all$num_taker + all$total_student + all$advancedplacement_courses + all$avgofvio.n_norm + all$avg_household_norm + all$p_male_norm + all$avg_size_norm) 
+
+summary(fit)
