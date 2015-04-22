@@ -65,6 +65,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 
 1. _Missing data:_ We lose a lot of data from schools that didn't report their scores.
 1. _Time:_ The data we're using come from vastly different years.  
+1. Aggrating the information in a way that makes the most sense. (Zipcodes? Neighborhoods? School Districts? Boroughs?)
 
 </section>
 
@@ -77,6 +78,7 @@ _Pulled some variables that we thought might be important._
 1. SAT scores 
 1. Avg Household Income
 1. school gender ratios, school class sizes
+1. Safety concerns
 
 </section>
 
