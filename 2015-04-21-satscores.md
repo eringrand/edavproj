@@ -19,9 +19,9 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 1. What were our goals?  What questions did we seek to answer? 
 1. Where did we get our data? What are the problems with our data?
 1. What parts of the data were interesting?
-1. Some code Demonstration.
-1. Discussion of our results. 
-
+1. Demonstration of out code.
+1. Discussion of our vizualitions and results. 
+1. What are the next steps?
 </section>
 
 
@@ -64,8 +64,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 ## Problems / Issues / Concerns with the Data
 
 1. _Missing data:_ We lose a lot of data from schools that didn't report their scores.
-1. _Time:_ The data we're using come from vastly different years. 
-1. __ : 
+1. _Time:_ The data we're using come from vastly different years.  
 
 </section>
 
@@ -76,7 +75,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 _Pulled some variables that we thought might be important._
 
 1. SAT scores 
-1. avg household income
+1. Avg Household Income
 1. school gender ratios, school class sizes
 
 </section>
@@ -106,7 +105,7 @@ _Pulled some variables that we thought might be important._
 ## Code Demonstration
 
 1. R code for joining tables
-1. R code for correllation 
+1. R code for correlation 
 1. Image? 
 
 </section>
