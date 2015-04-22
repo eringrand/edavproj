@@ -8,7 +8,7 @@ tags: slides
 <section>
 
 # SAT Scores for the High Schools in New York City
-
+_(Link to the our preoject repositiory)[https://github.com/eringrand/edavproj]_
 </section>
 
 
@@ -55,7 +55,7 @@ tags: slides
 <section>
 ## Data Columns
 
-_This is in italics_
+_Pulled some variables that we thought might be important._
 
 1. SAT scores 
 1. avg household income
@@ -72,6 +72,16 @@ _This is in italics_
 
 </section>
 
+
+
+<section>
+## Problems / Issues / Concerns
+
+1. _Missing data:_ We loose a lot of data from schools that didn't report their scores.
+1. _Time:_ The data we're using come from vastly different years. 
+1. __ : 
+
+</section>
 
 <section>
 ## Tools
