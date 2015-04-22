@@ -1,4 +1,4 @@
-setwd("~/Documents/Repository/edavproj/data/")
+#setwd("~/Documents/Repository/edavproj/data/")
 require(dplyr)
 
 #==========get directory of high schools and SAT results =============
