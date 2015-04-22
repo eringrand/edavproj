@@ -1,42 +1,51 @@
 ---
 layout: pres
 title: SAT Scores for the High Schools in New York City
-description: Introduction & Overview
+description: Erin, Maura, Stephen, Xu and Casey's final project. 
 tags: slides
 ---
 
 <section>
 
-# SAT Scores for the High Schools in New York City
+# SAT Scores for High Schools in New York City
 _[Link to the our preoject repositiory](https://github.com/eringrand/edavproj)_
 </section>
 
 
 <section>
 
-# Introduction 
+# The plan:  
 
-1. 
-1. 
-1. 
+1. What were our goals?  What questions did we seek to answer? 
+1. Where did we get our data? What are the problems with our data?
+1. What parts of the data were interesting?
+1. Some code Demonstration.
+1. Discussion of our results. 
 
 </section>
 
 
 <section>
+<section>
 
 ### Goals
-1. Visualizing Poverty and other SES metrics with Scholastic Performance Standards
+1. Visualizing poverty and other SES metrics with Scholastic Performance Standards.
+1. Discover and display any correlations between assement data and community information. 
 
+</section>
+
+<section>
 ### Questions to Answer: 
 1. Is there a correlation between SAT scores and other school information?
 1. How do the school's performance map with poverty and income in New York City?
 1. Can we tell which schools are speciality schools on the map?
 
 </section>
+</section>
 
 
 
+<section>
 <section>
 
 # Data Sources 
@@ -48,6 +57,15 @@ _[Link to the our preoject repositiory](https://github.com/eringrand/edavproj)_
 1. Class Sizes 2010-2011
 1. School Safety Report
 1. Neighborhood Shape File
+
+</section>
+
+<section>
+## Problems / Issues / Concerns with the Data
+
+1. _Missing data:_ We lose a lot of data from schools that didn't report their scores.
+1. _Time:_ The data we're using come from vastly different years. 
+1. __ : 
 
 </section>
 
@@ -63,6 +81,7 @@ _Pulled some variables that we thought might be important._
 
 </section>
 
+
 <section>
 ## Data Mundging
 
@@ -71,17 +90,8 @@ _Pulled some variables that we thought might be important._
 1. Get locations
 
 </section>
-
-
-
-<section>
-## Problems / Issues / Concerns
-
-1. _Missing data:_ We loose a lot of data from schools that didn't report their scores.
-1. _Time:_ The data we're using come from vastly different years. 
-1. __ : 
-
 </section>
+
 
 <section>
 ## Tools
@@ -91,6 +101,7 @@ _Pulled some variables that we thought might be important._
 
 </section>
 
+
 <section>
 ## Code Demonstration
 
@@ -99,7 +110,6 @@ _Pulled some variables that we thought might be important._
 1. Image? 
 
 </section>
-
 
 
 <section>
