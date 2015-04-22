@@ -8,7 +8,7 @@ tags: slides
 <section>
 
 # SAT Scores for the High Schools in New York City
-_(Link to the our preoject repositiory)[https://github.com/eringrand/edavproj]_
+_[Link to the our preoject repositiory](https://github.com/eringrand/edavproj)_
 </section>
 
 
