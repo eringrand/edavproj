@@ -101,7 +101,13 @@ all$avg_size_norm <- normalize(all$avg_size)
 all$avgofmajor.n_norm <- normalize(all$avgofmajor.n)
 all$avgofvio.n_norm <- normalize(all$avgofvio.n)
 
-fit = lm(all$critical_norm ~ all$avg_household_norm + all$p_male_norm + all$avg_size_norm + all$avgofmajor.n_norm)
-fit <- lm(all$critical_norm~ all$num_taker + all$total_student + all$advancedplacement_courses + all$avgofvio.n_norm + all$avg_household_norm + all$p_male_norm + all$avg_size_norm) 
-
+# simple regression to class size: R^2 low but coefficient significant
+fit = lm(all$math_norm ~ all$avg_size_norm, na.action=na.exclude)
 summary(fit)
+plot(all$avg_size_norm, all$math_norm)
+abline(fit)
+# 2nd order regression to class size: R^2 a little higher
+fit = lm(all$math_norm ~ all$avg_size_norm + I(all$avg_size_norm^2), na.action=na.omit)
+summary(fit)
+plot(all$avg_size_norm, all$math_norm)
+lines(sort(na.omit(all$avg_size_norm)), fitted(fit)[order(na.omit(all$avg_size_norm))])
