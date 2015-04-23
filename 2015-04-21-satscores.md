@@ -28,14 +28,14 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 <section>
 <section>
 
-### Goals
+# Goals
 1. Visualizing poverty and other SES metrics with Scholastic Performance Standards.
 1. Discover and display any correlations between assement data and community information. 
 
 </section>
 
 <section>
-### Questions to Answer: 
+## Questions to Answer: 
 1. Is there a correlation between SAT scores and other school information?
 1. How do the school's performance map with poverty and income in New York City?
 1. Can we tell which schools are speciality schools on the map?
@@ -104,7 +104,7 @@ _Pulled some variables that we thought might be important._
 
 
 <section>
-## Code Demonstration
+# Code Demonstration
 
 1. R code for joining tables
 1. R code for correlation 
@@ -114,7 +114,7 @@ _Pulled some variables that we thought might be important._
 
 
 <section>
-## Visualization
+# Visualization
 
 1. Link?
 1. Image? 
