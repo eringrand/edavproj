@@ -30,19 +30,10 @@ head(surveyScore)
 
 ```
 
-Other Stuff
+Link Survey With SAT Scores
 ```{r}
 SatSurvey<-sqldf("select a.*, b.* from sat a, surveyScore b where a.dbn=b.dbn")
 head(SatSurvey)
-
-Academic Expectations score based on student responses,aca_s_13,
-Communication score based on student responses,com_s_13,
-Engagement score based on student responses,eng_s_13,
-Safety and Respect score based on student responses,saf_s_13,
-Academic Expectations score based on parent responses,aca_p_13
-Communication score based on parent responses,com_p_13
-Engagement score based on parent responses,eng_p_13
-Safety and Respect score based on parent responses,saf_p_13
 
 satdataset<-SatSurvey[,-c(6:7)]
 satdataset[,2]<-as.numeric(satdataset[,2])
@@ -55,38 +46,35 @@ cor_m<-cor(satdataset[,-c(1:2,6)],use="complete")
 
 require(reshape2)
 flat<-melt(cor_m)
-flat<-flat[-which(is.na(flat[, 3])),]
+#flat<-flat[-which(is.na(flat[, 3])),]
 head(flat)
 
 require(ggplot2)
-ggplot(flat, aes(Var2, Var1, fill = 1-abs(value))) + 
+ggplot(flat, aes(Var2, Var1, fill = abs(value))) + 
   geom_tile() + 
   geom_text(aes(Var1, Var2, label = round(value*100)), color = "#073642", size = 2) 
-?round
 
+```
+
+Lets Just look at the overall survey school and Parent scores 
+```{r}
 cor_s<-cor(satdataset[,c(3:5,7:10,43:46)],use="complete")
 #cor_s[lower.tri(cor_s,diag=FALSE)]<-NA
 flat2<-melt(cor_s)
 flat2$Var1<-as.factor(flat2$Var1)
 flat2$Var2<-as.factor(flat2$Var2)
+levels(flat2$Var2)<-c("Avg Reading SAT Score", "Avg Math SAT Score","Avg Writing SAT Score",  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score")
+levels(flat2$Var1)<-c("Avg Reading SAT Score", "Avg Math SAT Score","Avg Writing SAT Score",  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score")
 #flat2<-flat2[-which(is.na(flat2[, 3])),]
 ggplot(flat2, aes(Var2, Var1, fill = 1-value)) + 
   geom_tile() + 
-  geom_text(aes(Var2, Var1, label = round(value*100)), color = "#073642", size = 4) + theme(legend.position="none")+ theme(axis.title.x = element_blank())+ theme(axis.title.y = element_blank())
-+
+  geom_text(aes(Var2, Var1, label = round(value*100)), color = "#073642", size = 4) + theme(legend.position="none")+ theme(axis.title.x = element_blank())+ theme(axis.title.y = element_blank())+theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
- +
-  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1), 
-        panel.grid.major = element_blank(),
-      panel.border = element_blank(),
-      panel.background = element_blank(),
-      axis.ticks = element_blank(),
-      legend.justification = c(1, 0),
-      legend.position = c(0.9, 0.7),
-      legend.direction = "horizontal") +
-  guides(fill = guide_colorbar(barwidth = 7, barheight = 1, title.position = "top", 
-    title.hjust = 0.5))
 
+```
+
+Playing with Tree Models (just because)
+```{r}
 
 require(rpart)
 treemod<-rpart(Avg.SAT.Math.Scores.in.2014~., data=satdataset[,c(4,6:75)])

@@ -6,3 +6,7 @@ data/.DS_Store
 .DS_Store
 *.Rhistory
 data/2013nycschoolsurvey/.RData
+2015-04-21-satscores.docx
+2015-04-21-satscores.md
+eda_mf.Rmd
+2015-04-21-satscores.md
