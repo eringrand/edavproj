@@ -1,5 +1,6 @@
 #setwd("~/Documents/Repository/edavproj/data/")
 require(dplyr)
+require(reshape2)
 
 #==========get directory of high schools and SAT results =============
 hs <- read.csv("DOE_High_School_Directory.csv", header=T, stringsAsFactors = F)
@@ -117,8 +118,17 @@ all$diff_time_norm <- normalize(all$diff_time)
 
 data <- select(all, critical_norm, math_norm, writing_norm, avg_household_norm, p_male_norm, avg_size_norm, avgofmajor.n_norm, avgofvio.n_norm, diff_time_norm) 
 
+
+
+
+library(ggplot2)
+theme_set(theme_bw()) # a theme with a white background
+
+
 data1 <- select(data, -critical_norm, -math_norm)
 names(data1)[1] <- c("sat_norm")
+
+
 df.m1 <- melt(data1,"sat_norm")
 df.m1$SATname <- rep("writing", length(df.m1$sat_norm))
 
@@ -136,9 +146,31 @@ df <- rbind(df.m1, df.m2, df.m3)
 
 
 
-library(ggplot2)
+x1 <- data1 %>%
+  group_by(sat_norm) %>%
+  summarise_each(funs(mean)) %>%
+  melt("sat_norm") 
+x1$SATname <- rep("writing", length(x1$sat_norm))
 
-theme_set(theme_bw()) # a theme with a white background
+x2 <- data2 %>%
+  group_by(sat_norm) %>%
+  summarise_each(funs(mean)) %>%
+  melt("sat_norm")
+x2$SATname <- rep("math", length(x2$sat_norm))
+
+x3 <- data3 %>%
+  group_by(sat_norm) %>%
+  summarise_each(funs(mean)) %>%
+  melt("sat_norm")
+x3$SATname <- rep("reading", length(x1$sat_norm))
+
+df2 <- rbind(x1, x2, x3)
+
+ggplot(df2, aes(value, sat_norm, color=SATname)) + geom_point() +
+  facet_wrap(~ variable, ncol = 3)
+
+
+
 
 ggplot(df, aes(value, sat_norm, color=SATname)) + geom_point() +
   facet_wrap(~ variable, ncol = 3)
