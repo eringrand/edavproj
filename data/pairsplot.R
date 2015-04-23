@@ -101,39 +101,29 @@ all$avg_size_norm <- normalize(all$avg_size)
 all$avgofmajor.n_norm <- normalize(all$avgofmajor.n)
 all$avgofvio.n_norm <- normalize(all$avgofvio.n)
 
-# simple regression to class size: R^2 low but coefficient significant
-# fit = lm(all$math_norm ~ all$avg_size_norm, na.action=na.exclude)
-# summary(fit)
-# plot(all$avg_size_norm, all$math_norm)
-# abline(fit)
-# 2nd order regression to class size: R^2 a little higher
-# fit = lm(all$math_norm ~ all$avg_size_norm + I(all$avg_size_norm^2), na.action=na.omit)
-# summary(fit)
-# plot(all$avg_size_norm, all$math_norm)
-# lines(sort(na.omit(all$avg_size_norm)), fitted(fit)[order(na.omit(all$avg_size_norm))])
-
-library(GGally)
 
 data <- select(all, critical_norm, math_norm, writing_norm, avg_household_norm, p_male_norm, avg_size_norm, avgofmajor.n_norm, avgofvio.n_norm) 
 
 data1 <- select(data, -critical_norm, -math_norm)
-data1$SATname <- rep("writing", length(data1$writing_norm))
-names(data1) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm", "SATname")   
-data2 <- select(data, -critical_norm, -writing_norm)
-data2$SATname <- rep("math", length(data2$math_norm))
-names(data2) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm", "SATname")   
-data3 <- select(data, -writing_norm, -math_norm)
-data3$SATname <- rep("reading", length(data3$critical_norm))
-names(data3) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm", "SATname")   
+names(data1) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm")
+df.m1 <- melt(data1,"sat_norm")
+df.m1$SATname <- rep("writing", length(df.m1$sat_norm))
 
-df <- rbind(data1, data2, data3)
+data2 <- select(data, -critical_norm, -writing_norm)
+names(data2) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm")
+df.m2 <- melt(data2,"sat_norm")
+df.m2$SATname <- rep("math", length(df.m2$sat_norm))
+
+data3 <- select(data, -writing_norm, -math_norm)
+names(data3) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm")
+df.m3 <- melt(data3,"sat_norm")
+df.m3$SATname <- rep("reading", length(df.m3$sat_norm))
+
+df <- rbind(df.m1, df.m2, df.m3)
+
+
 
 library(ggplot2)
-#ggplot(datanew, colour='SATname', alpha=0.4)
 
-par(mfrow=c((length(df))/3-1,3))
-sapply(2:length(df), function(x){
-  plot(df[,1] ,df[,c(1,x)])
-})
-
-
+ggplot(df, aes(value, sat_norm, color=SATname)) + geom_point() +
+  facet_wrap(~ variable, ncol = 2)
