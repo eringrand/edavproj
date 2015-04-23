@@ -4,3 +4,5 @@ data/.Rhistory
 data/.Rapp.history
 data/.DS_Store
 .DS_Store
+*.Rhistory
+data/2013nycschoolsurvey/.RData
