@@ -1,0 +1,78 @@
+DBN,dbn
+School Name,locationname
+School Type,N/A
+Academic Expectations score based on teacher responses,aca_t_13
+Communication score based on teacher responses,com_t_13
+Engagement score based on teacher responses,eng_t_13
+Safety and Respect score based on teacher responses,saf_t_13
+1a. The principal at my school communicates a clear vision for our school.,t_q1a
+1b. The principal at my school understands how children learn.,t_q1b
+1c. The principal at my school knows what's going on in my classroom.,t_q1c
+1d. The principal at my school participates in instructional planning with teachers.,t_q1d
+1e. The principal at my school encourages open communication on important school issues.,t_q1e
+1f. The principal at my school makes clear to the staff his or her expectations for meeting instructional goals,t_q1f
+1g. The principal at my school is an effective manager who makes the school run smoothly.,t_q1g
+1h. The principal at my school places the learning needs of children ahead of personal and political interests.,t_q1h
+2a. I trust the principal at his or her word.,t_q2a
+2b. I feel respected by the principal at my school.,t_q2b
+3a. School leaders provide time for collaboration among teachers.,t_q3a
+3b. School leaders visit classrooms to observe the quality of teaching at my school.,t_q3b
+3c. School leaders give me regular and helpful feedback about my teaching.,t_q3c
+3d. School leaders place a high priority on the quality of teaching.,t_q3d
+3e. School leaders publicly recognize teachers for their accomplishments.,t_q3e
+3f. School leaders provide teachers with leadership opportunities.,t_q3f
+4a. My school educates students with disabilities in the least restrictive environment appropriate.,t_q4a
+"4b. My school offers a wide enough variety of programs, classes and activities to keep students engaged.",t_q4b
+4c. My school sets high standards for student work in their classes.,t_q4c
+4d. My school helps students reach targets for mastery of important skills and content.,t_q4d
+4e. My school has clear measures of progress for student achievement throughout the year.,t_q4e
+4f. My school uses assessments that are relevant to my daily instruction.,t_q4f
+"4g.  My school ensures English language learners receive the same curriculum as their non-English language learner peers with appropriate supports (i.e., scaffolds, native language, culturally responsive instruction).",t_q4g
+"5. In my school, the professional staff believe that all  students can learn, including English language learners and students with disabilities.",t_q5
+6a. To what extent do you feel supported by the following people? Your principal.,t_q6a
+6b.  To what extent do you feel supported by the following people? Assistant principals at your school.,t_q6b
+6c.  To what extent do you feel supported by the following people? Other teachers at your school.,t_q6c
+7a. Teachers in my school trust each other.,t_q7a
+7b. Teachers in my school work together on teams to improve their instructional practice.,t_q7b
+7c. Teachers in my school use multiple forms of student achievement data to improve instructional decisions.,t_q7c
+8a. I usually look forward to each working day at my school.,t_q8a
+8b. I wouldn't want to work in any other school.,t_q8b
+8c. I would recommend my school to parents seeking a place for their child.,t_q8c
+"9a. Overall, my professional development experiences this school year have been sustained and coherently focused, rather than short-term and unrelated.",t_q9a
+"9b. Overall, my professional development experiences this school year have included opportunities to work productively with colleagues in my school.",t_q9b
+"9d. Overall, my professional development experiences this school year have provided me with content support in my subject area.",t_q9d
+"9e. Overall, my professional development experiences this school year have helped me to meaningfully use technology in the classroom.",t_q9e
+10a. Teachers and school leaders in my school use information from parents to improve instructional practices and meet student learning needs.,t_q10a
+10b. My school communicates effectively with parents regarding students' behavior.,t_q10b
+10c. My school communicates effectively with parents about their child's progress.,t_q10c
+10d. My school encourages parents to participate in their child's education.,t_q10d
+"10e. I have sufficient materials, equipment, and assistive technology in good condition to teach my class(es).",t_q10e
+"10f. This year, I received helpful training on the use of student achievement data to improve teaching and learning.",t_q10f
+"11a.  At my school, order and discipline are maintained.",t_q11a
+"11b. At my school, I can get the help I need to address student behavior issues.",t_q11b
+"11c. At my school, I am safe.",t_q11c
+"11d. At my school, crime and violence are a problem.",t_q11d
+"11e. At my school, students are often harassed or bullied in school.",t_q11e
+"11f. At my school, adults treat students with respect.",t_q11f
+"11g. At my school, most students treat adults with respect.",t_q11g
+"11h. At my school, most parents treat adults with respect.",t_q11h
+"11i. At my school, students with disabilities are included in all school activities (lunch, class trips, etc.).",t_q11i
+"11j. At my school, students' use of alcohol or illegal drugs or abuse of prescription drugs is a problem at my school.",t_q11j
+"11k. At my school, there are conflicts based on differences (race, color, creed, ethnicity, national origin, citizenship/immigration status, religion, gender, gender identity, gender expression, sexual orientation, disability, or weight).",t_q11k
+"11l. At my school, gang activity is a problem in school.",t_q11l
+"11m. At my school, there is a person or a program that helps students resolve conflicts.",t_q11m
+12. My school is kept clean.,t_q12a
+13. What grades do you primarily teach?,t_q13a
+14a (i). Only elementary school teachers need to answer these questions. My school does a good job teaching students the social and emotional skills needed in middle school.,t_q14a
+14b (i). Only elementary school teachers need to answer these questions. My school does a good job teaching students the organizational and study skills needed in middle school.,t_q14b
+14c (i). Only elementary school teachers need to answer these questions. My school does a good job teaching students the academic skills needed in middle school.,t_q14c
+14d (i). Only elementary school teachers need to answer these questions. My school does a good job providing information about the middle school application/enrollment process to students.,t_q14d
+14a (ii). Only middle school teachers need to answer these questions. My school does a good job teaching students the social and emotional skills needed in high school.,t_q15a
+14b (ii). Only middle school teachers need to answer these questions. My school does a good job teaching students the organizational and study skills needed in high school.,t_q15b
+14c (ii). Only middle school teachers need to answer these questions. My school does a good job teaching students the academic skills needed in high school.,t_q15c
+14d (ii). Only middle school teachers need to answer these questions. My school does a good job providing information about the high school application/enrollment process to students.,t_q15d
+14a (iii). Only high school teachers need to answer question these questions. My school does a good job providing students with the best courses and supports to achieve their postsecondary goals.,t_q16a
+14b (iii). Only high school teachers need to answer question these questions. My school does a good job supporting students who are at risk for dropping out.,t_q16b
+"14c (iii). Only high school teachers need to answer question these questions. My school does a good job supporting students who aspire to go on to a 2- or 4- year college, career or technical training or enter the workforce by helping them develop a plan to achieve those goals.",t_q16c
+"15a. This year, what percentage of your students had at least one parent attend your Parent-Teacher Conferences?",t_q17a
+15b. How long have you been a teacher?,t_q17b

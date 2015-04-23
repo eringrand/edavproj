@@ -1,15 +1,21 @@
+---
+output: word_document
+---
 Read and clean survey scores
-```{r}
+```{r, cache=TRUE, warning=FALSE}
 
 require(sqldf)
 
 setwd("~/GitHub/edavproj/data/2013nycschoolsurvey/")
 pscore<-read.csv("parentscore.csv", stringsAsFactors = F)
 sscore<-read.csv("studentscore.csv", stringsAsFactors = F)
+tscore<-read.csv("teacherscore.csv", stringsAsFactors = F)
 
 #Strip out Columns without scores
 pscore2<-pscore[,1:3]
 sscore2<-sscore[,1:3]
+tscore2<-tscore[,1:3]
+tscore2[,3]<-as.factor(tscore2[,3])
 pscore2[,3]<-as.factor(pscore2[,3])
 sscore2[,3]<-as.factor(sscore2[,3])
 for(i in 4:length(pscore[1,])){
@@ -18,6 +24,10 @@ for(i in 4:length(pscore[1,])){
 for(i in 4:length(sscore[1,])){
   sscore2[,i]<-as.numeric(gsub("Not Scored", "",sscore[,i]))
 }
+for(i in 4:length(tscore[1,])){
+  tscore2[,i]<-as.numeric(gsub("Not Scored", "",tscore[,i]))
+}
+names(tscore2)<-names(tscore)
 names(pscore2)<-names(pscore)
 names(sscore2)<-names(sscore)
 
@@ -26,20 +36,42 @@ sscore3<-sscore2[,-c(21:23, 38:72)]
 
 surveyScore<-sqldf("select a.*, b.* from sscore3 a, pscore3 b where a.dbn=b.dbn")
 surveyScore<-surveyScore[,-c(40:42)]
-head(surveyScore)
+surveyScore<-sqldf("select a.*, b.* from surveyScore a, tscore2 b where a.dbn=b.dbn")
+surveyScore<-surveyScore[,-c(73:75)]
+head(surveyScore[,75])
 
 ```
 
 Link Survey With SAT Scores
-```{r}
+```{r, cache=TRUE, warning=FALSE}
+setwd("~/GitHub/edavproj/data/")
+require(dplyr)
+
+#Sat Data
+sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
+names(sat) <- tolower(names(sat))
+sat <- select(sat, -school.name)
+colnames(sat) <- c('dbn', 'num_taker', 'critical_avg', 'math_avg', 'writing_avg')
+sat$num_taker = as.numeric(sat$num_taker)
+sat$critical_avg = as.numeric(sat$critical_avg)
+sat$math_avg = as.numeric(sat$math_avg)
+sat$writing_avg = as.numeric(sat$writing_avg)
+sat <- na.omit(sat)
+
+#join survey
 SatSurvey<-sqldf("select a.*, b.* from sat a, surveyScore b where a.dbn=b.dbn")
-head(SatSurvey)
+#head(SatSurvey)
 
 satdataset<-SatSurvey[,-c(6:7)]
 satdataset[,2]<-as.numeric(satdataset[,2])
 satdataset[,3]<-as.numeric(satdataset[,3])
 satdataset[,4]<-as.numeric(satdataset[,4])
 satdataset[,5]<-as.numeric(satdataset[,5])
+#remove middle/elementary specific qs
+satdataset<-satdataset[,-c(134:141)]
+```
+There's way too many variables for this to be reasonable, but just for fun
+```{r, cache=TRUE, warning=FALSE}
 
 cor_m<-cor(satdataset[,-c(1:2,6)],use="complete")
 #cor_m[upper.tri(cor_m,diag=TRUE)]<-NA
@@ -47,28 +79,29 @@ cor_m<-cor(satdataset[,-c(1:2,6)],use="complete")
 require(reshape2)
 flat<-melt(cor_m)
 #flat<-flat[-which(is.na(flat[, 3])),]
-head(flat)
+#head(flat)
 
 require(ggplot2)
 ggplot(flat, aes(Var2, Var1, fill = 1-value)) + 
-  geom_tile() + 
-  geom_text(aes(Var1, Var2, label = round(value*100)), color = "#073642", size = 2) +theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  geom_tile() +theme(legend.position="none")+ theme(axis.title.x = element_blank())+ theme(axis.title.y = element_blank())+theme(axis.text.y = element_text(size=2))+theme(axis.text.x = element_text(angle = 45, hjust = 1,size=2))+ggtitle("Correlation Survey & SAT Scores")
 
 ```
 
 Lets Just look at the overall survey school and Parent scores 
-```{r}
-cor_s<-cor(satdataset[,c(3:5,7:10,43:46)],use="complete")
+```{r, cache=TRUE, warning=FALSE}
+require(reshape2)
+require(ggplot2)
+
+cor_s<-cor(satdataset[,c(3:5,7:10,43:46,76:79)],use="complete")
 #cor_s[lower.tri(cor_s,diag=FALSE)]<-NA
 flat2<-melt(cor_s)
 flat2$Var1<-as.factor(flat2$Var1)
 flat2$Var2<-as.factor(flat2$Var2)
-levels(flat2$Var2)<-c("Avg Reading SAT Score", "Avg Math SAT Score","Avg Writing SAT Score",  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score")
-levels(flat2$Var1)<-c("Avg Reading SAT Score", "Avg Math SAT Score","Avg Writing SAT Score",  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score")
+levels(flat2$Var2)<-c("Avg Reading SAT Score", "Avg Math SAT Score","Avg Writing SAT Score",  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score",     "Teacher Academic Expectations Score","Teacher Communication Score",     "Teacher Engagement Score",     "Teacher Safety Score")
+levels(flat2$Var1)<-c("Avg Reading SAT Score", "Avg Math SAT Score","Avg Writing SAT Score",  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score",     "Teacher Academic Expectations Score","Teacher Communication Score",     "Teacher Engagement Score",     "Teacher Safety Score")
 #flat2<-flat2[-which(is.na(flat2[, 3])),]
-ggplot(flat2, aes(Var2, Var1, fill = 1-value)) + 
-  geom_tile() + 
-  geom_text(aes(Var2, Var1, label = round(value*100)), color = "#073642", size = 4) + theme(legend.position="none")+ theme(axis.title.x = element_blank())+ theme(axis.title.y = element_blank())+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggplot(flat2, aes(Var2, Var1, fill = 1-value)) +   geom_tile() +   geom_text(aes(Var2, Var1, label = round(value*100)), color = "#073642", size = 4) + theme(legend.position="none")+ theme(axis.title.x = element_blank())+ theme(axis.title.y = element_blank())+theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 
 ```
@@ -78,16 +111,28 @@ Playing with Tree Models (just because)
 
 require(rpart)
 require(tree)
-treemath<-tree(math_avg~., data=satdataset[,c(4,6:75)])
+
+treemath<-tree(math_avg~., data=satdataset[,c(4,6:136)])
+plot(treemath)
+text(treemath)
+
+t2<-cv.tree(treemath,FUN=prune.tree)
+mathcv<-cbind(t2$s,t2$dev,1)
+for(i in 2:1000){
+  t2<-cv.tree(treemath,FUN=prune.tree)
+  mathcv<-rbind(mathcv, cbind(t2$s,t2$dev,i))
+}
+names(mathcv)<-c("treesize", "deviance", "cviteration" )
+qplot(mathcv[,1],mathcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
+
 treeread<-tree(critical_avg~., data=satdataset[,c(3,6:75)])
 treewrite<-tree(writing_avg~., data=satdataset[,c(5,6:75)])
 
 t2<-cv.tree(treewrite,FUN=prune.tree)
 plot(t2$s,t2$dev)
-t2<-cv.tree(treemath,FUN=prune.tree)
-plot(t2$s,t2$dev)
+
 #5 seems to work well for Math
-mathtree<-prune.tree(treemod,best=5)
+mathtree<-prune.tree(treemath,best=5)
 plot(mathtree)
 text(mathtree)
 
@@ -95,7 +140,6 @@ t2<-cv.tree(treeread,FUN=prune.tree)
 plot(t2$s,t2$dev)
 
 
-?plot.tree
 ```
 
 

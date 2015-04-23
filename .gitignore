@@ -10,3 +10,8 @@ data/2013nycschoolsurvey/.RData
 2015-04-21-satscores.md
 eda_mf.Rmd
 2015-04-21-satscores.md
+*.RData
+*.rdb
+*.rdx
+data/2013nycschoolsurvey/survey_clean_cache/docx/__packages
+data/2013nycschoolsurvey/survey_clean.docx
