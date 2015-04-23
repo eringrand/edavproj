@@ -50,9 +50,9 @@ flat<-melt(cor_m)
 head(flat)
 
 require(ggplot2)
-ggplot(flat, aes(Var2, Var1, fill = abs(value))) + 
+ggplot(flat, aes(Var2, Var1, fill = 1-value)) + 
   geom_tile() + 
-  geom_text(aes(Var1, Var2, label = round(value*100)), color = "#073642", size = 2) 
+  geom_text(aes(Var1, Var2, label = round(value*100)), color = "#073642", size = 2) +theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
 
@@ -77,13 +77,25 @@ Playing with Tree Models (just because)
 ```{r}
 
 require(rpart)
-treemod<-rpart(Avg.SAT.Math.Scores.in.2014~., data=satdataset[,c(4,6:75)])
+require(tree)
+treemath<-tree(math_avg~., data=satdataset[,c(4,6:75)])
+treeread<-tree(critical_avg~., data=satdataset[,c(3,6:75)])
+treewrite<-tree(writing_avg~., data=satdataset[,c(5,6:75)])
 
-summary(treemod)
-plot(treemod)
-text(treemod, use.n = FALSE)
-treemod$variab
-?rpart
+t2<-cv.tree(treewrite,FUN=prune.tree)
+plot(t2$s,t2$dev)
+t2<-cv.tree(treemath,FUN=prune.tree)
+plot(t2$s,t2$dev)
+#5 seems to work well for Math
+mathtree<-prune.tree(treemod,best=5)
+plot(mathtree)
+text(mathtree)
+
+t2<-cv.tree(treeread,FUN=prune.tree)
+plot(t2$s,t2$dev)
+
+
+?plot.tree
 ```
 
 
