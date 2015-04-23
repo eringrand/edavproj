@@ -1,4 +1,4 @@
-setwd("~/Documents/Repository/edavproj/data/")
+#setwd("~/Documents/Repository/edavproj/data/")
 require(dplyr)
 
 #==========get directory of high schools and SAT results =============
@@ -92,6 +92,7 @@ normalize <- function(x) {
   normalized_x = (x-mean)/sd
   return(normalized_x)
 }
+
 all$critical_norm <- normalize(all$critical_avg)
 all$math_norm <- normalize(all$math_avg)
 all$writing_norm <- normalize(all$writing_avg)
@@ -102,20 +103,32 @@ all$avgofmajor.n_norm <- normalize(all$avgofmajor.n)
 all$avgofvio.n_norm <- normalize(all$avgofvio.n)
 
 
-data <- select(all, critical_norm, math_norm, writing_norm, avg_household_norm, p_male_norm, avg_size_norm, avgofmajor.n_norm, avgofvio.n_norm) 
+all$diff_time <- as.numeric(difftime(as.POSIXct(all$end_time, format="%I:%M %p"), as.POSIXct(all$start_time, format="%I:%M %p")))
+
+#all$start_time <- strftime(all$start_time, format="%I:%M %p")
+#all$end_time <- strftime(all$end_time, format="%I:%M %p")
+
+
+ggplot(all, aes(y=critical_norm, x=start_time)) + geom_point()
+ggplot(all, aes(y=critical_norm, x=end_time)) + geom_point()
+ggplot(all, aes(y=critical_norm, x=diff_time)) + geom_point()
+
+all$diff_time_norm <- normalize(all$diff_time)
+
+data <- select(all, critical_norm, math_norm, writing_norm, avg_household_norm, p_male_norm, avg_size_norm, avgofmajor.n_norm, avgofvio.n_norm, diff_time_norm) 
 
 data1 <- select(data, -critical_norm, -math_norm)
-names(data1) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm")
+names(data1)[1] <- c("sat_norm")
 df.m1 <- melt(data1,"sat_norm")
 df.m1$SATname <- rep("writing", length(df.m1$sat_norm))
 
 data2 <- select(data, -critical_norm, -writing_norm)
-names(data2) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm")
+names(data2)[1] <- c("sat_norm")
 df.m2 <- melt(data2,"sat_norm")
 df.m2$SATname <- rep("math", length(df.m2$sat_norm))
 
 data3 <- select(data, -writing_norm, -math_norm)
-names(data3) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm")
+names(data3)[1] <- c("sat_norm")
 df.m3 <- melt(data3,"sat_norm")
 df.m3$SATname <- rep("reading", length(df.m3$sat_norm))
 
@@ -125,5 +138,7 @@ df <- rbind(df.m1, df.m2, df.m3)
 
 library(ggplot2)
 
+theme_set(theme_bw()) # a theme with a white background
+
 ggplot(df, aes(value, sat_norm, color=SATname)) + geom_point() +
-  facet_wrap(~ variable, ncol = 2)
+  facet_wrap(~ variable, ncol = 3)
