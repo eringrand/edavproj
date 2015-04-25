@@ -82,10 +82,11 @@ income$avg_household = as.numeric(income$avg_household)
 #==================== sat clusters ========
 # Cluster by SAT scores 
 library(stats)
+sat$total <- sat$math_avg + sat$critical_avg
 satcl <- select(sat, -dbn, -num_taker)
 cl <- kmeans(satcl, 3, nstart=25)
-#plot(satcl, col = cl$cluster)
-#points(cl$centers, col = 1:5, pch = 8)
+plot(satcl, col = cl$cluster)
+points(cl$centers, col = 1:5, pch = 8)
 clusters <- aggregate(satcl, by=list(cl$cluster), FUN=mean)
 
 newsat <- data.frame(sat, cl$cluster)
