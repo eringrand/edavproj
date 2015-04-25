@@ -78,21 +78,22 @@ income$avg_household = gsub('\\$','',income$avg_household)
 income$avg_household = gsub(',','',income$avg_household)
 income$avg_household = as.numeric(income$avg_household)
 
-#=========== join tables ============
-hsSAT <- inner_join(sat, hs, by="dbn")
-all <- left_join(hsSAT, safety, by='dbn')
-all <- left_join(all, class, by='dbn')
-all <- left_join(all, gender, by='dbn')
-all <- left_join(all, income, by='zip')
-
 
 #==================== sat clusters ========
 # Cluster by SAT scores 
 library(stats)
 satcl <- select(sat, -dbn, -num_taker)
 cl <- kmeans(satcl, 3, nstart=25)
-plot(satcl, col = cl$cluster)
-points(cl$centers, col = 1:5, pch = 8)
+#plot(satcl, col = cl$cluster)
+#points(cl$centers, col = 1:5, pch = 8)
 clusters <- aggregate(satcl, by=list(cl$cluster), FUN=mean)
 
-y <- data.frame(sat, cl$cluster)
+newsat <- data.frame(sat, cl$cluster)
+
+
+#=========== join tables ============
+hsSAT <- inner_join(newsat, hs, by="dbn")
+all <- left_join(hsSAT, safety, by='dbn')
+all <- left_join(all, class, by='dbn')
+all <- left_join(all, gender, by='dbn')
+all <- left_join(all, income, by='zip')
