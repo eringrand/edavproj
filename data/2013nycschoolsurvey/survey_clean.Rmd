@@ -107,7 +107,7 @@ ggplot(flat2, aes(Var2, Var1, fill = 1-value)) +   geom_tile() +   geom_text(aes
 ```
 
 Playing with Tree Models (just because)
-```{r}
+```{r, cache=TRUE, warning=FALSE}
 
 require(rpart)
 require(tree)
@@ -124,20 +124,63 @@ for(i in 2:1000){
 }
 names(mathcv)<-c("treesize", "deviance", "cviteration" )
 qplot(mathcv[,1],mathcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
-
-treeread<-tree(critical_avg~., data=satdataset[,c(3,6:75)])
-treewrite<-tree(writing_avg~., data=satdataset[,c(5,6:75)])
-
-t2<-cv.tree(treewrite,FUN=prune.tree)
-plot(t2$s,t2$dev)
-
-#5 seems to work well for Math
-mathtree<-prune.tree(treemath,best=5)
+#definately overfitting after 9 nodes, but the average deviance doesnt get much better after 6 
+#since we aren't weighting and this model is crap lets stop at 6
+mathtree<-prune.tree(treemath,best=2)
 plot(mathtree)
 text(mathtree)
 
+Math_AVM<-cbind(satdataset$math_avg,predict(mathtree, newdata=satdataset))
+qplot(Math_AVM[,1], color=as.factor(round(Math_AVM[,2])), geom="density", xlab="Actual Math Score", main="Distribution of Model Predictions")
+
+```
+```{r, cache=TRUE, warning=FALSE}
+
+treeread<-tree(critical_avg~., data=satdataset[,c(3,6:136)])
+plot(treeread)
+text(treeread)
+
 t2<-cv.tree(treeread,FUN=prune.tree)
-plot(t2$s,t2$dev)
+readcv<-cbind(t2$s,t2$dev,1)
+for(i in 2:1000){
+  t2<-cv.tree(treeread,FUN=prune.tree)
+  readcv<-rbind(readcv, cbind(t2$s,t2$dev,i))
+}
+names(readcv)<-c("treesize", "deviance", "cviteration" )
+qplot(readcv[,1],readcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
+#definately overfitting after 5 nodes
+readtree<-prune.tree(treeread,best=5)
+plot(readtree)
+text(readtree)
+
+Read_AVM<-cbind(satdataset$critical_avg,predict(readtree, newdata=satdataset))
+qplot(Read_AVM[,1], color=as.factor(round(Read_AVM[,2])), geom="density", xlab="Actual Reading Score", main="Distribution of Model Predictions")
+
+
+
+```
+```{r, cache=TRUE, warning=FALSE}
+
+treewrite<-tree(writing_avg~., data=satdataset[,c(5,6:136)])
+plot(treewrite)
+text(treewrite)
+
+t2<-cv.tree(treewrite,FUN=prune.tree)
+readcv<-cbind(t2$s,t2$dev,1)
+for(i in 2:100){
+  t2<-cv.tree(treewrite,FUN=prune.tree)
+  readcv<-rbind(readcv, cbind(t2$s,t2$dev,i))
+}
+names(readcv)<-c("treesize", "deviance", "cviteration" )
+qplot(readcv[,1],readcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
+#definately overfitting after 5 nodes
+writetree<-prune.tree(treewrite,best=4)
+plot(writetree)
+text(writetree)
+
+Read_AVM<-cbind(satdataset$writing_avg,predict(writetree, newdata=satdataset))
+qplot(Read_AVM[,1], color=as.factor(round(Read_AVM[,2])), geom="density", xlab="Actual Writing Score", main="Distribution of Model Predictions")
+
 
 
 ```
