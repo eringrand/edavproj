@@ -108,6 +108,7 @@ all$diff_time <- as.numeric(difftime(as.POSIXct(all$end_time, format="%I:%M %p")
 
 #all$start_time <- strftime(all$start_time, format="%I:%M %p")
 #all$end_time <- strftime(all$end_time, format="%I:%M %p")
+library(ggplot2)
 
 
 ggplot(all, aes(y=critical_norm, x=start_time)) + geom_point()
@@ -121,7 +122,6 @@ data <- select(all, critical_norm, math_norm, writing_norm, avg_household_norm, 
 
 
 
-library(ggplot2)
 theme_set(theme_bw()) # a theme with a white background
 
 
@@ -166,11 +166,42 @@ x3$SATname <- rep("reading", length(x1$sat_norm))
 
 df2 <- rbind(x1, x2, x3)
 
-ggplot(df2, aes(value, sat_norm, color=SATname)) + geom_point() +
+ggplot(x1, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
   facet_wrap(~ variable, ncol = 3)
 
-
-
-
-ggplot(df, aes(value, sat_norm, color=SATname)) + geom_point() +
+ggplot(x2, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
   facet_wrap(~ variable, ncol = 3)
+
+ggplot(x3, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
+  facet_wrap(~ variable, ncol = 3)
+
+ggplot(df2, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
+  facet_wrap(~ variable, ncol = 3)
+
+ggplot(df, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
+  facet_wrap(~ variable, ncol = 3)
+
+grp_cols <- c("sat_norm","SATname")
+dots <- lapply(grp_cols, as.symbol)
+
+sathist <- df %>%
+  group_by_(.dots=dots) %>%
+  summarise(n=n())
+
+
+# Normalized SAT historgrams
+ggplot(sathist, aes(x=sat_norm, color=SATname)) +
+  geom_histogram(binwidth=.5, aes(fill=SATname))
+
+
+# Cluster by SAT scores 
+library(stats)
+satcl <- select(sat, -dbn, -num_taker)
+cl <- kmeans(satcl, 3, nstart=25)
+plot(satcl, col = cl$cluster)
+points(cl$centers, col = 1:5, pch = 8)
+clusters <- aggregate(satcl, by=list(cl$cluster), FUN=mean)
+
+y <- data.frame(sat, cl$cluster)
+
+
