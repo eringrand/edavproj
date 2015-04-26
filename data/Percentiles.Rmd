@@ -1,0 +1,25 @@
+
+```{r}
+
+setwd("~/GitHub/edavproj/data/")
+satp<-read.csv("SATPercentiles.csv")
+satp$Reading.Percentile<-as.numeric(paste(satp$Reading.Percentile))
+satp$Mathematics.Percentile <-as.numeric(paste(satp$Mathematics.Percentile))
+satp$Writing.Percentile<-as.numeric(paste(satp$Writing.Percentile))
+summary(satp)
+
+sat2<-sat
+sat2$critical_avg<-(round(sat2$critical_avg/10))*10
+sat2$math_avg<-(round(sat2$math_avg/10))*10
+sat2$writing_avg<-(round(sat2$writing_avg/10))*10
+head(sat2)
+require(sqldf)
+sat2<-sqldf("select a.*, b.[Reading.Percentile] from sat2 a, satp b where a.critical_avg=b.Score")
+hist(sat2$Reading.Percentile, freq = F, breaks=4)
+?hist
+summary(sat2)
+
+
+```
+
+
