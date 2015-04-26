@@ -19,9 +19,10 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 1. What were our goals?  What questions did we seek to answer? 
 1. Where did we get our data? What are the problems with our data?
 1. What parts of the data were interesting?
-1. Demonstration of out code.
-1. Discussion of our vizualitions and results. 
+1. Demonstration of our code.
+1. Discussion of our visualizations and results. 
 1. What are the next steps?
+
 </section>
 
 
@@ -37,7 +38,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 <section>
 ## Questions to Answer: 
 1. Is there a correlation between SAT scores and other school information?
-1. How do the school's performance map with poverty and income in New York City?
+1. How do the schools' performance map with poverty and income in New York City?
 1. Can we tell which schools are speciality schools on the map?
 
 </section>
