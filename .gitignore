@@ -19,3 +19,4 @@ data/2013nycschoolsurvey/survey_clean.docx
 *.xml
 data/2013nycschoolsurvey/survey predictions_files/themedata.thmx
 *.docx
+data/2013nycschoolsurvey/survey predictions.htm
