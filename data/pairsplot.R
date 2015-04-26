@@ -31,7 +31,7 @@ ggplot(all, aes(y=critical_norm, x=end_time)) + geom_point()
 
 all$diff_time_norm <- normalize(all$diff_time)
 
-data <- select(all, critical_norm, math_norm, writing_norm, avg_household_norm, p_male_norm, avg_size_norm, avgofmajor.n_norm, avgofvio.n_norm, diff_time_norm) 
+data <- select(all, critical_norm, math_norm, writing_norm, advancedplacement_courses, avg_household_norm, p_male_norm, avg_size_norm, avgofmajor.n_norm, avgofvio.n_norm, diff_time_norm) 
 
 theme_set(theme_bw()) # a theme with a white background
 
@@ -90,8 +90,7 @@ ggplot(df2, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
   facet_wrap(~ variable, ncol = 3)
 
 ggplot(df, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
-  facet_wrap(~ variable, ncol = 3)
-
+  facet_wrap(~ variable, ncol = 4)
 
 
 ## Normalized SAT historgrams ##
@@ -102,8 +101,9 @@ sathist <- df %>%
   group_by_(.dots=dots) %>%
   summarise(n=n())
 
-ggplot(sathist, aes(x=sat_norm, color=SATname)) +
-  geom_histogram(binwidth=.5, aes(fill=SATname))
+#ggplot(sathist, aes(x=sat_norm, color=SATname)) +
+# geom_histogram(binwidth=.5, aes(fill=SATname))
+
 
 
 

@@ -91,10 +91,11 @@ clusters <- aggregate(satcl, by=list(cl$cluster), FUN=mean)
 
 newsat <- data.frame(sat, cl$cluster)
 
-
 #=========== join tables ============
 hsSAT <- inner_join(newsat, hs, by="dbn")
 all <- left_join(hsSAT, safety, by='dbn')
 all <- left_join(all, class, by='dbn')
 all <- left_join(all, gender, by='dbn')
 all <- left_join(all, income, by='zip')
+
+
