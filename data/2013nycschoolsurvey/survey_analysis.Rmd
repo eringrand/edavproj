@@ -1,5 +1,5 @@
 ---
-output: html_document
+output: pdf_document
 ---
 ##Data Source
 
@@ -158,18 +158,23 @@ mathtree<-prune.tree(treemath,best=6)
 plot(mathtree)
 text(mathtree)
 ```
-###s_q11e
-How often is the following true? At my school there is gang activity.  
-Schools with more gang activity generally tend to have lower SAT scores
-###s_q2a
-Most adults at my school that I see every day know my name or who I am.
-But math scores were a little higher when kids didn't think adults knew them as well
-###s_q1c
-Most of the teaching staff at my school give me regular and helpful feedback on my work.
-###t_q10f
-10f. This year, I received helpful training on the use of student achievement data to improve teaching and learning.
+  
+s_q11e  
+How often is the following true? At my school there is gang activity.   
+Schools with more gang activity generally tend to have lower SAT scores  
+
+s_q2a    
+Most adults at my school that I see every day know my name or who I am.  
+But math scores were a little higher when kids didn't think adults knew them as well   
+
+s_q1c  
+Most of the teaching staff at my school give me regular and helpful feedback on my work.  
+
+t_q10f    
+This year, I received helpful training on the use of student achievement data to improve teaching and learning.  
 This training is likely associated with lower scores because teachers in schools with high SAT scores probably didn't take this training or didn't find it as helpful
-###t_q8c
+
+t_q8c
 I would recommend my school to parents seeking a place for their child.
 
 
@@ -179,12 +184,11 @@ Math_AVM<-cbind(satdataset$math_avg,predict(mathtree, newdata=satdataset))
 qplot(Math_AVM[,1], color=as.factor(round(Math_AVM[,2])), geom="density", xlab="Actual Math Score", main="Distribution of Model Predictions")
 
 ```
-
+There seem to be different score distributions across predicted categories, suggesting that there is some ammount of signal (likely small) in this model
+###SAT Reading Score
 ```{r, cache=TRUE, warning=FALSE}
 
 treeread<-tree(critical_avg~., data=satdataset[,c(3,6:136)])
-plot(treeread)
-text(treeread)
 
 t2<-cv.tree(treeread,FUN=prune.tree)
 readcv<-cbind(t2$s,t2$dev,1)
@@ -195,6 +199,10 @@ for(i in 2:200){
 names(readcv)<-c("treesize", "deviance", "cviteration" )
 qplot(readcv[,1],readcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
 #definately overfitting after 5 nodes
+```
+For Critical Reading, we prefer a tree with 5 nodes
+```{r, cache=TRUE, warning=FALSE}
+
 readtree<-prune.tree(treeread,best=5)
 plot(readtree)
 text(readtree)
@@ -202,9 +210,8 @@ text(readtree)
 Read_AVM<-cbind(satdataset$critical_avg,predict(readtree, newdata=satdataset))
 qplot(Read_AVM[,1], color=as.factor(round(Read_AVM[,2])), geom="density", xlab="Actual Reading Score", main="Distribution of Model Predictions")
 
-
-
 ```
+###SAT Reading Score
 ```{r, cache=TRUE, warning=FALSE}
 
 treewrite<-tree(writing_avg~., data=satdataset[,c(5,6:136)])
@@ -219,7 +226,9 @@ for(i in 2:200){
 }
 names(readcv)<-c("treesize", "deviance", "cviteration" )
 qplot(readcv[,1],readcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
-#definately overfitting after 5 nodes
+```
+For Writing, lets go with a tree of size four
+```{r, cache=TRUE, warning=FALSE}
 writetree<-prune.tree(treewrite,best=4)
 plot(writetree)
 text(writetree)
@@ -227,8 +236,7 @@ text(writetree)
 Read_AVM<-cbind(satdataset$writing_avg,predict(writetree, newdata=satdataset))
 qplot(Read_AVM[,1], color=as.factor(round(Read_AVM[,2])), geom="density", xlab="Actual Writing Score", main="Distribution of Model Predictions")
 
-
-
 ```
+Gang activity consistantly tops our tree models and is likely the survey question with the strongest link to SAT Performance
 
 
