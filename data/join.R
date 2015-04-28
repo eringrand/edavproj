@@ -97,5 +97,3 @@ all <- left_join(hsSAT, safety, by='dbn')
 all <- left_join(all, class, by='dbn')
 all <- left_join(all, gender, by='dbn')
 all <- left_join(all, income, by='zip')
-
-

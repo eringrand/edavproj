@@ -2,7 +2,6 @@
 require(dplyr)
 require(reshape2)
 
-
 #=========== correlation models ============
 normalize <- function(x) {
   mean = mean(x[is.na(x)==FALSE])

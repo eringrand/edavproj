@@ -1,0 +1,33 @@
+---
+title: "erinspart"
+author: "Erin Grand"
+date: "April 27, 2015"
+output: html_document
+---
+
+Thinsg I've done: 
+* Cluster the SAT scores with a simple KMEANS algorithm 
+* Joined all the tables together with their cluster ID 
+```{r, echo=False}
+sat$total <- sat$math_avg + sat$critical_avg
+satcl <- select(sat, -dbn, -num_taker)
+cl <- kmeans(satcl, 3, nstart=25)
+plot(satcl, col = cl$cluster)
+points(cl$centers, col = 1:5, pch = 8)
+clusters <- aggregate(satcl, by=list(cl$cluster), FUN=mean)
+```
+
+* Looked at the correlation / overlap between the three types of SAT scores
+```{r}
+grp_cols <- c("sat_norm","SATname")
+dots <- lapply(grp_cols, as.symbol)
+
+sathist <- df %>%
+  group_by_(.dots=dots) %>%
+  summarise(n=n())
+
+ggplot(sathist, aes(x=sat_norm, color=SATname)) +
+ geom_histogram(binwidth=.5, aes(fill=SATname))
+```
+
+* Looked at scatter plots of normalized feature vectors to see if they were visually correlated with SAT scores in any way. 
