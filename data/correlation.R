@@ -111,3 +111,8 @@ fit = lm(all$math_norm ~ all$avg_size_norm + I(all$avg_size_norm^2), na.action=n
 summary(fit)
 plot(all$avg_size_norm, all$math_norm)
 lines(sort(na.omit(all$avg_size_norm)), fitted(fit)[order(na.omit(all$avg_size_norm))])
+
+studentsurvey <- read.csv("2013NYCschoolsurvey/studentscore.csv", header=T, stringsAsFactors = F)
+
+
+
