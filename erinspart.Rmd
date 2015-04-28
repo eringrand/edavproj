@@ -1,5 +1,5 @@
 ---
-title: "erinspart"
+title: "Things Erin did as Part of Our Presentation"
 author: "Erin Grand"
 date: "April 27, 2015"
 output: html_document
@@ -7,14 +7,26 @@ output: html_document
 
 Thinsg I've done: 
 * Cluster the SAT scores with a simple KMEANS algorithm 
-* Joined all the tables together with their cluster ID 
-```{r, echo=False}
+* Joined all the tables together with their cluster ID
+
+```{r}
+sat <- read.csv("data/SAT_Results_2012.csv", header=T, stringsAsFactors = F)
+names(sat) <- tolower(names(sat))
+sat <- select(sat, -school.name)
+colnames(sat) <- c('dbn', 'num_taker', 'critical_avg', 'math_avg', 'writing_avg')
+sat$num_taker <- as.numeric(sat$num_taker)
+sat$critical_avg <- as.numeric(sat$critical_avg)
+sat$math_avg <- as.numeric(sat$math_avg)
+sat$writing_avg <- as.numeric(sat$writing_avg)
+sat <- na.omit(sat)
+
 sat$total <- sat$math_avg + sat$critical_avg
 satcl <- select(sat, -dbn, -num_taker)
 cl <- kmeans(satcl, 3, nstart=25)
 plot(satcl, col = cl$cluster)
 points(cl$centers, col = 1:5, pch = 8)
 clusters <- aggregate(satcl, by=list(cl$cluster), FUN=mean)
+newsat <- data.frame(sat, cl$cluster)
 ```
 
 * Looked at the correlation / overlap between the three types of SAT scores
@@ -31,3 +43,5 @@ ggplot(sathist, aes(x=sat_norm, color=SATname)) +
 ```
 
 * Looked at scatter plots of normalized feature vectors to see if they were visually correlated with SAT scores in any way. 
+
+* Box plot 
