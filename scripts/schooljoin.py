@@ -8,19 +8,19 @@ import json
 import csv
 
 # original schools
-with open('../../json/schools.json', 'r') as f:
+with open('../../json/nynta.json', 'r') as f:
     schools = json.loads(f.read())
 
-# hannah's info
-with open('schools_all.csv', 'r')  as f:
+# Importing all info
+with open('', 'r')  as f:
     # table of school info keyed on school dbn
-    schoolprops = {}
+    schooljoin = {}
     reader = csv.DictReader(f)
 
     for row in reader:
-        dbn = row['DBN']
-        del row['DBN']
-        schoolprops[dbn] = row
+        dbn = row['dbn']
+        del row['dbn']
+        schooljoin[dbn] = row
 
 # update schools json with hannah's new properties
 remove = set()
