@@ -96,7 +96,8 @@ _Pulled some variables that we thought might be important._
 </section>
 
 <section>
-## Cluster Centers 
+## Cluster Centers
+ 
 | Group | Critical Avg | Math Avg | Writing Avg | Total     |
 |-------|--------------|----------|-------------|-----------|
 | 1     | 569.3333     | 599.0000 | 573.2500    | 1168.3333 |

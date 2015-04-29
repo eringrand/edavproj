@@ -112,7 +112,7 @@ data$cl.cluster <- as.character(data$cl.cluster)
 names(data) <- c("cl.cluster", "math_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
 mdata <- melt(data, c("math_avg", "cl.cluster"))
 mdata <- na.omit(mdata)
-ggplot(mdata, aes(math_avg, value, color=cl.cluster)) + geom_boxplot() +
+ggplot(mdata, aes(math_avg, value, fill=cl.cluster)) + geom_boxplot() +
   facet_wrap(~variable , ncol = 4, scales = "free") +
   xlab("Average Math SAT score") +
   ylab("") +
@@ -124,7 +124,7 @@ data2$cl.cluster <- as.character(data$cl.cluster)
 names(data2) <- c("cl.cluster", "writing_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
 mdata2 <- melt(data2, c("writing_avg", "cl.cluster"))
 mdata2 <- na.omit(mdata2)
-ggplot(mdata2, aes(writing_avg, value, color=cl.cluster)) + geom_boxplot() +
+ggplot(mdata2, aes(writing_avg, value, fill=cl.cluster)) + geom_boxplot() +
   facet_wrap(~variable , ncol = 4, scales = "free") +
   xlab("Average Writing SAT score") +
   ylab("")+
@@ -136,7 +136,7 @@ data3$cl.cluster <- as.character(data$cl.cluster)
 names(data3) <- c("cl.cluster", "critical_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
 mdata3 <- melt(data3, c("critical_avg", "cl.cluster"))
 mdata3 <- na.omit(mdata3)
-ggplot(mdata3, aes(critical_avg, value, color=cl.cluster)) + geom_boxplot() +
+ggplot(mdata3, aes(critical_avg, value, fill=cl.cluster)) + geom_boxplot() +
   facet_wrap(~variable , ncol = 4, scales = "free") +
   xlab("Average Critical Reading SAT score") +
   ylab("") +

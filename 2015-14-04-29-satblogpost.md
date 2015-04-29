@@ -66,7 +66,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
    
 1. What parts of the data were interesting?
 
-1. Demonstration of out code.
+1. Demonstration of our code.
 
 1. Discussion of our vizualitions and results. 
 
