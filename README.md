@@ -30,9 +30,8 @@ publicly available data from NYC Open Data, nyc.gov, and NYU's Furman Center for
 we also take a look at a number of other features.
 
 Repository Hierarchy
-
-Here is how we've organized our folder structure:
 --------------------
+Here is how we've organized our folder structure:
     .
     ├── css             Our custom css
     ├── js              Our custom js
