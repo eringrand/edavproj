@@ -18,9 +18,7 @@ Team
 Motivation
 ------------
 
-There has already been a plethora of anecdotal and empirical evidence suggesting a relationship between a student's SAT scores
-and their family's income. For example, this from the Huffington Post in 2013:
-
+There has already been a plethora of [anecdotal](http://articles.latimes.com/2003/jul/27/local/me-sat27) and [empirical evidence](http://economix.blogs.nytimes.com/2009/08/27/sat-scores-and-family-income/?_r=1) suggesting a relationship between a student's SAT scoresand their family's income. For example, this from the Huffington Post in 2013:
 
 ![HuffPo SAT](img/SATScores_0.png)
 
@@ -30,8 +28,9 @@ publicly available data from NYC Open Data, nyc.gov, and NYU's Furman Center for
 we also take a look at a number of other features.
 
 Repository Hierarchy
---------------------
 
+Here is how we've organized our folder structure:
+--------------------
     .
     ├── css             Our custom css
     ├── js              Our custom js
