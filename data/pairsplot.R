@@ -109,30 +109,26 @@ sathist <- df %>%
 
 data <- select(all, critical_avg, math_avg, writing_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
 
-theme_set(theme_bw()) # a theme with a white background
+data1 <- select(data, -critical_avg, -math_avg)
+names(data1)[1] <- c("sat")
 
-data1 <- select(data, -critical_norm, -math_norm)
-names(data1)[1] <- c("sat_norm")
+df.m1 <- melt(data1,"sat")
+df.m1$SATname <- rep("writing", length(df.m1$sat))
 
-df.m1 <- melt(data1,"sat_norm")
-df.m1$SATname <- rep("writing", length(df.m1$sat_norm))
+data2 <- select(data, -critical_avg, -writing_avg)
+names(data2)[1] <- c("sat")
+df.m2 <- melt(data2,"sat")
+df.m2$SATname <- rep("math", length(df.m2$sat))
 
-data2 <- select(data, -critical_norm, -writing_norm)
-names(data2)[1] <- c("sat_norm")
-df.m2 <- melt(data2,"sat_norm")
-df.m2$SATname <- rep("math", length(df.m2$sat_norm))
-
-data3 <- select(data, -writing_norm, -math_norm)
-names(data3)[1] <- c("sat_norm")
-df.m3 <- melt(data3,"sat_norm")
-df.m3$SATname <- rep("reading", length(df.m3$sat_norm))
+data3 <- select(data, -writing_avg, -math_avg)
+names(data3)[1] <- c("sat")
+df.m3 <- melt(data3,"sat")
+df.m3$SATname <- rep("reading", length(df.m3$sat))
 
 df <- rbind(df.m1, df.m2, df.m3)
 
-
-
-df2 <- na.omit(df2)
-ggplot(df2, aes(sat_norm, value)) + geom_boxplot() +
-  facet_wrap(~ variable, ncol = 4)
+df <- na.omit(df)
+ggplot(df, aes(value, sat, color=SATname)) + geom_boxplot() +
+  facet_wrap(~ variable, ncol = 4, scales = "free")
 
 
