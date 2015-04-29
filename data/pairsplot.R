@@ -100,8 +100,9 @@ sathist <- df %>%
   group_by_(.dots=dots) %>%
   summarise(n=n())
 
-#ggplot(sathist, aes(x=sat_norm, color=SATname)) +
-#geom_histogram(binwidth=.5, aes(fill=SATname))
+ggplot(sathist, aes(x=sat_norm, color=SATname)) +
+geom_histogram(binwidth=.5, aes(fill=SATname))
+
 
 
 ### Box ploting! 
@@ -114,7 +115,8 @@ mdata <- na.omit(mdata)
 ggplot(mdata, aes(math_avg, value, color=cl.cluster)) + geom_boxplot() +
   facet_wrap(~variable , ncol = 4, scales = "free") +
   xlab("Average Math SAT score") +
-  ylab("")
+  ylab("") +
+  labs(colour = "Cluster")
   
 
 data2 <- select(all, cl.cluster, writing_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
@@ -125,7 +127,8 @@ mdata2 <- na.omit(mdata2)
 ggplot(mdata2, aes(writing_avg, value, color=cl.cluster)) + geom_boxplot() +
   facet_wrap(~variable , ncol = 4, scales = "free") +
   xlab("Average Writing SAT score") +
-  ylab("")
+  ylab("")+
+  labs(colour = "Cluster")
 
 
 data3 <- select(all, cl.cluster, critical_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
@@ -136,6 +139,7 @@ mdata3 <- na.omit(mdata3)
 ggplot(mdata3, aes(critical_avg, value, color=cl.cluster)) + geom_boxplot() +
   facet_wrap(~variable , ncol = 4, scales = "free") +
   xlab("Average Critical Reading SAT score") +
-  ylab("") 
+  ylab("") +
+  labs(colour = "Cluster")
 
 
