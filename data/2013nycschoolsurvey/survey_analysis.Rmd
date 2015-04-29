@@ -1,0 +1,242 @@
+---
+output: pdf_document
+---
+##Data Source
+
+Every year, NYC surveys parents, teachers and students (grades 6+) with the intent of using responses to help improve city schools.  Results are published by the NYC Department of Education and available on NYCOpenData.  We used 2013 survey data in our analysis (http://schools.nyc.gov/Accountability/tools/survey/2013.htm) 
+
+##Survey Validity
+
+2013 response rates were fairly high, particularly for teachers and students (83%).  The response rate among parents was lower (54% in 2013).  54% is still very high given most survey benchmarks (http://en.Wikipedia.org/wiki/Response_rate), though, looking at the wide variation across schools, it's not a safe assumption that the other 46% of parents are missing at random with respect to survey KPIs(same for student/teachers but to a much lesser degree).  Given the variations by school, we wouldn't recommend an in-depth analysis of parent sentiment with our level of background on survey design and execution.  However as a general indicator of school quality (by school), this data should be more than adequate.
+
+##Survey Scores
+
+Initially survey questions were on categorical scores, ie:  
+ 
++Strongly agree - Agree - Disagree - Strongly disagree   
++None of the time - Some of the time - Most of the time -All of the time 
+ 
+The NYC Department of Ed calculated scores (between 0 and 10) for most questions based on weighted response.  We processed and used these scores rather than raw survey responses in order to have 1 metric rather than 4-5 linked variables for each questions.   
+ 
+High scores are generally more positive, so a higher score in 'Most of the teaching staff at my school expect all students to work hard.' means more students believe teachers expect them to work hard while a high score in 'At my school there is gang activity.' means less students report gang activity )
+
+The code below reads (cleaned up) versions of the Survey Scores and removes unscored questions: 
+
+```{r, cache=TRUE, warning=FALSE}
+
+require(sqldf)
+
+setwd("~/GitHub/edavproj/data/2013nycschoolsurvey/")
+
+pscore<-read.csv("parentscore.csv", stringsAsFactors = F)
+sscore<-read.csv("studentscore.csv", stringsAsFactors = F)
+tscore<-read.csv("teacherscore.csv", stringsAsFactors = F)
+
+#Strip out Columns without scores
+pscore2<-pscore[,1:3]
+sscore2<-sscore[,1:3]
+tscore2<-tscore[,1:3]
+tscore2[,3]<-as.factor(tscore2[,3])
+pscore2[,3]<-as.factor(pscore2[,3])
+sscore2[,3]<-as.factor(sscore2[,3])
+for(i in 4:length(pscore[1,])){
+  pscore2[,i]<-as.numeric(gsub("Not Scored", "",pscore[,i]))
+}
+for(i in 4:length(sscore[1,])){
+  sscore2[,i]<-as.numeric(gsub("Not Scored", "",sscore[,i]))
+}
+for(i in 4:length(tscore[1,])){
+  tscore2[,i]<-as.numeric(gsub("Not Scored", "",tscore[,i]))
+}
+names(tscore2)<-names(tscore)
+names(pscore2)<-names(pscore)
+names(sscore2)<-names(sscore)
+
+pscore3<-pscore2[,-c(30:39,41,45:55)]
+sscore3<-sscore2[,-c(21:23, 38:72)]
+
+surveyScore<-sqldf("select a.*, b.* from sscore3 a, pscore3 b where a.dbn=b.dbn")
+surveyScore<-surveyScore[,-c(40:42)]
+surveyScore<-sqldf("select a.*, b.* from surveyScore a, tscore2 b where a.dbn=b.dbn")
+surveyScore<-surveyScore[,-c(73:75)]
+
+```
+
+Average scores are around 8 (generally) and there is a fair amount of correlation across questions and surveys.  Because there are over 100 scored questions, we are only going to profile the Academic Expectations Score, Communication Score, Engagement Score and Safety Score here (these are aggregates created by the dept of Ed to summarize the survey).
+
+
+```{r, cache=TRUE, warning=FALSE}
+require(reshape2)
+require(ggplot2)
+
+cor_s<-cor(surveyScore[,c(4:7,40:43,73:76)],use="complete")
+#cor_s[lower.tri(cor_s,diag=FALSE)]<-NA
+flat2<-melt(cor_s)
+flat2$Var1<-as.factor(flat2$Var1)
+flat2$Var2<-as.factor(flat2$Var2)
+levels(flat2$Var2)<-c(  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score",     "Teacher Academic Expectations Score","Teacher Communication Score",     "Teacher Engagement Score",     "Teacher Safety Score")
+levels(flat2$Var1)<-c( "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score",     "Teacher Academic Expectations Score","Teacher Communication Score",     "Teacher Engagement Score",     "Teacher Safety Score")
+#flat2<-flat2[-which(is.na(flat2[, 3])),]
+
+ggplot(flat2, aes(Var2, Var1, fill = 1-value)) +   geom_tile() +   geom_text(aes(Var2, Var1, label = round(value*100)), color = "#073642", size = 4) + theme(legend.position="none")+ theme(axis.title.x = element_blank())+ theme(axis.title.y = element_blank())+theme(axis.text.x = element_text(angle = 45, hjust = 1))+ggtitle("Correlation")
+
+
+```
+All of the aggregated scores are positively correlated with each other and within groups they are very highly correlated
+
+##Surveys and SAT
+
+Next, we looked at the relationship between survey responses and SAT scores.  Overall, there aren't strong correlations between SAT Score and the overall response scores.   
+
+```{r, cache=TRUE, warning=FALSE}
+setwd("~/GitHub/edavproj/data/")
+require(dplyr)
+
+#Sat Data
+sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
+names(sat) <- tolower(names(sat))
+sat <- select(sat, -school.name)
+colnames(sat) <- c('dbn', 'num_taker', 'critical_avg', 'math_avg', 'writing_avg')
+sat$num_taker = as.numeric(sat$num_taker)
+sat$critical_avg = as.numeric(sat$critical_avg)
+sat$math_avg = as.numeric(sat$math_avg)
+sat$writing_avg = as.numeric(sat$writing_avg)
+sat <- na.omit(sat)
+
+#join survey
+SatSurvey<-sqldf("select a.*, b.* from sat a, surveyScore b where a.dbn=b.dbn")
+#head(SatSurvey)
+
+satdataset<-SatSurvey[,-c(6:7)]
+satdataset[,2]<-as.numeric(satdataset[,2])
+satdataset[,3]<-as.numeric(satdataset[,3])
+satdataset[,4]<-as.numeric(satdataset[,4])
+satdataset[,5]<-as.numeric(satdataset[,5])
+#remove middle/elementary specific qs
+satdataset<-satdataset[,-c(134:141)]
+
+cor_s<-cor(satdataset[,c(3:5,7:10,43:46,76:79)],use="complete")
+#cor_s[lower.tri(cor_s,diag=FALSE)]<-NA
+flat2<-melt(cor_s)
+flat2$Var1<-as.factor(flat2$Var1)
+flat2$Var2<-as.factor(flat2$Var2)
+levels(flat2$Var2)<-c("Avg Reading SAT Score", "Avg Math SAT Score","Avg Writing SAT Score",  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score",     "Teacher Academic Expectations Score","Teacher Communication Score",     "Teacher Engagement Score",     "Teacher Safety Score")
+levels(flat2$Var1)<-c("Avg Reading SAT Score", "Avg Math SAT Score","Avg Writing SAT Score",  "Student Academic Expectations Score",     "Student Communication Score",     "Student Engagement Score",    "Student Safety Score",     "Parent Academic Expectations Score","Parent Communication Score",     "Parent Engagement Score",     "Parent Safety Score",     "Teacher Academic Expectations Score","Teacher Communication Score",     "Teacher Engagement Score",     "Teacher Safety Score")
+#flat2<-flat2[-which(is.na(flat2[, 3])),]
+
+ggplot(flat2, aes(Var2, Var1, fill = 1-value)) +   geom_tile() +   geom_text(aes(Var2, Var1, label = round(value*100)), color = "#073642", size = 4) + theme(legend.position="none")+ theme(axis.title.x = element_blank())+ theme(axis.title.y = element_blank())+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+##Simple Models
+
+Because the correlations were not too strong and we're more interested with interpretting the relationship between the survey responses and SAT scores than predicting a school's SAT scores, we used simple tree models, pruned with cross validation (to prevent overfitting) to fit the data
+
+###SAT Math Score
+```{r, cache=TRUE, warning=FALSE}
+
+require(rpart)
+require(tree)
+
+#Tree Model
+treemath<-tree(math_avg~., data=satdataset[,c(4,6:136)])
+
+#CV to choose tree size
+t2<-cv.tree(treemath,FUN=prune.tree)
+mathcv<-cbind(t2$s,t2$dev,1)
+for(i in 2:200){
+  t2<-cv.tree(treemath,FUN=prune.tree)
+  mathcv<-rbind(mathcv, cbind(t2$s,t2$dev,i))
+}
+names(mathcv)<-c("treesize", "deviance", "cviteration" )
+qplot(mathcv[,1],mathcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
+```
+We are definately overfitting after 9 nodes, but the average deviance doesnt get much better after 6 so we will try a tree of size 6.
+```{r, cache=TRUE, warning=FALSE}
+mathtree<-prune.tree(treemath,best=6)
+plot(mathtree)
+text(mathtree)
+```
+  
+s_q11e  
+How often is the following true? At my school there is gang activity.   
+Schools with more gang activity generally tend to have lower SAT scores  
+
+s_q2a    
+Most adults at my school that I see every day know my name or who I am.  
+But math scores were a little higher when kids didn't think adults knew them as well   
+
+s_q1c  
+Most of the teaching staff at my school give me regular and helpful feedback on my work.  
+
+t_q10f    
+This year, I received helpful training on the use of student achievement data to improve teaching and learning.  
+This training is likely associated with lower scores because teachers in schools with high SAT scores probably didn't take this training or didn't find it as helpful
+
+t_q8c
+I would recommend my school to parents seeking a place for their child.
+
+
+```{r, cache=TRUE, warning=FALSE}
+
+Math_AVM<-cbind(satdataset$math_avg,predict(mathtree, newdata=satdataset))
+qplot(Math_AVM[,1], color=as.factor(round(Math_AVM[,2])), geom="density", xlab="Actual Math Score", main="Distribution of Model Predictions")
+
+```
+There seem to be different score distributions across predicted categories, suggesting that there is some ammount of signal (likely small) in this model
+###SAT Reading Score
+```{r, cache=TRUE, warning=FALSE}
+
+treeread<-tree(critical_avg~., data=satdataset[,c(3,6:136)])
+
+t2<-cv.tree(treeread,FUN=prune.tree)
+readcv<-cbind(t2$s,t2$dev,1)
+for(i in 2:200){
+  t2<-cv.tree(treeread,FUN=prune.tree)
+  readcv<-rbind(readcv, cbind(t2$s,t2$dev,i))
+}
+names(readcv)<-c("treesize", "deviance", "cviteration" )
+qplot(readcv[,1],readcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
+#definately overfitting after 5 nodes
+```
+For Critical Reading, we prefer a tree with 5 nodes
+```{r, cache=TRUE, warning=FALSE}
+
+readtree<-prune.tree(treeread,best=5)
+plot(readtree)
+text(readtree)
+
+Read_AVM<-cbind(satdataset$critical_avg,predict(readtree, newdata=satdataset))
+qplot(Read_AVM[,1], color=as.factor(round(Read_AVM[,2])), geom="density", xlab="Actual Reading Score", main="Distribution of Model Predictions")
+
+```
+###SAT Reading Score
+```{r, cache=TRUE, warning=FALSE}
+
+treewrite<-tree(writing_avg~., data=satdataset[,c(5,6:136)])
+plot(treewrite)
+text(treewrite)
+
+t2<-cv.tree(treewrite,FUN=prune.tree)
+readcv<-cbind(t2$s,t2$dev,1)
+for(i in 2:200){
+  t2<-cv.tree(treewrite,FUN=prune.tree)
+  readcv<-rbind(readcv, cbind(t2$s,t2$dev,i))
+}
+names(readcv)<-c("treesize", "deviance", "cviteration" )
+qplot(readcv[,1],readcv[,2])+ theme(legend.position="none")+xlab("Tree Size")+ylab("Deviance")+geom_smooth()
+```
+For Writing, lets go with a tree of size four
+```{r, cache=TRUE, warning=FALSE}
+writetree<-prune.tree(treewrite,best=4)
+plot(writetree)
+text(writetree)
+
+Read_AVM<-cbind(satdataset$writing_avg,predict(writetree, newdata=satdataset))
+qplot(Read_AVM[,1], color=as.factor(round(Read_AVM[,2])), geom="density", xlab="Actual Writing Score", main="Distribution of Model Predictions")
+
+```
+Gang activity consistantly tops our tree models and is likely the survey question with the strongest link to SAT Performance
+
+

@@ -1,89 +1,6 @@
-setwd("~/Documents/Repository/edavproj/data/")
+#setwd("~/Documents/Repository/edavproj/data/")
 require(dplyr)
-
-#==========get directory of high schools and SAT results =============
-hs <- read.csv("DOE_High_School_Directory.csv", header=T, stringsAsFactors = F)
-hs <- select(hs, -boro, -se_services, -ell_programs,  -school_accessibility_description, -number_programs)
-hs$lonlat <- tail(strsplit(hs$Location, '\n')[[1]], n=1)
-
-countClasses <- function(x) {
-  xs <- strsplit(x, ",", fixed=TRUE)
-  l = length(xs[[1]])
-  return(l)
-}
-
-hs$advancedplacement_courses <- sapply(hs$advancedplacement_courses, countClasses)
-hs$online_ap_courses <- sapply(hs$online_ap_courses, countClasses)
-hs$total_students = as.numeric(hs$total_students)
-
-sat <- read.csv("SAT_Results_2012.csv", header=T, stringsAsFactors = F)
-names(sat) <- tolower(names(sat))
-sat <- select(sat, -school.name)
-colnames(sat) <- c('dbn', 'num_taker', 'critical_avg', 'math_avg', 'writing_avg')
-sat$num_taker = as.numeric(sat$num_taker)
-sat$critical_avg = as.numeric(sat$critical_avg)
-sat$math_avg = as.numeric(sat$math_avg)
-sat$writing_avg = as.numeric(sat$writing_avg)
-sat <- na.omit(sat)
-
-#========= get safety report ================
-safety <- read.csv("School_Safety_Report.csv", header=T, stringsAsFactors = F)
-names(safety) <- tolower(names(safety))
-safety <- select(safety, -address, -location.name, -location.code, -borough, -building.name, -engroupa, -schools.in.building, -building.code, -id, -register, -rangea)
-# according to http://schools.nyc.gov/OurSchools/SchoolSafetyReport.htm: N/A means 0 crime
-safety[safety == 'N/A'] <- 0
-safety_wodbn <- select(safety, -dbn)
-safety_wodbn <- sapply(safety_wodbn, as.numeric)
-safety_wodbn <- data.frame(safety_wodbn)
-safety <- cbind(safety$dbn, safety_wodbn)
-colnames(safety)[1] = 'dbn'
-
-#========= get class size clean data =============
-class_size <- read.csv("2010-2011_Class_Size_School-level_detail.csv", header=T, stringsAsFactors = F)
-# construct dbn from CSD and schoolcode
-csd1 = subset(class_size, CSD<10)
-csd2 = subset(class_size, CSD>=10)
-csd1$dbn = paste0('0', csd1$CSD, csd1$SCHOOL.CODE)
-csd2$dbn = paste0(csd2$CSD, csd2$SCHOOL.CODE)
-class_size = rbind(csd1, csd2)
-
-class_size <- select(class_size, dbn, GRADE, NUMBER.OF.STUDENTS...SEATS.FILLED, NUMBER.OF.SECTIONS, AVERAGE.CLASS.SIZE, SIZE.OF.SMALLEST.CLASS, SIZE.OF.LARGEST.CLASS)
-colnames(class_size) <- c('dbn', 'grade', 'num_stu', 'num_class', 'avg_size', 'smallest_size', 'largest_size')
-
-require(sqldf)
-class = sqldf("SELECT dbn, sum(num_stu),sum(num_class) FROM class_size WHERE grade='09-12' GROUP BY dbn")
-colnames(class) <- c('dbn', 'total_stu', 'total_class')
-class$avg_size = class$total_stu / class$total_class
-
-#========== get gender ratio clean data ===========
-gender <- read.csv("Graduation_Outcomes_School_Level_Classes_of_2005-2011_Gender.csv", header=T, stringsAsFactors = F)
-gender = subset(gender, Cohort.Year==2007 & Cohort.Category=='4 Year August')
-names(gender) <- tolower(names(gender))
-gender <- select(gender, dbn, demographic, total.cohort.num)
-
-female <- subset(gender, demographic=='Female')
-male <- subset(gender, demographic=='Male')
-female <- select(female, dbn, total.cohort.num)
-male <- select(male, dbn, total.cohort.num)
-names(female) = c('dbn', 'female')
-names(male) = c('dbn', 'male')
-gender <- merge(female, male, by = "dbn", all = TRUE)
-gender[is.na(gender)] <- 0
-gender$p_male = gender$male / (gender$male + gender$female)
-
-#=========== get income data =============
-income <- read.csv("zipcode_income.csv", header=T, stringsAsFactors = F)
-colnames(income) = c('zip', 'zip_lonlat', 'zip_pop', 'avg_household')
-income$avg_household = gsub('\\$','',income$avg_household)
-income$avg_household = gsub(',','',income$avg_household)
-income$avg_household = as.numeric(income$avg_household)
-
-#=========== join tables ============
-hsSAT <- inner_join(sat, hs, by="dbn")
-all <- left_join(hsSAT, safety, by='dbn')
-all <- left_join(all, class, by='dbn')
-all <- left_join(all, gender, by='dbn')
-all <- left_join(all, income, by='zip')
+require(reshape2)
 
 #=========== correlation models ============
 normalize <- function(x) {
@@ -92,6 +9,7 @@ normalize <- function(x) {
   normalized_x = (x-mean)/sd
   return(normalized_x)
 }
+
 all$critical_norm <- normalize(all$critical_avg)
 all$math_norm <- normalize(all$math_avg)
 all$writing_norm <- normalize(all$writing_avg)
@@ -100,40 +18,128 @@ all$p_male_norm <- normalize(all$p_male)
 all$avg_size_norm <- normalize(all$avg_size)
 all$avgofmajor.n_norm <- normalize(all$avgofmajor.n)
 all$avgofvio.n_norm <- normalize(all$avgofvio.n)
+all$advancedplacement_courses_norm <- normalize(all$advancedplacement_courses)
 
-# simple regression to class size: R^2 low but coefficient significant
-# fit = lm(all$math_norm ~ all$avg_size_norm, na.action=na.exclude)
-# summary(fit)
-# plot(all$avg_size_norm, all$math_norm)
-# abline(fit)
-# 2nd order regression to class size: R^2 a little higher
-# fit = lm(all$math_norm ~ all$avg_size_norm + I(all$avg_size_norm^2), na.action=na.omit)
-# summary(fit)
-# plot(all$avg_size_norm, all$math_norm)
-# lines(sort(na.omit(all$avg_size_norm)), fitted(fit)[order(na.omit(all$avg_size_norm))])
+all$diff_time <- as.numeric(difftime(as.POSIXct(all$end_time, format="%I:%M %p"), as.POSIXct(all$start_time, format="%I:%M %p")))
 
-library(GGally)
+#all$start_time <- strftime(all$start_time, format="%I:%M %p")
+#all$end_time <- strftime(all$end_time, format="%I:%M %p")
+library(ggplot2)
 
-data <- select(all, critical_norm, math_norm, writing_norm, avg_household_norm, p_male_norm, avg_size_norm, avgofmajor.n_norm, avgofvio.n_norm) 
+ggplot(all, aes(y=critical_norm, x=start_time)) + geom_point()
+ggplot(all, aes(y=critical_norm, x=end_time)) + geom_point()
+
+all$diff_time_norm <- normalize(all$diff_time)
+
+data <- select(all, critical_norm, math_norm, writing_norm, advancedplacement_courses_norm, avg_household_norm, p_male_norm, avg_size_norm, avgofmajor.n_norm, avgofvio.n_norm, diff_time_norm) 
+
+theme_set(theme_bw()) # a theme with a white background
 
 data1 <- select(data, -critical_norm, -math_norm)
-data1$SATname <- rep("writing", length(data1$writing_norm))
-names(data1) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm", "SATname")   
+names(data1)[1] <- c("sat_norm")
+
+df.m1 <- melt(data1,"sat_norm")
+df.m1$SATname <- rep("writing", length(df.m1$sat_norm))
+
 data2 <- select(data, -critical_norm, -writing_norm)
-data2$SATname <- rep("math", length(data2$math_norm))
-names(data2) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm", "SATname")   
+names(data2)[1] <- c("sat_norm")
+df.m2 <- melt(data2,"sat_norm")
+df.m2$SATname <- rep("math", length(df.m2$sat_norm))
+
 data3 <- select(data, -writing_norm, -math_norm)
-data3$SATname <- rep("reading", length(data3$critical_norm))
-names(data3) <- c("sat_norm", "avg_household_norm", "p_male_norm","avg_size_norm", "avgofmajor.n_norm", "avgofvio.n_norm", "SATname")   
+names(data3)[1] <- c("sat_norm")
+df.m3 <- melt(data3,"sat_norm")
+df.m3$SATname <- rep("reading", length(df.m3$sat_norm))
 
-df <- rbind(data1, data2, data3)
+df <- rbind(df.m1, df.m2, df.m3)
 
-library(ggplot2)
-#ggplot(datanew, colour='SATname', alpha=0.4)
 
-par(mfrow=c((length(df))/3-1,3))
-sapply(2:length(df), function(x){
-  plot(df[,1] ,df[,c(1,x)])
-})
+# same thing but with averages in the the group by
+
+x1 <- data1 %>%
+  group_by(sat_norm) %>%
+  summarise_each(funs(mean)) %>%
+  melt("sat_norm") 
+x1$SATname <- rep("writing", length(x1$sat_norm))
+
+x2 <- data2 %>%
+  group_by(sat_norm) %>%
+  summarise_each(funs(mean)) %>%
+  melt("sat_norm")
+x2$SATname <- rep("math", length(x2$sat_norm))
+
+x3 <- data3 %>%
+  group_by(sat_norm) %>%
+  summarise_each(funs(mean)) %>%
+  melt("sat_norm")
+x3$SATname <- rep("reading", length(x1$sat_norm))
+
+df2 <- rbind(x1, x2, x3)
+
+# Various versions of the same type of plot
+ggplot(x1, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
+  facet_wrap(~ variable, ncol = 3)
+
+ggplot(x2, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
+  facet_wrap(~ variable, ncol = 3)
+
+ggplot(x3, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
+  facet_wrap(~ variable, ncol = 3)
+
+ggplot(df2, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
+  facet_wrap(~ variable, ncol = 3)
+
+ggplot(df, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
+  facet_wrap(~ variable, ncol = 4)
+
+## Normalized SAT historgrams ##
+grp_cols <- c("sat_norm","SATname")
+dots <- lapply(grp_cols, as.symbol)
+
+sathist <- df %>%
+  group_by_(.dots=dots) %>%
+  summarise(n=n())
+
+ggplot(sathist, aes(x=sat_norm, color=SATname)) +
+geom_histogram(binwidth=.5, aes(fill=SATname))
+
+
+
+### Box ploting! 
+
+data <- select(all, cl.cluster, math_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
+data$cl.cluster <- as.character(data$cl.cluster)
+names(data) <- c("cl.cluster", "math_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
+mdata <- melt(data, c("math_avg", "cl.cluster"))
+mdata <- na.omit(mdata)
+ggplot(mdata, aes(math_avg, value, color=cl.cluster)) + geom_boxplot() +
+  facet_wrap(~variable , ncol = 4, scales = "free") +
+  xlab("Average Math SAT score") +
+  ylab("") +
+  labs(colour = "Cluster")
+  
+
+data2 <- select(all, cl.cluster, writing_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
+data2$cl.cluster <- as.character(data$cl.cluster)
+names(data2) <- c("cl.cluster", "writing_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
+mdata2 <- melt(data2, c("writing_avg", "cl.cluster"))
+mdata2 <- na.omit(mdata2)
+ggplot(mdata2, aes(writing_avg, value, color=cl.cluster)) + geom_boxplot() +
+  facet_wrap(~variable , ncol = 4, scales = "free") +
+  xlab("Average Writing SAT score") +
+  ylab("")+
+  labs(colour = "Cluster")
+
+
+data3 <- select(all, cl.cluster, critical_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
+data3$cl.cluster <- as.character(data$cl.cluster)
+names(data3) <- c("cl.cluster", "critical_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
+mdata3 <- melt(data3, c("critical_avg", "cl.cluster"))
+mdata3 <- na.omit(mdata3)
+ggplot(mdata3, aes(critical_avg, value, color=cl.cluster)) + geom_boxplot() +
+  facet_wrap(~variable , ncol = 4, scales = "free") +
+  xlab("Average Critical Reading SAT score") +
+  ylab("") +
+  labs(colour = "Cluster")
 
 

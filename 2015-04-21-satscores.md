@@ -19,9 +19,10 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 1. What were our goals?  What questions did we seek to answer? 
 1. Where did we get our data? What are the problems with our data?
 1. What parts of the data were interesting?
-1. Demonstration of out code.
-1. Discussion of our vizualitions and results. 
+1. Demonstration of our code.
+1. Discussion of our visualizations and results. 
 1. What are the next steps?
+
 </section>
 
 
@@ -37,7 +38,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 <section>
 ## Questions to Answer: 
 1. Is there a correlation between SAT scores and other school information?
-1. How do the school's performance map with poverty and income in New York City?
+1. How do the schools' performance map with poverty and income in New York City?
 1. Can we tell which schools are speciality schools on the map?
 
 </section>
@@ -65,7 +66,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 
 1. _Missing data:_ We lose a lot of data from schools that didn't report their scores.
 1. _Time:_ The data we're using come from vastly different years.  
-1. Aggrating the information in a way that makes the most sense. (Zipcodes? Neighborhoods? School Districts? Boroughs?)
+1. _Aggregation:_ Aggrating the information in a way that makes the most sense. (Zipcodes? Neighborhoods? School Districts? Boroughs?)
 
 </section>
 
@@ -89,8 +90,20 @@ _Pulled some variables that we thought might be important._
 1. Join all the tabels together
 1. Normalize
 1. Get locations
+1. [Sample Code - joinng tables]()
+1. [Sample Code - ]() 
 
 </section>
+
+<section>
+## Cluster Centers 
+| Group | Critical Avg | Math Avg | Writing Avg | Total     |
+|-------|--------------|----------|-------------|-----------|
+| 1     | 569.3333     | 599.0000 | 573.2500    | 1168.3333 |
+| 2     | 429.8067     | 455.5410 | 423.9180    | 885.4016  |
+| 3     | 373.2764     | 378.4582 | 365.0618    | 751.7345  |
+</section>
+
 </section>
 
 
