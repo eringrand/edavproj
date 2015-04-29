@@ -1,4 +1,6 @@
-Mapping NYC SAT Data
+# Mapping NYC SAT Data
+
+![HuffPo SAT](img/logo.png)
 ===============================
 
 Project 
@@ -18,7 +20,7 @@ Team
 Motivation
 ------------
 
-There has already been a plethora of [anecdotal](http://articles.latimes.com/2003/jul/27/local/me-sat27) and [empirical evidence](http://economix.blogs.nytimes.com/2009/08/27/sat-scores-and-family-income/?_r=1) suggesting a relationship between a student's SAT scoresand their family's income. For example, this from the Huffington Post in 2013:
+There has already been a plethora of [anecdotal](http://articles.latimes.com/2003/jul/27/local/me-sat27) and [empirical evidence](http://economix.blogs.nytimes.com/2009/08/27/sat-scores-and-family-income/?_r=1) suggesting a relationship between a student's SAT scores and their family's income. For example, this from the Huffington Post in 2013:
 
 ![HuffPo SAT](img/SATScores_0.png)
 
