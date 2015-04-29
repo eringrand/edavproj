@@ -55,6 +55,12 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 
 1. Clustering (Erin) High-Medium-Low SAT Score
 
+   1) Cluster the SAT scores with a simple KMEANS algorithm 
+   2) Joined all the tables together with their cluster ID
+   3) Looked at the correlation / overlap between the three types of SAT scores
+   4) Looked at scatter plots of normalized feature vectors to see if they were visually correlated with SAT scores in any way.
+
+
 1. Survey (Maura + Casey)
    
    
