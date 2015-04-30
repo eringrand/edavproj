@@ -8,6 +8,9 @@ Project
 *   [Blog](https://github.com/eringrand/2015-14-04-22-satblogpost.md)
 *   [GitHub Repository](https://github.com/eringrand/edavproj)
 
+
+![Snapshot](img/snapshot.png)
+
 Team
 -------
 
