@@ -1,65 +1,101 @@
-"","names.a","names.b","Median.Household.Income"
-"1","Mott Haven","Melrose","19,443"
-"2","Hunts Point","Longwood","19,443"
-"3","Morrisania"," Crotona","20,933"
-"4","Highbridge ","Concourse","27,408"
-"5","Fordham "," University Hts","21,959"
-"6","Belmont ","East Tremont","20,933"
-"7","Kingsbridge Hts"," Bedford","31,039"
-"8","Riverdale ","Fieldston","55,882"
-"9","Parkchester "," Soundview","34,349"
-"10","Throngs Neck ","Co-op City","52,196"
-"11","Morris Park "," Bronxdale","43,360"
-"12","Williamsbridge "," Baychester","42,077"
-"13","","",""
-"14","Greenpoint "," Williamsburg","51,143"
-"15","Fort Greene "," Brooklyn Hts","77,014"
-"16","Bedford ","Stuyvesant ","38,742"
-"17","Bushwick","","35,616"
-"18","East New York "," Starrett City","34,249"
-"19","Park Slope "," Carroll Gardens","88,610"
-"20","Sunset Park","","42,116"
-"21","Crown Hts "," Prospect Hts","42,401"
-"22","S. Crown Hts "," Lefferts Gardens","39,250"
-"23","Bay Ridge "," Dyker Hts","53,285"
-"24","Bensonhurst","","50,860"
-"25","Borough Park","","38,451"
-"26","Coney Island","","30,458"
-"27","Flatbush "," Midwood","41,759"
-"28","Sheepshead Bay","","48,138"
-"29","Brownsville","","28,838"
-"30","East Flatbush","","49,437"
-"31","Flatlands "," Canarsie","62,546"
-"32","","",""
-"33","","",""
-"34","Financial District","","104,603"
-"35","Greenwich Villiage "," Soho","104,603"
-"36","Lower East Side "," Chinatown","41,512"
-"37","Clinton "," Chelsea","87,726"
-"38","Midtown","","87,726"
-"39","Stuyvesant Town "," Turtle Bay","93,983"
-"40","Upper West Side","","93,361"
-"41","Upper East Side","","100,994"
-"42","Morningside Hts "," Hamilton","41,090"
-"43","Central Harlem","","37,460"
-"44","East Harlem","","31,537"
-"45","Washington Hts "," Inwood","36,872"
-"46","","",""
-"47","Astoria","","52,727"
-"48","Woodside "," Sunnyside","50,684"
-"49","Jackson Heights","","43,842"
-"50","Elmhurst "," Corona","42,366"
-"51","Ridgewood "," Maspeth","51,723"
-"52","Rego Park "," Forest Hills","64,236"
-"53","Flushing "," Whitestone","53,200"
-"54","Hillcrest "," Fresh Meadows","65,192"
-"55","Kew Gardens "," Woodhaven","56,581"
-"56","S. Ozone Park "," Howard Beach","60,877"
-"57","Bayside "," Little Neck","73,315"
-"58","Jamaica "," Hollis ","51,574"
-"59","Queens Village","","74,226"
-"60","Rockaway "," Broad Channel","49,757"
-"61","","",""
-"62","St. George "," Stapleton","57,325"
-"63","South Beach "," Willowbrook","72,495"
-"64","Tottenville "," Great Kills","83,441"
+,names.a,names.b,Median.Household.Income,,,ID
+1,Mott Haven,Melrose,"19,443",,,BX34
+2,Hunts Point,,"19,443",,,BX27
+,Longwood,,"19,443",,,BX33
+3,Morrisania,,"20,933",,,BX35
+, Crotona,,"20,933",,,BX75
+4,Highbridge ,,"27,408",,,BX26
+,Concourse,,"27,408",,,BX63
+5,Fordham ,,"21,959",,,BX40
+, University Hts,,"21,959",,,BX36
+6,Belmont ,,"20,933",,,BX06
+,East Tremont,,"20,933",,,BX17
+7,Kingsbridge Hts,,"31,039",,,BX30
+, Bedford,,"31,039",,,BK75
+8,Riverdale ,,"55,882",,,BX22
+,Fieldston,,"55,882",,,BX22
+9,Parkchester ,,"34,349",,,BX46
+, Soundview,,"34,349",,,BX09
+10,Throngs Neck ,,"52,196",,,NA
+,Co-op City,,"52,196",,,BX13
+,Morris Park ,,"43,360",,,BX37
+11, Bronxdale,,"43,360",,,BX07
+12,Williamsbridge ,,"42,077",,,BX44
+13, Baychester,,"42,077",,,BX03
+14,Greenpoint ,,"51,143",,,BK76
+, Williamsburg,,"51,143",,,BK72
+15,Fort Greene ,,"77,014",,,BK68
+, Brooklyn Hts,,"77,014",,,BK09
+16,Bedford ,,"38,742",,,BK75
+,Stuyvesant ,,"38,742",,,MN50
+17,Bushwick,,"35,616",,,BK77
+18,East New York ,,"34,249",,,BK82
+, Starrett City,,"34,249",,,BK93
+19,Park Slope ,,"88,610",,,BK37
+, Carroll Gardens,,"88,610",,,BK33
+20,Sunset Park,,"42,116",,,BK32
+21,Crown Hts ,,"42,401",,,BK61
+, Prospect Hts,,"42,401",,,BK64
+22,S. Crown Hts ,,"39,250",,,BK63
+, Lefferts Gardens,,"39,250",,,NA
+23,Bay Ridge ,,"53,285",,,BK31
+, Dyker Hts,,"53,285",,,BK30
+24,Bensonhurst,,"50,860",,,BK28
+25,Borough Park,,"38,451",,,BK88
+26,Coney Island,,"30,458",,,BK21
+27,Flatbush ,,"41,759",,,BK42
+, Midwood,,"41,759",,,BK43
+28,Sheepshead Bay,,"48,138",,,BK17
+29,Brownsville,,"28,838",,,BK81
+30,East Flatbush,,"49,437",,,BK91
+31,Flatlands ,,"62,546",,,BK58
+32, Canarsie,,"62,546",,,BK50
+34,Financial District,,"104,603",,,NA
+35,Greenwich Villiage ,,"104,603",,,NA
+, Soho,,"104,603",,,MN24
+36,Lower East Side ,,"41,512",,,MN28
+, Chinatown,,"41,512",,,MN27
+37,Clinton ,,"87,726",,,MN15
+, Chelsea,,"87,726",,,MN13
+38,Midtown,,"87,726",,,MN17
+39,Stuyvesant Town ,,"93,983",,,MN50
+, Turtle Bay,,"93,983",,,MN19
+40,Upper West Side,,"93,361",,,MN12
+41,Upper East Side,,"100,994",,,MN40
+42,Morningside Hts ,,"41,090",,,MN09
+, Hamilton,,"41,090",,,MN04
+43,Central Harlem,,"37,460",,,MN03
+44,East Harlem,,"31,537",,,MN34
+45,Washington Hts ,,"36,872",,,MN35
+46, Inwood,,"36,872",,,MN01
+47,Astoria,,"52,727",,,QN70
+48,Woodside ,,"50,684",,,QN63
+, Sunnyside,,"50,684",,,QN31
+49,Jackson Heights,,"43,842",,,QN28
+50,Elmhurst ,,"42,366",,,QN29
+, Corona,,"42,366",,,QN25
+51,Ridgewood ,,"51,723",,,QN20
+, Maspeth,,"51,723",,,QN30
+52,Rego Park ,,"64,236",,,QN18
+, Forest Hills,,"64,236",,,QN17
+53,Flushing ,,"53,200",,,QN22
+,Queens Village,,"53,200",,,QN49
+54,Hillcrest ,,"65,192",,,QN38
+, Fresh Meadows,,"65,192",,,QN41
+55,Kew Gardens ,,"56,581",,,QN37
+, Woodhaven,,"56,581",,,QN53
+56,S. Ozone Park ,,"60,877",,,QN55
+, Howard Beach,,"60,877",,,QN57
+57,Bayside ,,"73,315",,,QN46
+, Little Neck,,"73,315",,,QN45
+58,Jamaica ,,"51,574",,,QN61
+, Hollis ,,"51,574",,,QN07
+59,Queens Village,,"74,226",,,QN34
+60,Rockaway ,,"49,757",,,QN10
+61, Broad Channel,,"49,757",,,QN10
+62,St. George ,,"57,325",,,NA
+, Stapleton,,"57,325",,,NA
+63,South Beach ,,"72,495",,,NA
+, Willowbrook,,"72,495",,,NA
+64,Tottenville ,,"83,441",,,NA
+, Great Kills,,"83,441",,,NA
