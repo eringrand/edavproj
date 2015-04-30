@@ -1,7 +1,7 @@
 #!/bin/bash/env python3.3
 
 """
-Joining school clustering data with the schools.json file
+Joining school clustered SAT data with the schools.json file
 """
 
 import json
@@ -11,40 +11,39 @@ import csv
 with open('../../json/schools.json', 'r') as f:
     schools = json.loads(f.read())
 
-#  Loading  school SAT data
-with open('schools_all.csv', 'r')  as f:
+#  Loading all SAT data
+with open('all.csv', 'r')  as f:
     # table of school info keyed on school dbn
-    schoolprops = {}
+    schools = {}
     reader = csv.DictReader(f)
 
     for row in reader:
         dbn = row['DBN']
         del row['DBN']
-        schoolprops[dbn] = row
+        schools[dbn] = row
 
 # Update schools JSON with new properties and data
 remove = set()
 for i, feature in enumerate(schools['features']):
     properties = feature['properties']
     dbn = properties['ATS_CODE'].strip()
-    if dbn in schoolprops:
-        properties.update(schoolprops[dbn])
+    if dbn in schools:
+        properties.update(schools[dbn])
     else:
         remove.add(i)
 
 assert len(schoolprops) == len(schools['features']) - len(remove)
 
-# create a copy that only schools in hannah's info set
+# Trim to feature only relevant schools i.e. schools with SAT scores
 schools_trim = dict(schools)
 schools_trim['features'] = [f for i, f in enumerate(schools['features']) if i not in remove]
 
-assert len(schools_trim['features']) == len(schoolprops)
+assert len(schools_trim['features']) == len(schools)
 
 # sanity check
 for feature in schools_trim['features']:
     properties = feature['properties']
-    assert 'GRADE' in properties
-    assert 'CLUSTER' in properties
+    assert 'SAT' in properties
 
 # output files
 with open('schools_with_info.json', 'w') as f:
