@@ -2,21 +2,13 @@
 
 library(XML)
 library(xlsx)
-library(rgdal)
-library(rgeos)
-library(maptools)
-library(ggplot2)
 library(dplyr)
 library(sp)
-library(RColorBrewer)
 library(stringr)
 
 stripLeadingZeros <- function(numericString) {
   gsub("(?<![0-9])0+", "", numericString, perl = TRUE)
 }
-
-
-data <- read.csv("neighborhood_income_1_merge.csv")
 
 
 ##################################
