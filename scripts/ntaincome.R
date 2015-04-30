@@ -10,7 +10,6 @@ stripLeadingZeros <- function(numericString) {
   gsub("(?<![0-9])0+", "", numericString, perl = TRUE)
 }
 
-
 ##################################
 ## Download Source Data
 ##################################
@@ -23,11 +22,6 @@ download.file("http://www.nyc.gov/html/dcp/download/census/census2010/t_sf1_p2_n
 download.file("http://www.nyc.gov/html/dcp/download/bytes/nynta_14d.zip",
               "data/nynta_14d.zip")
 unzip("data/nynta_14d.zip", exdir="data")
-
-##################################
-## Coordinate Reference System
-##################################
-proj4string <- CRS("+proj=longlat +ellps=GRS80 +datum=NAD83")
 
 ##################################
 ## Median Household Income by NTA
