@@ -1,4 +1,4 @@
-setwd('~/edavproj/data/')
+setwd('~/')
 
 library(XML)
 library(xlsx)
@@ -11,6 +11,10 @@ library(sp)
 library(RColorBrewer)
 library(stringr)
 
+stripLeadingZeros <- function(numericString) {
+  gsub("(?<![0-9])0+", "", numericString, perl = TRUE)
+}
+
 
 data <- read.csv("neighborhood_income_1_merge.csv")
 
@@ -19,9 +23,9 @@ data <- read.csv("neighborhood_income_1_merge.csv")
 ## Download Source Data
 ##################################
 download.file("http://catalog.opendata.city/dataset/dd98ccda-d996-4080-87aa-ef8e4fd1f167/resource/9dd0cf1e-1513-43bc-aeda-00ceef520f2f/download/CSVMedianHouseholdIncomeCensusTract.CSV",
-              "data/CSVMedianHouseholdIncomeCensusTract.CSV")
+              "~/CSVMedianHouseholdIncomeCensusTract.CSV")
 download.file("http://www.nyc.gov/html/dcp/download/census/nyc2010census_tabulation_equiv.xlsx",
-              "data/nyc2010census_tabulation_equiv.xlsx")
+              "~/nyc2010census_tabulation_equiv.xlsx", mode="wb")
 download.file("http://www.nyc.gov/html/dcp/download/census/census2010/t_sf1_p2_nta.xlsx",
               "data/t_sf1_p2_nta.xlsx")
 download.file("http://www.nyc.gov/html/dcp/download/bytes/nynta_14d.zip",
@@ -36,8 +40,9 @@ proj4string <- CRS("+proj=longlat +ellps=GRS80 +datum=NAD83")
 ##################################
 ## Median Household Income by NTA
 ##################################
-census <- read.csv("data/CSVMedianHouseholdIncomeCensusTract.CSV", stringsAsFactors=FALSE)
-censusToNTA <- read.xlsx("data/nyc2010census_tabulation_equiv.xlsx",
+census <- read.csv("CSVMedianHouseholdIncomeCensusTract.CSV", stringsAsFactors=FALSE)
+options(java.parameters = "-Xmx1000m")
+censusToNTA <- read.xlsx("nyc2010census_tabulation_equiv.xlsx",
                          sheetIndex=1, startRow=6, header=FALSE)
 names(censusToNTA) <- c("borough", "COUNTYFP10", "boroughCode", "TRACTCE10", "puma", "NTACode", "name")
 ## strip leading zeros to prep keys for merging
@@ -47,3 +52,4 @@ censusToNTA$TRACTCE10 <- stripLeadingZeros(censusToNTA$TRACTCE10)
 ntaMHI <- merge(census, censusToNTA, by=c("COUNTYFP10", "TRACTCE10")) %>%
   group_by(NTACode) %>%
   summarize(ntaMHI = mean(MHI))
+write.csv(file="ntaMHI.csv", x=ntaMHI)
