@@ -1,4 +1,4 @@
-# Mapping NYC SAT Data
+# Visualizing NYC SAT Data
 
 ![Logo](img/logo.gif)
 ===============================
@@ -37,13 +37,16 @@ Repository Hierarchy
 --------------------
     .
     ├── css             Our custom css
+    ├── data            All of our data
+    │   ├── acs
+    │   ├── income
+    │   ├── sat
+    │   ├── schools
+    │   ├── survey
+    ├── img             Project images
     ├── js              Our custom js
     ├── json            Our JSON files
-    ├── lib             Third-party libraries
-    │   ├── bootstrap
-    │   ├── d3
-    │   ├── jquery
-    ├── resource        Some HTML display messages
+    │   ├── shapefile
     ├── scripts         Our scripts
     │   └── school_info_join
     ├── about.html      About page
