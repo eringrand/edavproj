@@ -107,16 +107,17 @@ geom_histogram(binwidth=.5, aes(fill=SATname))
 
 ### Box ploting! 
 
-data <- select(all, cl.cluster, math_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
+data <- select(all, cl.cluster, math_avg, advancedplacement_courses, avg_household, p_male, avg_size, major.n, vio.n, nocrim.n, diff_time) 
 data$cl.cluster <- as.character(data$cl.cluster)
-names(data) <- c("cl.cluster", "math_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
+names(data) <- c("cl.cluster", "math_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Num of Major Crimes", "Num of Violent Crimes", "Num of Non-Major Crimes", "Length of School Day")
 mdata <- melt(data, c("math_avg", "cl.cluster"))
 mdata <- na.omit(mdata)
 ggplot(mdata, aes(math_avg, value, fill=cl.cluster)) + geom_boxplot() +
   facet_wrap(~variable , ncol = 4, scales = "free") +
   xlab("Average Math SAT score") +
   ylab("") +
-  labs(colour = "Cluster")
+  labs(fill = "Cluster") +
+  theme(strip.text.x = element_text(size = 16, colour = "black"))
   
 
 data2 <- select(all, cl.cluster, writing_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
