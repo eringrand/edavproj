@@ -1,4 +1,5 @@
 #setwd("~/Documents/Repository/edavproj/data/")
+setwd('~/edavproj/data/')
 require(dplyr)
 
 #==========get directory of high schools and SAT results =============
@@ -80,10 +81,23 @@ income$avg_household <- as.numeric(income$avg_household)
 
 
 #==================== sat clusters ========
-# Cluster by SAT scores 
 library(stats)
 sat$total <- sat$math_avg + sat$critical_avg
 satcl <- select(sat, -dbn, -num_taker)
+
+# Determining the number of k clusters
+cluster <- (nrow(satcl)-1)*sum(apply(satcl, 2, var))
+for (i in 2:10) cluster[i] <- sum(kmeans(satcl, centers=i)$withinss)
+plot(1:15, cluster, type="b", 
+     xlab="Number of Clusters",
+     ylab="Within groups sum of squares") 
+
+# Total within-groups sums of squares against the number of clusters 
+# in a K-means solution can be helpful --  a bend in the graph suggests
+# appropriate number of clusters. 
+# Bend is at 3
+
+# Cluster by SAT scores 
 cl <- kmeans(satcl, 3, nstart=25)
 plot(satcl, col = cl$cluster)
 points(cl$centers, col = 1:5, pch = 8)
