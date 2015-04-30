@@ -1,6 +1,6 @@
 # Mapping NYC SAT Data
 
-![HuffPo SAT](img/logo.png)
+![Logo](img/logo.png)
 ===============================
 
 Project 
