@@ -89,20 +89,16 @@ _Pulled some variables that we thought might be important._
 
 1. Join all the tabels together
 1. Normalize
-1. Get locations
 1. [Sample Code - joinng tables]()
-1. [Sample Code - ]() 
+1. [Sample Code - exploration plots]() 
 
 </section>
 
 <section>
-## Cluster Centers
- 
-| Group | Critical Avg | Math Avg | Writing Avg | Total     |
-|-------|--------------|----------|-------------|-----------|
-| 1     | 569.3333     | 599.0000 | 573.2500    | 1168.3333 |
-| 2     | 429.8067     | 455.5410 | 423.9180    | 885.4016  |
-| 3     | 373.2764     | 378.4582 | 365.0618    | 751.7345  |
+## Cluster Centers 
+
+![](https://raw.githubusercontent.com/eringrand/edavproj/master/slides/table.png)
+
 </section>
 
 </section>
