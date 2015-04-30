@@ -5,9 +5,9 @@
 
 Project 
 -------
-*   [Blog](https://github.com/eringrand/2015-14-04-22-satblogpost.md)
+*   [Slides](http://eringrand.github.io/edav/2015/04/21/satscores/#/)
 *   [GitHub Repository](https://github.com/eringrand/edavproj)
-*   [CartoDB demo](http://github.com/eringrand/edavproj/index.html)
+*   [CartoDB demo](https://stephenra.cartodb.com/viz/128259f8-eedf-11e4-9692-0e018d66dc29/embed_map)
 
 
 ![Snapshot](img/snapshot.png)
