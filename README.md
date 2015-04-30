@@ -1,6 +1,6 @@
 # Mapping NYC SAT Data
 
-![Logo](img/logo.png)
+![Logo](img/logo.gif)
 ===============================
 
 Project 
