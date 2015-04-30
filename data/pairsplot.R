@@ -89,8 +89,6 @@ ggplot(x3, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
 ggplot(df2, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
   facet_wrap(~ variable, ncol = 3)
 
-ggplot(df, aes(value, sat_norm, color=SATname)) + geom_point(na.rm = T) +
-  facet_wrap(~ variable, ncol = 4)
 
 ## Normalized SAT historgrams ##
 grp_cols <- c("sat_norm","SATname")
@@ -118,29 +116,5 @@ ggplot(mdata, aes(math_avg, value, fill=cl.cluster)) + geom_boxplot() +
   ylab("") +
   labs(fill = "Cluster") +
   theme(strip.text.x = element_text(size = 16, colour = "black"))
-  
-
-data2 <- select(all, cl.cluster, writing_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
-data2$cl.cluster <- as.character(data$cl.cluster)
-names(data2) <- c("cl.cluster", "writing_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
-mdata2 <- melt(data2, c("writing_avg", "cl.cluster"))
-mdata2 <- na.omit(mdata2)
-ggplot(mdata2, aes(writing_avg, value, fill=cl.cluster)) + geom_boxplot() +
-  facet_wrap(~variable , ncol = 4, scales = "free") +
-  xlab("Average Writing SAT score") +
-  ylab("")+
-  labs(colour = "Cluster")
-
-
-data3 <- select(all, cl.cluster, critical_avg, advancedplacement_courses, avg_household, p_male, avg_size, avgofmajor.n, avgofvio.n, diff_time) 
-data3$cl.cluster <- as.character(data$cl.cluster)
-names(data3) <- c("cl.cluster", "critical_avg", "Num of AP Courses", "Household Income", "Percentage of Male Students", "Avg Class Size", "Avg Num of Major Crimes", "Avg Num of Violent Crimes", "Length of School Day")
-mdata3 <- melt(data3, c("critical_avg", "cl.cluster"))
-mdata3 <- na.omit(mdata3)
-ggplot(mdata3, aes(critical_avg, value, fill=cl.cluster)) + geom_boxplot() +
-  facet_wrap(~variable , ncol = 4, scales = "free") +
-  xlab("Average Critical Reading SAT score") +
-  ylab("") +
-  labs(colour = "Cluster")
 
 
