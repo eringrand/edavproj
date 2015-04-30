@@ -97,7 +97,7 @@ _Pulled some variables that we thought might be important._
 <section>
 ## Cluster Centers 
 
-!(https://raw.githubusercontent.com/eringrand/edavproj/master/slides/table.png)
+![](https://raw.githubusercontent.com/eringrand/edavproj/master/slides/table.png)
 
 </section>
 
