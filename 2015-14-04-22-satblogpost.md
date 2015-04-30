@@ -48,7 +48,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 
 1. _Missing data:_ We lose a lot of data from schools that didn't report their scores.
 1. _Time:_ The data we're using come from vastly different years.  
-1. Aggrating the information in a way that makes the most sense. (Zipcodes? Neighborhoods? School Districts? Boroughs?)
+1. _Aggregation:_ Aggrating the information in a way that makes the most sense. (Zipcodes? Neighborhoods? School Districts? Boroughs?)
 
 
 ## Data Columns
@@ -56,28 +56,29 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 _Pulled some variables that we thought might be important._
 
 1. SAT scores 
-1. Avg Household Income
+1. Avg Household Income (by zip code)
 1. school gender ratios, school class sizes
-1. Safety concerns
+1. Safety concerns (violence and crimes)
 
 ## Data Mundging
 
 1. Join all the tabels together
-1. Normalize
 1. Get locations
+1. [Sample Code - joinng tables]()
+1. [Sample Code - ]() 
 
 
 ## Tools
 
 1. For the data: R
-2. For the map: D3
+1. For the map: D3
 
 
 # Code Demonstration
 
 1. R code for joining tables
 1. R code for correlation 
-1. Image? 
+1. Images
 
 # Visualization
 

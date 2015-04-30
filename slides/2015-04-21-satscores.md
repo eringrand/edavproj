@@ -66,7 +66,7 @@ _[Link to the our project repositiory](https://github.com/eringrand/edavproj)_
 
 1. _Missing data:_ We lose a lot of data from schools that didn't report their scores.
 1. _Time:_ The data we're using come from vastly different years.  
-1. Aggrating the information in a way that makes the most sense. (Zipcodes? Neighborhoods? School Districts? Boroughs?)
+1. _Aggregation:_ Aggrating the information in a way that makes the most sense. (Zipcodes? Neighborhoods? School Districts? Boroughs?)
 
 </section>
 
@@ -89,9 +89,18 @@ _Pulled some variables that we thought might be important._
 
 1. Join all the tabels together
 1. Normalize
-1. Get locations
+1. [Sample Code - joinng tables]()
+1. [Sample Code - exploration plots]() 
 
 </section>
+
+<section>
+## Cluster Centers 
+
+![](https://raw.githubusercontent.com/eringrand/edavproj/master/slides/table.png)
+
+</section>
+
 </section>
 
 

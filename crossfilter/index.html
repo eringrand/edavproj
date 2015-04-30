@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+
+    <script src='javascripts/d3.js' type='text/javascript'></script>
+    <script src='javascripts/crossfilter.js' type='text/javascript'></script>
+    <script src='javascripts/dc.js' type='text/javascript'></script>
+    <script src='javascripts/jquery-1.9.1.min.js' type='text/javascript'></script>
+    <script src='javascripts/bootstrap.min.js' type='text/javascript'></script>
+
+    <link href='stylesheets/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/dc.css' rel='stylesheet' type='text/css'>
+
+    <script src='javascripts/survey_viz.js' type='text/javascript'></script>
+</head>
+<body>
+<div class='container' id='main-container'>
+    <div class='content'>
+        <div class='container'>
+            <h3>Visualize important survey answers among high school students (using <a href="http://dc-js.github.io/dc.js/">dc.js</a>)</h3>
+            <div class='row-fluid'>
+
+                <div class='pie-graph span4' id='dc-volume-chart-survey-a'>
+                 <h6>How often are the following things true?<br>There is gang activity.<p>&nbsp;</p></h6>
+                </div>
+
+                <div class='pie-graph span4' id='dc-volume-chart-survey-b'>
+                    <h6>Most adults at my school that I see everyday know my name or who I am.<p>&nbsp;</p></h6>
+                </div>
+
+                <div class='pie-graph span4' id='dc-volume-chart-survey-c'>
+                    <h6>How often are the following things true?<br>Students drink alchohol, use illegal drugs, or abuse prescription drugs while at school.</h6>
+                </div>
+            </div>
+
+            <div class='row-fluid'>
+
+                <div class='pie-graph span4' id='dc-volume-chart-survey-d'>
+                    <h6>Most of the teaching staffs at my school expect me to continue my education after high school.</h6>
+
+                </div>
+
+                <div class='pie-graph span4' id='dc-volume-chart-survey-e'>
+                    <h6>Students with disabilities are included in all school activities (lunch, class trips, etc.).</h6>
+                </div>
+
+                <div class='pie-graph span4' id='dc-volume-chart-survey-f'>
+                    <h6>I am safe in my classes.<p>&nbsp;</p></h6>
+                </div>
+
+            </div>
+            <div class='row-fluid'>
+                <div class='pie-graph span4' id='dc-volume-chart-sat'>
+                  <h4>Average Frequency in SAT Scores</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

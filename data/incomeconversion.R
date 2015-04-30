@@ -1,5 +1,6 @@
 require(gdata)
 require(dplyr)
+require(reshape2)
 
 x <- read.xls ("acs_select_econ_08to12_ntas_edited.xlsx", sheet = 1, header = TRUE, stringsAsFactors = F)
 xnew <- data.frame(t(x))
@@ -16,8 +17,6 @@ colnames <- c("Neighborhood", "X1", "Employed",   "Unemployed", "Total household
 names(xsel) <- colnames
 xsel <- xsel[-1,]
 
-require(reshape2)
-
 writeIDS <- function(longname) {
   names2 <- strsplit(longname, ".", fixed=T)[[1]]
   id <- names2[1]
@@ -33,26 +32,21 @@ writenames <- function(longname) {
   return(name)
 }
 
-  
+
 xsel$ID <- sapply(xsel$Neighborhood, writeIDS)
 xsel$ID[2:3] <- "BK72"  
 
 xsel$name <- sapply(xsel$Neighborhood, writenames)
- 
+
 
 ### Getting a matching between Neighborhood name and NTA ID
 comp <- select(xsel, ID, name)
 comp <- distinct(comp, ID)
 
+income <- read.csv("NYC_Income.csv", header=T, stringsAsFactors = F)
+income <- select(income, Neighborhoods, Median.Household.Income)
+income <- transform(income, names = colsplit(Neighborhoods, pattern = "/", names = c('a', 'b')))
+income <- select(income, names.a, names.b, Median.Household.Income)
 
-
-
-
-####
-xsel$Unemployed <- as.numeric(xsel$Unemployed)
-xsel$Employed <- as.numeric(xsel$Employed)
-xsel <- xsel %>% mutate(fracunemployed = Unemployed / Employed)
-
-final <- xsel
-#final <- select(xsel, ID, X1, fracunemployed, Unemployment.Rate)
-
+write.csv(income, file = "Neighborhood_income.csv")
+write.csv(comp, file = "lookuptable.csv")

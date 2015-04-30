@@ -114,5 +114,14 @@ lines(sort(na.omit(all$avg_size_norm)), fitted(fit)[order(na.omit(all$avg_size_n
 
 studentsurvey <- read.csv("2013NYCschoolsurvey/studentscore.csv", header=T, stringsAsFactors = F)
 
+fit = lm(all$math_norm ~ all$avg_household_norm, na.action=na.exclude)
+summary(fit)
+plot(all$avg_household_norm, all$math_norm)
+abline(fit)
+
+fit = lm(all$math_norm ~ all$advancedplacement_courses, na.action=na.exclude)
+summary(fit)
+plot(all$advancedplacement_courses, all$math_norm)
+abline(fit)
 
 

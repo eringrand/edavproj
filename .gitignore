@@ -15,7 +15,6 @@ eda_mf.Rmd
 *.rdx
 data/2013nycschoolsurvey/survey_clean_cache/docx/__packages
 data/2013nycschoolsurvey/survey_clean.docx
-*.png
 *.xml
 data/2013nycschoolsurvey/survey predictions_files/themedata.thmx
 *.docx
