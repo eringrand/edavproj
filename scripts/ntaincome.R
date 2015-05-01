@@ -1,4 +1,4 @@
-# setwd('~/')
+ setwd('~/edavproj/data/income/')
 
 library(XML)
 library(xlsx)

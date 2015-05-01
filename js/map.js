@@ -202,6 +202,8 @@ d3.select("#mapenrollment").on("click", function() {
     colorEnvironment('School Enrollment', 'enrollment');
 });
 
+d3.select("#mapclasssize").on("click", function() }
+    colorEnvironment('Average Class Size', enrollment');
 
 
 function colorEnvironment(name, key) {
